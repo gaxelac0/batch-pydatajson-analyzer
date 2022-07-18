@@ -1,328 +1,68 @@
-Catalog Link,Catalog Errors,Catalog Error Desc,Dataset title,Dataset Errors,Dataset Error Desc
-https://transparencia.enargas.gob.ar/data.json,False,None,Reclamos resueltos por el ENARGAS,False,None
-https://transparencia.enargas.gob.ar/data.json,False,None,Reclamos resueltos por las Distribuidoras de gas natural,False,None
-https://datos.arsat.com.ar/data.json,False,None,Personal,False,None
-https://datos.arsat.com.ar/data.json,False,None,Cine.Ar Play,False,None
-https://datos.arsat.com.ar/data.json,False,None,Finanzas,False,None
-https://datos.arsat.com.ar/data.json,False,None,Puntos de conexión REFEFO,False,None
-https://datos.arsat.com.ar/data.json,False,None,Servicio REFEFO,False,None
-https://datos.arsat.com.ar/data.json,False,None,Ejecuciones presupuestarias,False,None
-https://datos.arsat.com.ar/data.json,False,None,Cobertura Satélite ARSAT-2,False,None
-https://datos.arsat.com.ar/data.json,False,None,Cobertura Satélite ARSAT-1,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Publicidad Oficial,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Estructura Orgánica y Autoridades del Poder Ejecutivo Nacional,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Base de Series de Tiempo de la Administración Pública Nacional,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Sistema de Contrataciones Electrónicas,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Asignación Salarial de las Autoridades Superiores del Poder Ejecutivo Nacional,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Planes de Apertura de Datos,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Puntos Digitales,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Servicio de normalización de datos geográficos,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Red de Datos Abiertos de la Administración Pública Nacional (APN),False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Nómina del personal civil de la Administración Pública Nacional (APN),False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Puestos de trabajo en la Administración Pública Nacional (APN),False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Contratar,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Puntos WiFi País Digital,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Trámites a Distancia (TAD),False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Tercer Plan de Acción Nacional de Gobierno Abierto,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Indicadores de la Red de Datos Abiertos de la Administración Pública Nacional (APN),False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Asistencia de Emergencia al Trabajo y la Producción,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Ingreso Familiar de Emergencia,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Certificados Únicos Habilitantes de Circulación - CUHC,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Listado oficial de personal estratégico vacunado contra COVID-19,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Acord.Ar - Acuerdos Nacionales,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Compras emergencia COVID19,False,None
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Comunidad Abierta,False,None
-https://monitoreo.datos.gob.ar/catalog/aaip/data.json,False,None,Solicitudes de acceso a la información pública,False,None
-https://monitoreo.datos.gob.ar/catalog/aaip/data.json,False,None,Reclamos sobre solicitudes de acceso a la información pública,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Solicitudes de Acceso a la Información Pública (2015 y 2016),False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Nombres de personas físicas,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Resultados Electorales 2015,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,"Resultados Provisorios  Elecciones Primarias, Abiertas, Simultáneas y Obligatorias (PASO) 2019",False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Inmuebles Propios del Estado Nacional y Alquilados,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Contratos de Alquiler del Estado Nacional como Locador,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Registro Único de Audiencias de Gestión de Intereses,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Resultados Provisorios Elecciones Generales 2019,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Índice de Tipo de Cambio Real Sectorial Efectivo - Discontinuado,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Indicador de Importaciones de Bienes de Capital Productivo - Discontinuado,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Indicadores de Empleo de Trabajadores Registrados (OEDE) - Discontinuado,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Indicadores de Remuneraciones de Trabajadores Registrados (OEDE) - Discontinuado,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Ahora 12 - Discontinuado,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,GPS Empresas - Discontinuado,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Indicadores Sectoriales de Agroindustria - Discontinuado,False,None
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Series de Tiempo vacunas COVID,False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Base de Series de Tiempo de la Administración Pública Nacional,False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Sistema de Contrataciones Electrónicas,False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Asignación Salarial de las Autoridades Superiores del Poder Ejecutivo Nacional,False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Planes de Apertura de Datos,False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Puntos Digitales,False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Servicio de normalización de datos geográficos,False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Red de Datos Abiertos de la Administración Pública Nacional (APN),False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Nómina del personal civil de la Administración Pública Nacional (APN),False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Puestos de trabajo en la Administración Pública Nacional (APN),False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Contratar,False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Puntos WiFi País Digital,False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Trámites a Distancia (TAD),False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Tercer Plan de Acción Nacional de Gobierno Abierto,False,None
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Indicadores de la Red de Datos Abiertos de la Administración Pública Nacional (APN),False,None
-https://monitoreo.datos.gob.ar/catalog/smn/data.json,False,None,Prónostico del Tiempo a 5 días,False,None
-https://monitoreo.datos.gob.ar/catalog/smn/data.json,False,None,Datos meteorológicos horarios,False,None
-https://monitoreo.datos.gob.ar/catalog/smn/data.json,False,None,Estado del Tiempo presente,False,None
-https://monitoreo.datos.gob.ar/catalog/smn/data.json,False,None,Observaciones diarias de Temperaturas Extremas,False,None
-https://monitoreo.datos.gob.ar/catalog/smn/data.json,False,None,Registro de Temperatura (365 días),False,None
-https://monitoreo.datos.gob.ar/catalog/smn/data.json,False,None,Radiación Solar,False,None
-https://monitoreo.datos.gob.ar/catalog/smn/data.json,False,None,Estadísticas Climáticas Normales,False,None
-https://monitoreo.datos.gob.ar/catalog/smn/data.json,False,None,Listado de Estaciones Meteorológicas del SMN,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Compras y contrataciones Ministerio de Defensa,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Solicitud de Acceso a la Información Pública 2020,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Defensa-Auditorias,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Personal Ministerio de Defensa al 31 de enero 2021,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Solicitud de Acceso a la Información Pública 2019,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Declaraciones Juradas 2019,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Ministros de Defensa,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Solicitud AIP Mindef 2017,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Solicitud AIP Mindef 2018,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Personal Militar según Género,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Personal del Ministerio de Defensa,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Programa de Investigación y Desarrollo para la Defensa (PIDDEF),False,None
-http://datos.mindef.gov.ar/data.json,False,None,Fragata Libertad,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Documentación preservada de Archivos de las Fuerzas Armadas,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Inventario de la Comisión de Análisis de Acciones en Combate en Malvinas de la Armada Argentina,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Inventario de documentos hallados en el Edificio Condor,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Inventario de la serie de Actas de la Reunión de la Junta Militar,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Inventario del Servicio Histórico del Ejército Argentino,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Patrimonio Cultural del Ministerio de Defensa y Fuerzas Armadas,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Instituto Penal de las Fuerzas Armadas,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Inventario de documentos utilizados en la Causa XIII en Juicio a las Juntas Militares,False,None
-http://datos.mindef.gov.ar/data.json,False,None,Inventario sobre documental Isaac Francisco Rojas.,False,None
-https://monitoreo.datos.gob.ar/catalog/ign/data.json,False,None,Unidades Territoriales,False,None
-https://monitoreo.datos.gob.ar/media/catalog/shn/data.json,False,None,Estaciones Mareográficas,False,None
-https://monitoreo.datos.gob.ar/media/catalog/shn/data.json,False,None,Salida y puesta de luna,False,None
-https://monitoreo.datos.gob.ar/media/catalog/shn/data.json,False,None,Salida y puesta de sol,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Archivos recibidos de los ministerios públicos provinciales,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Archivos recibidos de los poderes judiciales provinciales - Justicia no penal,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Archivos recibidos de los poderes judiciales provinciales - Justicia penal,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Autoridades de los Tribunales Superiores y Cortes Supremas de Justicia de la República Argentina,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Autoridades históricas del Ministerio de Justicia y Derechos Humanos,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Solicitudes de Autorización de Portación de Armas de Fuego,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Bajas de autos,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Base Infoleg de Normativa Nacional,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Base SAIJ de Normativa Provincial,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Bienes secuestrados y decomisados durante el proceso penal,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Centros de Acceso a Justicia -CAJ-,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Codificación de delitos del Código Penal Argentino,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Consultas efectuadas en los Centros de Acceso a la Justicia -CAJ-,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Curriculums Vitae de magistrados para cubrir vacantes en el Poder Judicial y el Ministerio Público,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Datos estructurales de poderes judiciales y ministerios públicos provinciales,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Declaraciones Juradas Patrimoniales Integrales de carácter público,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Denuncias a empresas y trabajadores de control de admisión y permanencia en RENCAP,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Derecho de autor. Declaraciones juradas de obras editadas,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Derecho de autor. Publicaciones periódicas,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Derecho de autor. Registro de obras publicadas,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Designaciones de magistrados de la Justicia Federal y de la Justicia Nacional,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Embargos y levantamiento de embargos de autos,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Entidades constituidas en la Inspección General de Justicia,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Estadística de designaciones de magistrados de la Justicia Federal y Nacional por género,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Estadística de trámites de automotores,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Estadística de trámites de maquinarias,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Estadística de trámites de motovehículos,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Estadística de mediaciones prejudiciales y judiciales,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,IGJ. Autoridades género,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Inscripciones iniciales de autos,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Internos del Servicio Penitenciario Federal - SPF,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Línea 137 - víctimas de violencia familiar - llamados e intervenciones domiciliarias,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Línea 137 - víctimas de violencia sexual - llamados e intervenciones domiciliarias,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Listado de comunidades Indígenas,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Listado de mediadores,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Registros Seccionales de la Propiedad Automotor,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Lucha contra la trata de personas - Llamados línea 145 - Denuncias,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Lucha contra la trata de personas - Llamados línea 145 - Orientaciones,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Magistrados de la Justicia Federal y de la Justicia Nacional,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Listado de mediaciones prejudiciales y judiciales. Ley 26.589,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Ministerios públicos - Casos,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Oralidad en los procesos civiles,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Poderes judiciales - Causas no penales,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Poderes judiciales - Causas penales,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Prendas de autos,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Procuración General de la Nación - Casos,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Registro de obsequios a funcionarios públicos,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Registro de viajes financiados por terceros,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Registro Nacional de Sociedades,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,"Registro, sistematización y seguimiento de femicidios y homicidios agravados por el género",False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Registro Unificado de Víctimas del Terrorismo de Estado -RUVTE-,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Renuncias de magistrados de la Justicia Federal y de la Justicia Nacional,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Robos y recuperos de autos,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Selección de magistrados del Poder Judicial y el Ministerio Público de la Nación,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Sistema Nacional de Estadísticas sobre Ejecución de la Pena - SNEEP - Series de tiempo,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Sistema Nacional de Estadísticas sobre Ejecución de la Pena - SNEEP,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Solicitudes de Condición de Legítimo Usuario de Armas de Fuego,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Solicitudes de acceso a la información pública en el Ministerio de Justicia y Derechos Humanos,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Tesauro SAIJ de Derecho Argentino,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Transferencias de autos,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,Traslados de jueces de la Justicia Federal y de la Justicia Nacional,False,None
-https://monitoreo.datos.gob.ar/catalog/justicia/data.json,False,None,"Registro, sistematización y seguimiento de hechos de violencia institucional",False,None
-https://monitoreo.datos.gob.ar/catalog/seguridad/data.json,False,,Estadísticas criminales en la República Argentina. Sistema de Alerta Temprana. Homicidios dolosos,True,'issued' is a required property && 
-https://monitoreo.datos.gob.ar/catalog/seguridad/data.json,False,,Estadísticas criminales en la República Argentina. Sistema de Alerta Temprana. Suicidios,True,'issued' is a required property && 
-https://datos.transporte.gob.ar/data.json,False,None,Detalle de entrada y salida de buques y pasajeros transportados,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Rutas Nacionales - DNV año 2018,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Estudio OD - Pasajeros Transporte Interurbano en Autobus,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Informe Matriz Origen-Destino vial de Transporte de Cargas,False,None
-https://datos.transporte.gob.ar/data.json,False,None,COSFER (Modelo de Estimación de Costos Ferroviarios de Carga),False,None
-https://datos.transporte.gob.ar/data.json,False,None,Terminales Portuarias,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Predios Aeropuertos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Pavimentos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Caminos Terciarios,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Cruces Ferroviarios,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Rutas Nacionales,False,None
-https://datos.transporte.gob.ar/data.json,False,None,TMDA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Aeródromos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Operaciones de un día hábil promedio sectorizados en hexágonos de 600m por Modo de transporte y Hora,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Aeropuertos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Boletos Vendidos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Recorridos de Líneas de Transporte de Región Metropolitana de Buenos Aires (RMBA),False,None
-https://datos.transporte.gob.ar/data.json,False,None,"SUBE Operaciones de viaje por mes de Región Metropolitana de Buenos Aires, agregado por Periodo-Modo",False,None
-https://datos.transporte.gob.ar/data.json,False,None,"SUBE Operaciones de viaje por mes de Región Metropolitana de Buenos Aires, agregado por Mes",False,None
-https://datos.transporte.gob.ar/data.json,False,None,"SUBE Operaciones de viaje por mes de Región Metropolitana de Buenos Aires, agregado",False,None
-https://datos.transporte.gob.ar/data.json,False,None,Empresas de transporte urbano de pasajeros de Región Metropolitana de Buenos Aires - SUBE,False,None
-https://datos.transporte.gob.ar/data.json,False,None,SUBE Operaciones de viaje por mes de Región Metropolitana de Buenos Aires,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Lineas y Empresas de transporte urbano de pasajeros de Región Metropolitana de Buenos Aires - SUBE,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Puertos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Terminales Automáticas SUBE,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Puntos de Carga SUBE,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Postes Kilométricos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Sistema Integrado de Transporte Automotor (SISTAU),False,None
-https://datos.transporte.gob.ar/data.json,False,None,Peajes,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Sistema Ferroviario Integrado (SIFER),False,None
-https://datos.transporte.gob.ar/data.json,False,None,SUBE - Cantidad de transacciones (usos) por fecha,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Aterrizajes y despegues registrados por la Empresa Argentina de Navegación Aérea (EANA),False,None
-https://datos.transporte.gob.ar/data.json,False,None,Cantidad de carga y pasajeros,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Rutas Provinciales,False,None
-https://datos.transporte.gob.ar/data.json,False,None,COVID-19,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Trenes - transporte de pasajeros,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Lista de Aeropuertos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Operaciones de SUBE por año en RMBA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Operaciones de SUBE por mes en RMBA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Líneas de transporte de RMBA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Recorridos de servicios de colectivos AMBA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Estaciones del sistema de Trenes Argentinos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Red de carga de RMBA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Empresas de transporte de RMBA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Subsidios al transporte público de pasajeros,False,None
-https://datos.transporte.gob.ar/data.json,False,None,SUBE - Cantidad de tarjetas (usuarios) por fecha,False,None
-https://datos.transporte.gob.ar/data.json,False,None,SUBE - Cantidad de tarjetas (usuarios) por día en AMBA.,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Aterrizajes y despegues procesados por la Administración Nacional de Aviación Civil (ANAC),False,None
-https://datos.transporte.gob.ar/data.json,False,None,SUBE - Cantidad de tarjetas (usuarios) por día.,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Solicitudes de Acceso a Información Pública,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Detalle de entrada y salida de buques y pasajeros transportados,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Rutas Nacionales - DNV año 2018,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Estudio OD - Pasajeros Transporte Interurbano en Autobus,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Informe Matriz Origen-Destino vial de Transporte de Cargas,False,None
-https://datos.transporte.gob.ar/data.json,False,None,COSFER (Modelo de Estimación de Costos Ferroviarios de Carga),False,None
-https://datos.transporte.gob.ar/data.json,False,None,Terminales Portuarias,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Predios Aeropuertos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Pavimentos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Caminos Terciarios,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Cruces Ferroviarios,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Rutas Nacionales,False,None
-https://datos.transporte.gob.ar/data.json,False,None,TMDA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Aeródromos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Operaciones de un día hábil promedio sectorizados en hexágonos de 600m por Modo de transporte y Hora,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Aeropuertos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Boletos Vendidos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Recorridos de Líneas de Transporte de Región Metropolitana de Buenos Aires (RMBA),False,None
-https://datos.transporte.gob.ar/data.json,False,None,"SUBE Operaciones de viaje por mes de Región Metropolitana de Buenos Aires, agregado por Periodo-Modo",False,None
-https://datos.transporte.gob.ar/data.json,False,None,"SUBE Operaciones de viaje por mes de Región Metropolitana de Buenos Aires, agregado por Mes",False,None
-https://datos.transporte.gob.ar/data.json,False,None,"SUBE Operaciones de viaje por mes de Región Metropolitana de Buenos Aires, agregado",False,None
-https://datos.transporte.gob.ar/data.json,False,None,Empresas de transporte urbano de pasajeros de Región Metropolitana de Buenos Aires - SUBE,False,None
-https://datos.transporte.gob.ar/data.json,False,None,SUBE Operaciones de viaje por mes de Región Metropolitana de Buenos Aires,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Lineas y Empresas de transporte urbano de pasajeros de Región Metropolitana de Buenos Aires - SUBE,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Puertos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Terminales Automáticas SUBE,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Puntos de Carga SUBE,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Postes Kilométricos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Sistema Integrado de Transporte Automotor (SISTAU),False,None
-https://datos.transporte.gob.ar/data.json,False,None,Peajes,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Sistema Ferroviario Integrado (SIFER),False,None
-https://datos.transporte.gob.ar/data.json,False,None,SUBE - Cantidad de transacciones (usos) por fecha,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Aterrizajes y despegues registrados por la Empresa Argentina de Navegación Aérea (EANA),False,None
-https://datos.transporte.gob.ar/data.json,False,None,Cantidad de carga y pasajeros,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Rutas Provinciales,False,None
-https://datos.transporte.gob.ar/data.json,False,None,COVID-19,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Trenes - transporte de pasajeros,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Lista de Aeropuertos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Operaciones de SUBE por año en RMBA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Operaciones de SUBE por mes en RMBA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Líneas de transporte de RMBA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Recorridos de servicios de colectivos AMBA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Estaciones del sistema de Trenes Argentinos,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Red de carga de RMBA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Empresas de transporte de RMBA,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Subsidios al transporte público de pasajeros,False,None
-https://datos.transporte.gob.ar/data.json,False,None,SUBE - Cantidad de tarjetas (usuarios) por fecha,False,None
-https://datos.transporte.gob.ar/data.json,False,None,SUBE - Cantidad de tarjetas (usuarios) por día en AMBA.,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Aterrizajes y despegues procesados por la Administración Nacional de Aviación Civil (ANAC),False,None
-https://datos.transporte.gob.ar/data.json,False,None,SUBE - Cantidad de tarjetas (usuarios) por día.,False,None
-https://datos.transporte.gob.ar/data.json,False,None,Solicitudes de Acceso a Información Pública,False,None
-https://datos.agroindustria.gob.ar/data.json,False,,Forestales - Ley 25.080 inversiones para bosques cultivados,True,'https://geoportal.agroindustria.gob.ar/tematizador/forestal/buscador.html ' is not a 'uri' && 
-https://datos.agroindustria.gob.ar/data.json,False,,Forestales - Ley 25.080 - Montos otorgados y superficies promocionadas,True,'https://geoportal.agroindustria.gob.ar/tematizador/montos_forestal/ ' is not a 'uri' && 
-https://datos.agroindustria.gob.ar/data.json,False,,Censo - Maquinaria CNA 02,True,'hectareas_roturacion_siembra_mantenimiento_cultivos_cosecha_granos' is not valid under any of the given schemas && 
-http://datos.ambiente.gob.ar/data.json,False,None,Certificaciones de emisiones gaseosas vehiculares y de emisiones sonoras de automotores livianos,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Certificaciones de emisiones gases efecto invernadero y consumo de vehículos livianos,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Registro Nacional de Consultores en Evaluación Ambiental,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,"Superficie, porcentaje y número de áreas naturales protegidas",False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Extracciones de productos forestales de especies nativas,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Indicadores de emisiones de gases de efecto invernadero (GEI),False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Emisiones de gases de efecto invernadero (GEI),False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Humedales de Argentina dentro de la Convención Ramsar,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Incendios forestales,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Muestreos de calidad de agua de Red de Intercambio de Información de los Gobiernos Locales (RIIGLO),False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Índice de calidad del agua por estación y año (ICA),False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Plan integral comunitario (PICs),False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Proyectos ambientales con financiamiento externo,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Programa de Reconversión Industrial - PRI,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Grado de la degradación de tierras secas en Argentina,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Inventario Nacional de Glaciares - Ley N° 26639,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Decomisos por comercio ilegal de especies,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Normativa nacional Argentina vinculada a Suelos,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Comercialización de fauna silvestre,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Generación de residuos,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Índice de Aridez,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Asignación presupuestaria para construcción de obras para tratamientos de residuos,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Sanciones administrativas aplicadas,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Normativa ambiental,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Fiscalización de fauna,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Organizaciones de la sociedad civil,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Encuentros y jornadas de educación ambiental,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Material didáctico y de comunicación de Educación Ambiental,False,None
-http://datos.ambiente.gob.ar/data.json,False,None,Grandes eventos de educación ambiental,False,None
-http://datasets.datos.mincyt.gob.ar/data.json,False,None,Personal de ciencia y tecnología,False,None
-http://datasets.datos.mincyt.gob.ar/data.json,False,None,"Proyectos de ciencia, tecnología e innovación",False,None
-http://datasets.datos.mincyt.gob.ar/data.json,False,None,Instituciones del Sistema Nacional de Ciencia y Tecnología Argentino,False,None
-http://datasets.datos.mincyt.gob.ar/data.json,False,None,Producciones científico-tecnológicas,False,None
-http://datasets.datos.mincyt.gob.ar/data.json,False,None,PISAC - Programa de Investigación sobre la Sociedad Argentina Contemporánea,False,None
-http://datasets.datos.mincyt.gob.ar/data.json,False,None,Equipamiento científico-tecnológico,False,None
-https://datos.cultura.gob.ar/data.json,False,None,Mapa Cultural: Agentes y Actividades Culturales,False,None
-https://datos.cultura.gob.ar/data.json,False,None,Sector teatral,False,None
-https://datos.cultura.gob.ar/data.json,False,None,Sector musical,False,None
-https://datos.cultura.gob.ar/data.json,False,None,Sector audiovisual,False,None
-https://datos.cultura.gob.ar/data.json,False,None,Mapa Cultural: Espacios Culturales,False,None
-https://datos.cultura.gob.ar/data.json,False,None,Rutas Culturales,False,None
-https://datos.cultura.gob.ar/data.json,False,None,Cuente satélite de Cultura: consumo cultural privado,False,None
-https://datos.cultura.gob.ar/data.json,False,None,Cuenta satélite de cultura: comercio exterior,False,None
-https://datos.cultura.gob.ar/data.json,False,None,Cuenta Satélite de Cultura: producción,False,None
-https://datos.cultura.gob.ar/data.json,False,None,Cuenta Satélite de Cultura: puestos de trabajo privados,False,None
-https://datos.cultura.gob.ar/data.json,False,None,Cuenta Satélite de Cultura: cuenta generación del Ingreso,False,None
-https://datos.cultura.gob.ar/data.json,False,None,Encuesta Nacional de Consumos Culturales (2017),False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Centros de Referencia,False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Compras COVID-19,False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Hacemos Futuro (2018-2020),False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Listado de inscriptas de los Sorteos Mi Pieza,False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Microcréditos otorgados,False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Monotributo Social,False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Montos de Programa de Transferencia Condicionada,False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Programa de acompañamiento para el egreso de jóvenes sin cuidados parentales,False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Proyectos Productivos Comunitarios (2017-2020),False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Programa Ingreso Social con Trabajo (2009-2018),False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Proyectos de integración socio urbana,False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Registro Nacional de Barrios Populares,False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Reparación económica para hijos e hijas de víctimas de violencia de género,False,None
-https://datosabiertos.desarrollosocial.gob.ar/data.json,False,None,Titulares de la Prestación Alimentar,False,None
+Catalog Link,Catalog Errors,Catalog Error Desc,Dataset title,Dataset Errors,Dataset Error Desc
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Publicaciones 2021,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Año 2021,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos 2022,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecucion de Recursos 2022,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Datos de Salarios,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Año 2022,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Fondos Coparticipados por Provincia,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos por Jurisdicción 2022,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Coparticipación,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ranking de Proveedores,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Licitaciones Públicas,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Licitaciones Privadas,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,EJECUCION DE RECURSOS 2021,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos por Jurisdicción 2021,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos 2021,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Concurso de Precios,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ordenanzas Impositivas,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ordenanza Complementaria,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Publicaciones 2020,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Año 2020,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos por Jurisdicción 2020,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos 2020,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Recursos 2020,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ordenanzas Fiscales,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Sistema de Boletines Oficiales Municipales (SIBOM),False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Presupuesto Participativo,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Red en Números,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Deporte Sano,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Sueldos Tabla Complementaria,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos por Jurisdicción 2019,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos por Jurisdicción 2018,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos por Jurisdicción 2017,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos por Jurisdicción 2016,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos por Jurisdicción 2015,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos por Jurisdicción 2014,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos por Jurisdicción 2013,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos 2019,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos 2018,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos 2017,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos 2016,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos 2015,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos 2014,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Gastos 2013,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Recursos 2019,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Recursos 2018,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Recursos 2017,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Recursos 2016,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Recursos 2015,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Recursos 2014,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Ejecución de Recursos 2013,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Año 2019,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Año 2018,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Año 2017,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Año 2016,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Año 2015,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Año 2014,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Año 2013,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Publicaciones 2019,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Asociación Civil Mejor Salud para Rivadavia,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Publicaciones 2017,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Publicaciones 2016,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Publicaciones 2015,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Publicaciones 2018,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Escuela Especial N°501,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,L.I.PO.L.C.C. (Liga Popular de Lucha Contra el Cáncer),False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Cooperativa Eléctrica de Rivadavia,False,None
+http://riv-bue-datos.paisdigital.modernizacion.gob.ar/data.json,False,None,Declaraciones Juradas,False,None

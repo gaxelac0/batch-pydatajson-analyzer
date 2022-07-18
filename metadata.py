@@ -8,12 +8,12 @@ import argparse
 
 # parse arguments
 parser = argparse.ArgumentParser(description='Test file')
-parser.add_argument('--file', type=str, help='A required file to process.')
+parser.add_argument('--file', type=str, help='A required with listed nodes file to process.')
 args = parser.parse_args()
 
 dj = DataJson()
 try:
-    f = open('./test/result/result.csv', 'w')
+    f = open('./test/result/result.xlsx', 'w', newline='')
     header = ['Catalog Link', 'Catalog Errors', 'Catalog Error Desc', 'Dataset title', 'Dataset Errors', 'Dataset Error Desc']
     writer = csv.writer(f)
     writer.writerow(header)

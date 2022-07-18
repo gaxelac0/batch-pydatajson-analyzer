@@ -1,4 +1,3 @@
-https://datos.gob.ar/data.json
 https://transparencia.enargas.gob.ar/data.json
 https://datosabiertos.enacom.gob.ar/data.json
 https://datos.arsat.com.ar/data.json
@@ -15,13 +14,16 @@ https://monitoreo.datos.gob.ar/catalog/seguridad/data.json
 https://datos.transporte.gob.ar/data.json
 https://datos.transporte.gob.ar/data.json
 https://datos.agroindustria.gob.ar/data.json
+http://datos.ambiente.gob.ar/data.json
 http://datasets.datos.mincyt.gob.ar/data.json
 https://datos.cultura.gob.ar/data.json
 https://datosabiertos.desarrollosocial.gob.ar/data.json
+http://andino.siu.edu.ar/data.json
 https://monitoreo.datos.gob.ar/catalog/educacion/data.json
 https://monitoreo.datos.gob.ar/catalog/ssprys/data.json
 https://infra.datos.gob.ar/catalog/sspm/data.json
 https://monitoreo.datos.gob.ar/catalog/ssprys/data.json
+https://www.presupuestoabierto.gob.ar/sici/rest-api/catalog/public
 https://monitoreo.datos.gob.ar/catalog/siep/data.json
 http://datos.minem.gob.ar/data.json
 https://datos.produccion.gob.ar/data.json

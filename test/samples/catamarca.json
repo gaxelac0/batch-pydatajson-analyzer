@@ -1,0 +1,275 @@
+{
+    "version":            "1.1",
+    "identifier":         "datos-gobierno-catamarca",
+    "title":              "Datos Catamarca",
+    "description":        "Ponemos a tu alcance datos p\u00fablicos en formatos abiertos para que puedas usarlos, modificarlos y compartirlos. Estos datos son tuyos. Pod\u00e9s crear visualizaciones, aplicaciones y grandes herramientas con ellos.",
+    "superThemeTaxonomy": "http://datos.gob.ar/superThemeTaxonomy.json",
+    "publisher":          {"mbox": "datos@catamarca.gob.ar", "name": "Secretar\u00eda de Modernizaci\u00f3n del Estado - Ministerio de Planificaci\u00f3n y Modernizaci\u00f3n"},
+    "issued":             "2019-02-12T00:00:00",
+    "modified":           "2021-04-30T03:37:09.598284",
+    "language":           ["spa"],
+    "license":            "CC-BY-4.0",
+    "homepage":           "http://datos.catamarca.gob.ar",
+    "spatial":            ["ARG", "10"],
+    "themeTaxonomy":      [{"label": "Econom\u00eda y Finanzas", "id": "economia-y-finanzas", "description": "Econom\u00eda y Finanzas"}],
+    "dataset":
+        [
+            {
+                "title":           "Recaudaci\u00f3n",
+                "description":           "Recaudaci\u00f3n en materia de impuesto inmobiliario, automotor, ingresos brutos y sello.",
+                "modified":           "2021-04-18T01:06:02.804507",
+                "issued":             "2020-12-02T14:59:39.732068",
+                "landingPage":        "http://datos.catamarca.gob.ar/dataset/recaudacion",
+                "license":            "Creative Commons Attribution 4.0",
+                "spatial":            ["ARG", "10"],
+                "publisher":          {"name": "Agencia de Recaudaci\u00f3n de Catamarca"},
+                "contactPoint":       {"fn": "Agencia de Recaudaci\u00f3n de Catamarca"},
+                "distribution":
+                    [
+                        {
+                            "format":       "CSV",
+                            "title":       "Recaudaci\u00f3n impuestos Inmobiliario, Automotor, Ingresos Brutos y Sello al 31/12/2020",
+                            "description":       "Recaudaci\u00f3n impuestos Inmobiliario, Automotor, Ingresos Brutos y Sello al 31/12/2020",
+                            "fileName":     "catamarca-recaudacion-impuestos-al-202012.csv",
+                            "type":         "file.upload",
+                            "issued":       "2020-12-02T19:01:23.031747",
+                            "modified":     "2021-08-01T02:24:41.042188",
+                            "license":      "CC-BY-4.0",
+                            "field":       [{"specialType": "time_index", "specialTypeDetail": "R/P1M", "type": "date", "description": "Fecha sobre las cuales se toma la recaudaci\u00f3n", "title": "indice_tiempo"}, {"units": "ARS", "id": "datos-gobierno-catamarca_wgqoc9uu", "type": "number", "description": "Importe expresado en pesos argentinos recaudado por impuesto inmobiliario", "title": "recaudacion_impuesto_inmobiliario"}, {"units": "ARS", "id": "datos-gobierno-catamarca_b2pkft0a", "type": "number", "description": "Importe expresado en pesos argentinos recaudado por impuesto automotor", "title": "recaudacion_impuesto_automotor"}, {"units": "ARS", "id": "datos-gobierno-catamarca_if6th3z6", "type": "number", "description": "Importe expresado en pesos argentinos recaudado por impuesto de ingresos brutos", "title": "recuadacion_impuesto_ingresos_brutos"}, {"units": "ARS", "id": "datos-gobierno-catamarca_zm55g6zt", "type": "number", "description": "Importe expresado en pesos argentinos recaudado por impuesto de sello", "title": "recaudacion_impuesto_sello"}, {"units": "ARS", "id": "datos-gobierno-catamarca_nwy00ebi", "type": "number", "description": "Importe expresado en pesos argentinos recaudado total mensual", "title": "recaudacion_impuesto_total"}],
+                            "accessURL": "https://dgrentas.arca.gob.ar/recaudacion.php",
+                            "downloadURL": "http://datos.catamarca.gob.ar/dataset/a0b7a962-a020-4390-8963-7cd1889dee61/resource/982f1c55-8338-4caa-b53b-404c0f9b7765/download/catamarca-recaudacion-impuestos-al-202012.csv",
+                            "identifier":       "982f1c55-8338-4caa-b53b-404c0f9b7765"
+                        } ,
+                    
+                        {
+                            "format":       "CSV",
+                            "title":       "Recaudaci\u00f3n impuestos Inmobiliario, Automotor, Ingresos Brutos y Sello al 31/06/2021",
+                            "description":       "Recaudaci\u00f3n impuestos Inmobiliario, Automotor, Ingresos Brutos y Sello al 31/06/2021",
+                            "fileName":     "catamarca-recaudacion-impuestos-al-202106.csv",
+                            "type":         "file.upload",
+                            "issued":       "2021-04-30T02:53:09.292774",
+                            "modified":     "2021-08-01T02:56:55.787256",
+                            "license":      "CC-BY-4.0",
+                            "field":       [{"specialType": "time_index", "specialTypeDetail": "R/P1M", "type": "date", "description": "Fecha sobre las cuales se toma la recaudaci\u00f3n.", "title": "indice_tiempo"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos recaudado por impuesto inmobiliario.", "title": "recaudacion_impuesto_inmobiliario"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos recaudado por impuesto automotor.", "title": "recaudacion_impuesto_automotor"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos recaudado por impuesto de ingresos brutos.", "title": "recuadacion_impuesto_ingresos_brutos"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos recaudado por impuesto de sello ", "title": "recaudacion_impuesto_sello"}, {"units": "ARS", "id": "datos-gobierno-catamarca_v70hpsaz", "type": "number", "description": "Importe expresado en pesos argentinos recaudado total mensual ", "title": "recaudacion_impuesto_total "}],
+                            "accessURL": "https://dgrentas.arca.gob.ar/recaudacion.php",
+                            "downloadURL": "http://datos.catamarca.gob.ar/dataset/a0b7a962-a020-4390-8963-7cd1889dee61/resource/46def0f8-be44-4ad9-b05e-405641247765/download/catamarca-recaudacion-impuestos-al-202106.csv",
+                            "identifier":       "46def0f8-be44-4ad9-b05e-405641247765"
+                        } ,
+                    
+                        {
+                            "format":       "CSV",
+                            "title":       "Recaudaci\u00f3n impuestos Inmobiliario, Automotor, Ingresos Brutos y Sello al 30/09/2021",
+                            "description":       "Recaudaci\u00f3n impuestos Inmobiliario, Automotor, Ingresos Brutos y Sello al 30/09/2021",
+                            "fileName":     "catamarca-recaudacion-impuestos-al-202109.csv",
+                            "type":         "file.upload",
+                            "issued":       "2021-11-09T14:43:04.243759",
+                            "modified":     "2022-06-23T14:07:25.367356",
+                            "license":      "CC-BY-4.0",
+                            "field":       [{"type": "date", "description": "Fecha del per\u00edodo considerado para la recaudaci\u00f3n", "title": "indice_tiempo"}, {"units": "ARS", "type": "number", "description": "Importe expresado en Pesos Argentinos para la recaudaci\u00f3n del impuesto inmobiliario", "title": "recaudacion_impuesto_inmobiliario"}, {"units": "ARS", "type": "number", "description": "Importe expresado en Pesos Argentinos para la recaudaci\u00f3n del impuesto automotor", "title": "recaudacion_impuesto_automotor"}, {"units": "ARS", "type": "number", "description": "Importe expresado en Pesos Argentinos para la recaudaci\u00f3n del impuesto ingresos brutos", "title": "recuadacion_impuesto_ingresos_brutos"}, {"units": "ARS", "type": "number", "description": "Importe expresado en Pesos Argentinos para la recaudaci\u00f3n del impuesto al sello", "title": "recaudacion_impuesto_sello"}],
+                            "accessURL": "http://datos.catamarca.gob.ar/dataset/a0b7a962-a020-4390-8963-7cd1889dee61/resource/0cc6fa43-069a-4843-ad83-1813dbdafbc4",
+                            "downloadURL": "http://datos.catamarca.gob.ar/dataset/a0b7a962-a020-4390-8963-7cd1889dee61/resource/0cc6fa43-069a-4843-ad83-1813dbdafbc4/download/catamarca-recaudacion-impuestos-al-202109.csv",
+                            "identifier":       "0cc6fa43-069a-4843-ad83-1813dbdafbc4"
+                        } 
+                    
+                    ],
+                "keyword":        ["Automotor", "Impuestos", "Ingresos brutos", "Inmobiliario", "Recaudaci\u00f3n", "Sello"],
+                "superTheme":         ["ECON"],
+                "theme":          ["economia-y-finanzas"],
+                "accrualPeriodicity": "R/P1M",
+                "identifier":           "a0b7a962-a020-4390-8963-7cd1889dee61"
+            } ,
+            {
+                "title":           "Proyectos presentados al Consejo Federal de Inversiones",
+                "description":           "Listado de proyectos que se presentan al Consejo Federal de Inversiones (CFI)",
+                "modified":           "2021-04-18T01:06:43.556181",
+                "issued":             "2020-12-11T13:47:33.061730",
+                "landingPage":        "http://datos.catamarca.gob.ar/dataset/proyectos-presentados-al-consejo-federal-de-inversiones",
+                "license":            "Creative Commons Attribution 4.0",
+                "spatial":            ["ARG", "10"],
+                "publisher":          {"mbox": "dirfinanciamiento@catamarca.gov.ar", "name": "Direcci\u00f3n de Financiamiento Nacional e Internacional."},
+                "contactPoint":       {"hasEmail": "dirfinanciamiento@catamarca.gov.ar", "fn": "Direcci\u00f3n de Financiamiento Nacional e Internacional."},
+                "distribution":
+                    [
+                        {
+                            "format":       "XLS",
+                            "title":       "Proyectos presentados al CFI al 30/11/2020",
+                            "description":       "Proyectos presentados al CFI al 30/11/2020",
+                            "fileName":     "proyectos-presentados-al-cfi-al-20201130.xls",
+                            "type":         "file.upload",
+                            "issued":       "2020-12-11T14:36:42.416809",
+                            "modified":     "2020-12-11T14:36:42.416809",
+                            "license":      "CC-BY-4.0",
+                            "field":       [{"type": "string", "description": "Identificaci\u00f3n de la provincia donde se centra el proyecto", "title": "provincia_id"}, {"type": "string", "description": "Nombre de la provincia donde se centra el proyecto", "title": "provincia_nombre"}, {"type": "string", "description": "Identificaci\u00f3n del departamento donde se centra el proyecto", "title": "departamento_id"}, {"type": "string", "description": "Nombre del departamento donde se centra el proyecto", "title": "departamento_nombre"}, {"type": "string", "description": "Identificaci\u00f3n del municipio donde se centra el proyecto.", "title": "municipio_id"}, {"type": "string", "description": "Nombre del municipio donde se centra el proyecto.", "title": "municipio_nombre"}, {"type": "string", "description": "Identificaci\u00f3n de la localidad donde se centra el proyecto.", "title": "localidad_id"}, {"type": "string", "description": "Nombre de la localidad donde se centra el proyecto", "title": "localidad_nombre"}, {"type": "string", "description": "Nombre del \u00e1rea responsable del proyecto.", "title": "proyecto_area"}, {"type": "string", "description": "Nombre completo del proyecto", "title": "proyecto_nombre"}, {"type": "string", "description": "Descripci\u00f3n del proyecto", "title": "proyecto_descripcion"}, {"type": "string", "description": "Fuente de financiamiento del proyecto Municipal | Provincial | Nacional | Internacional", "title": "proyecto_fuente_financiamiento"}, {"type": "string", "description": "Estado del proyecto En ejecuci\u00f3n | Paralizado | Finalizado | Rescindido | Contrataci\u00f3n | Informe final", "title": "proyecto_estado"}, {"type": "string", "description": "Tipo de moneda del presupuesto oficial ARS | USD", "title": "proyecto_presupuesto_oficial_moneda_id"}, {"type": "number", "description": "Monto del presupuesto oficial", "title": "proyecto_presupuesto_oficial_monto"}, {"type": "date", "description": "Fecha de inicio del proyecto", "title": "proyecto_fecha_inicio"}, {"type": "number", "description": "Plazo de ejecuci\u00f3n del proyecto medido en meses", "title": "proyecto_plazo_ejecucion_meses"}, {"type": "string", "description": "Observaciones del proyecto", "title": "proyecto_observacion"}, {"type": "string", "description": "Tipo de identificaci\u00f3n de la empresa adjudicada", "title": "empresa_adjudicada_tipo_id"}, {"type": "string", "description": "Identificaci\u00f3n de la empresa adjudicada", "title": "empresa_adjudicada_id"}, {"type": "string", "description": "Nombre de la empresa adjudicada", "title": "empresa_adjudicada_nombre"}, {"type": "string", "description": "Identificaci\u00f3n del pa\u00eds de la empresa adjudicada", "title": "empresa_adjudicada_pais_id"}, {"type": "string", "description": "Nombre del pa\u00eds de la empresa adjudicada", "title": "empresa_adjudicada_pais_nombre"}, {"type": "integer", "description": "Identificaci\u00f3n del Objetivo de Desarrollo Sostenible", "title": "ods_id"}, {"type": "string", "description": "Nombre del Objetivo de Desarrollo Sostenible", "title": "ods_nombre"}, {"type": "string", "description": "Identificaci\u00f3n de la meta del Objetivo de Desarrollo Sostenible", "title": "ods_meta_id"}, {"type": "string", "description": "Descripci\u00f3n de la meta del Objetivo de Desarrollo Sostenible", "title": "ods_meta_descripcion"}],
+                            "accessURL": "http://datos.catamarca.gob.ar/dataset/e2e6e81c-e646-4fc8-b179-b88b3eda4b74/resource/ed89c20e-b85f-452f-98e0-a85d1f3f02f2",
+                            "downloadURL": "http://datos.catamarca.gob.ar/dataset/e2e6e81c-e646-4fc8-b179-b88b3eda4b74/resource/ed89c20e-b85f-452f-98e0-a85d1f3f02f2/download/proyectos-presentados-al-cfi-al-20201130.xls",
+                            "identifier":       "ed89c20e-b85f-452f-98e0-a85d1f3f02f2"
+                        } ,
+                    
+                        {
+                            "format":       "XLS",
+                            "title":       "Proyectos presentados al CFI al 31/10/2021",
+                            "description":       "Proyectos presentados al Consejo Federal de Inversiones al 31/10/2021",
+                            "fileName":     "proyectos-presentados-al-cfi-al-20211031.xls",
+                            "type":         "file.upload",
+                            "issued":       "2021-11-09T14:28:48.890143",
+                            "modified":     "2021-11-09T14:32:08.390784",
+                            "license":      "CC-BY-4.0",
+                            "accessURL": "http://datos.catamarca.gob.ar/dataset/e2e6e81c-e646-4fc8-b179-b88b3eda4b74/resource/555a2d0b-cfeb-4ddd-977f-f32989e9805c",
+                            "downloadURL": "http://datos.catamarca.gob.ar/dataset/e2e6e81c-e646-4fc8-b179-b88b3eda4b74/resource/555a2d0b-cfeb-4ddd-977f-f32989e9805c/download/proyectos-presentados-al-cfi-al-20211031.xls",
+                            "identifier":       "555a2d0b-cfeb-4ddd-977f-f32989e9805c"
+                        } ,
+                    
+                        {
+                            "format":       "XLS",
+                            "title":       "Proyectos presentados al CFI al 30/11/2021",
+                            "description":       "Proyectos presentados al Consejo Federal de Inversiones al 30/11/2021",
+                            "fileName":     "proyectos-presentados-al-cfi-al-20211130.xls.xlsx",
+                            "type":         "file.upload",
+                            "issued":       "2021-12-16T15:50:57.552310",
+                            "modified":     "2021-12-16T15:50:57.552310",
+                            "license":      "CC-BY-4.0",
+                            "accessURL": "http://datos.catamarca.gob.ar/dataset/e2e6e81c-e646-4fc8-b179-b88b3eda4b74/resource/dc939dc2-c543-44f3-8dd8-d83b69e58633",
+                            "downloadURL": "http://datos.catamarca.gob.ar/dataset/e2e6e81c-e646-4fc8-b179-b88b3eda4b74/resource/dc939dc2-c543-44f3-8dd8-d83b69e58633/download/proyectos-presentados-al-cfi-al-20211130.xls.xlsx",
+                            "identifier":       "dc939dc2-c543-44f3-8dd8-d83b69e58633"
+                        } 
+                    
+                    ],
+                "superTheme":         ["ECON", "ENVI", "GOVE", "HEAL", "TRAN"],
+                "language":       ["spa"],
+                "theme":          ["economia-y-finanzas"],
+                "accrualPeriodicity": "R/P1M",
+                "identifier":           "e2e6e81c-e646-4fc8-b179-b88b3eda4b74"
+            } ,
+            {
+                "title":           "Coparticipaci\u00f3n",
+                "description":           "La Coparticipaci\u00f3n Federal es el sistema de rango constitucional que tiene por objeto coordinar la distribuci\u00f3n del producido de los tributos impuestos por el Estado Federal, en virtud de una delegaci\u00f3n efectuada por las Provincias a la Naci\u00f3n, quien debe recaudar las contribuciones, retener su porci\u00f3n y redistribuir el resto entre aquellas y la Ciudad Aut\u00f3noma de Buenos Aires. (https://www.hcdn.gob.ar/secparl/dgral_info_parlamentaria/dip/glosario/C/coparticipacion.html)",
+                "modified":           "2021-06-18T13:28:14.536577",
+                "issued":             "2021-06-17T21:11:32.855129",
+                "landingPage":        "https://cgp-catamarca.gob.ar/coparticipacion",
+                "license":            "Creative Commons Attribution 4.0",
+                "spatial":            ["ARG", "10"],
+                "publisher":          {"mbox": "contacto@cgp-catamarca.gob.ar", "name": "Contadur\u00eda General de la Provincia de Catamarca"},
+                "contactPoint":       {"hasEmail": "contacto@cgp-catamarca.gob.ar", "fn": "Contadur\u00eda General de la Provincia de Catamarca"},
+                "distribution":
+                    [
+                        {
+                            "format":       "CSV",
+                            "title":       "Liquidaci\u00f3n de Coparticipaci\u00f3n de Impuestos Nacionales y Provinciales a los municipios - Primera quincena de Mayo de 2021",
+                            "description":       "Liquidaci\u00f3n de Coparticipaci\u00f3n de Impuestos Nacionales y Provinciales a los municipios, primera quincena de Mayo de 2021, detalle general.",
+                            "fileName":     "catamarca-coparticipacion-20210101-al-20210115.csv",
+                            "type":         "file.upload",
+                            "issued":       "2021-06-17T21:12:50.465515",
+                            "modified":     "2021-06-19T04:00:44.074839",
+                            "license":      "CC-BY-4.0",
+                            "field":       [{"type": "date", "description": "Fecha inicial del per\u00edodo considerado para la liquidaci\u00f3n", "title": "liquidacion_fecha_inicial"}, {"type": "date", "description": "Fecha final del per\u00edodo considerado para la liquidaci\u00f3n", "title": "liquidacion_fecha_final"}, {"type": "string", "description": "Nombre del concepto por liquidar", "title": "liquidacion_concepto"}, {"type": "string", "description": "Acr\u00f3nimo del concepto por liquidar", "title": "liquidacion_concepto_acronimo"}, {"type": "string", "description": "Moneda del monto recaudado, ARS para el peso argentino y USD para el d\u00f3lar estadounidense.\n", "title": "liquidacion_moneda_id_monto_racaudado"}, {"type": "number", "description": "Monto del concepto recaudado por liquidar", "title": "liquidacion_concepto_monto_recaudado"}, {"type": "string", "description": "Moneda del monto a distribuir, ARS para el peso argentino y USD para el d\u00f3lar estadounidense.", "title": "liquidacion_moneda_id_monto_a_distribuir"}, {"type": "number", "description": "Monto a distribuir del concepto por liquidar correspondiendo al 25% del monto salvo para el concepto impuesto al automotor donde corresponde un 90%.", "title": "liquidacion_concepto_monto_a_distribuir"}],
+                            "accessURL": "https://cgp-catamarca.gob.ar/coparticipacion",
+                            "downloadURL": "http://datos.catamarca.gob.ar/dataset/93375549-ce2f-49b5-8517-721ea3d07a37/resource/0577fb27-768b-4af6-8197-270d1c3bcb9f/download/catamarca-coparticipacion-20210101-al-20210115.csv",
+                            "identifier":       "0577fb27-768b-4af6-8197-270d1c3bcb9f"
+                        } ,
+                    
+                        {
+                            "format":       "CSV",
+                            "title":       "Liquidaci\u00f3n de Coparticipaci\u00f3n de Impuestos Nacionales y Provinciales a los municipios - Primera quincena de Mayo de 2021 - Detalle por municipio",
+                            "description":       "Liquidaci\u00f3n de Coparticipaci\u00f3n de Impuestos Nacionales y Provinciales a los municipios, primera quincena de Mayo de 2021, detalle por municipio.",
+                            "fileName":     "catamarca-coparticipacion-20210101-al-20210115-municipios.csv",
+                            "type":         "file.upload",
+                            "issued":       "2021-06-19T03:28:18.752065",
+                            "modified":     "2021-06-24T14:45:04.390822",
+                            "license":      "CC-BY-4.0",
+                            "field":       [{"type": "date", "description": "Fecha inicial del per\u00edodo considerado para la liquidaci\u00f3n", "title": "liquidacion_fecha_inicial"}, {"type": "date", "description": "Fecha final del per\u00edodo considerado para la liquidaci\u00f3n", "title": "liquidacion_fecha_final"}, {"type": "string", "description": "C\u00f3digo del departamento establecido por el sistema de identificadores de la cartograf\u00eda censal del Censo Nacional 2010 del Instituto Nacional de Estad\u00edstica y Censo (INDEC).", "title": "departamento_id"}, {"type": "string", "description": "Nombre del departamento", "title": "departamento_nombre"}, {"type": "string", "description": "C\u00f3digo del municipio establecido por el sistema de identificadores de la cartograf\u00eda censal del Censo Nacional 2010 del Instituto Nacional de Estad\u00edstica y Censo (INDEC).", "title": "municipio_id"}, {"type": "string", "description": "Nombre del municipio", "title": "municipio_nombre_largo"}, {"type": "number", "description": "Coeficiente municipal para el c\u00e1lculo de liquidaci\u00f3n establecido por  el Decreto Acuerdo N\u00famero 671 de fecha 29 de Abril de 2020.", "title": "liquidacion_coeficiente_municipal"}, {"type": "number", "description": "Coeficiente municipal para el c\u00e1lculo de liquidaci\u00f3n sobre el impuesto automotor establecido por Dcto Acuerdo N\u00b0 609 (16/04/2008) entre los ministerios de Gobierno y Justicia y Hacienda y Finanzas.", "title": "liquidacion_coeficiente_municipal_impuesto_automotor"}, {"units": "ARS", "type": "number", "description": "Monto de la liquidaci\u00f3n a distribuir (sin descuentos) resultado del producto del monto total a distribuir por el coeficiente municipal correspondiente.", "title": "liquidacion_municipal"}, {"units": "ARS", "type": "number", "description": "Monto de la liquidaci\u00f3n a distribuir seg\u00fan el impuesto automotor (sin descuentos), resultado del producto del monto total del impuesto automotor por el coeficiente municipal sobre impuesto automotor", "title": "liquidacion_municipal_impuesto_automotor"}, {"units": "ARS", "type": "number", "description": "Monto de los descuentos seg\u00fan el Anexo I (pr\u00e9stamos, retiros voluntarios, convenios y otros)", "title": "liquidacion_municipal_descuentos_anexo_i"}, {"units": "ARS", "type": "number", "description": "Monto de los descuentos seg\u00fan el Anexo II (ANSES, OSEP, BANCAT y otros)", "title": "liquidacion_municipal_descuentos_anexo_ii"}, {"units": "ARS", "type": "number", "description": "Liquidaci\u00f3n final a entregar al municipio, resultado de la sumatoria de la liquidaci\u00f3n municipal y la liquidaci\u00f3n municipal seg\u00fan impuesto automotor, menos la suma de los descuentos seg\u00fan Anexo I y II", "title": "liquidacion_municipal_final"}],
+                            "accessURL": "https://cgp-catamarca.gob.ar/coparticipacion",
+                            "downloadURL": "http://datos.catamarca.gob.ar/dataset/93375549-ce2f-49b5-8517-721ea3d07a37/resource/b3997177-4b25-493b-8500-e57622a56554/download/catamarca-coparticipacion-20210101-al-20210115-municipios.csv",
+                            "identifier":       "b3997177-4b25-493b-8500-e57622a56554"
+                        } ,
+                    
+                        {
+                            "format":       "CSV",
+                            "title":       "Liquidaci\u00f3n de Coparticipaci\u00f3n de Impuestos Nacionales y Provinciales a los municipios - Segunda quincena de Mayo de 2021",
+                            "description":       "Liquidaci\u00f3n de Coparticipaci\u00f3n de Impuestos Nacionales y Provinciales a los municipios, segunda quincena de Mayo de 2021, detalle general.",
+                            "fileName":     "catamarca-coparticipacion-20210516-al-20210531.csv",
+                            "type":         "file.upload",
+                            "issued":       "2021-06-19T03:59:12.343242",
+                            "modified":     "2021-06-19T03:59:12.343242",
+                            "license":      "CC-BY-4.0",
+                            "field":       [{"type": "date", "description": "Fecha inicial del per\u00edodo considerado para la liquidaci\u00f3n", "title": "liquidacion_fecha_inicial "}, {"type": "date", "description": "Fecha final del per\u00edodo considerado para la liquidaci\u00f3n", "title": "liquidacion_fecha_final"}, {"type": "string", "description": "Nombre del concepto por liquidar.", "title": "liquidacion_concepto"}, {"type": "string", "description": "Acr\u00f3nimo del concepto por liquidar", "title": "liquidacion_concepto_acronimo"}],
+                            "accessURL": "https://cgp-catamarca.gob.ar/coparticipacion",
+                            "downloadURL": "http://datos.catamarca.gob.ar/dataset/93375549-ce2f-49b5-8517-721ea3d07a37/resource/b975a0a4-67b5-47a6-a581-692fef138d72/download/catamarca-coparticipacion-20210516-al-20210531.csv",
+                            "identifier":       "b975a0a4-67b5-47a6-a581-692fef138d72"
+                        } ,
+                    
+                        {
+                            "format":       "CSV",
+                            "title":       "Descuentos a municipios Anexo I, Segunda quincena de Mayo de 2021",
+                            "description":       "Descuentos a municipios (Anexo I pr\u00e9stamos, retiros voluntarios, convenios y otros), segunda quincena de Mayo de 2021.",
+                            "fileName":     "catamarca-municipios-descuentos-anexo-i-202105.csv",
+                            "type":         "file.upload",
+                            "issued":       "2021-06-25T01:44:54.208462",
+                            "modified":     "2021-07-30T03:28:12.445526",
+                            "license":      "CC-BY-4.0",
+                            "accessURL": "http://datos.catamarca.gob.ar/dataset/93375549-ce2f-49b5-8517-721ea3d07a37/resource/872ed5d5-7b97-4024-a827-02d23253e76d",
+                            "downloadURL": "http://datos.catamarca.gob.ar/dataset/93375549-ce2f-49b5-8517-721ea3d07a37/resource/872ed5d5-7b97-4024-a827-02d23253e76d/download/catamarca-municipios-descuentos-anexo-i-202105.csv",
+                            "identifier":       "872ed5d5-7b97-4024-a827-02d23253e76d"
+                        } ,
+                    
+                        {
+                            "format":       "CSV",
+                            "title":       "Descuentos a municipios Anexo II, Segunda quincena de Mayo de 2021",
+                            "description":       "Descuentos a municipios (Anexo II ANSES, OSEP, BANCAT y otros), segunda quincena de Mayo de 2021.",
+                            "fileName":     "catamarca-municipios-descuentos-anexo-ii-202105.csv",
+                            "type":         "file.upload",
+                            "issued":       "2021-07-29T15:28:51.786670",
+                            "modified":     "2021-08-02T19:09:17.301155",
+                            "license":      "CC-BY-4.0",
+                            "field":       [{"type": "date", "description": "Fecha del mes considerado para registrar descuentos del municipio.", "title": "descuentos_municipios_fecha"}, {"type": "string", "description": "C\u00f3digo del departamento establecido por el sistema de identificadores de la cartograf\u00eda censal del Censo Nacional 2010 del Instituto Nacional de Estad\u00edstica y Censo (INDEC).", "title": "departamento_id"}, {"type": "string", "description": "Nombre del departamento", "title": "departamento_nombre"}, {"type": "string", "description": "C\u00f3digo del municipio establecido por el sistema de identificadores de la cartograf\u00eda censal del Censo Nacional 2010 del Instituto Nacional de Estad\u00edstica y Censo (INDEC).", "title": "municipio_id"}, {"type": "string", "description": "Nombre del municipio", "title": "municipio_nombre_largo"}, {"type": "string", "description": "Latitud del centroide del municipio", "title": "municipio_centroide_lat"}, {"type": "string", "description": "Longitud del centroide del municipio", "title": "municipio_centroide_lon"}, {"type": "integer", "description": "C\u00f3digo de descuentos Anses aporte personal", "title": "descuentos_anses_aporte_personal_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos Anses aporte personal", "title": "descuentos_anses_aporte_personal"}, {"type": "integer", "description": "C\u00f3digo de descuentos OSEP aporte personal", "title": "descuentos_osep_aporte_personal_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos OSEP aporte personal.", "title": "descuentos_osep_aporte_personal"}, {"type": "integer", "description": "C\u00f3digo de descuentos de seguro de conyuge", "title": "descuentos_seguro_conyugue_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos de seguro de conyuge", "title": "descuentos_seguro_conyugue"}, {"type": "integer", "description": "C\u00f3digo de descuentos de seguro adicional optativo", "title": "descuentos_seguro_adicional_optativo_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos de seguro adicional optativo", "title": "descuentos_seguro_adicional_optativo"}, {"type": "integer", "description": "C\u00f3digo de descuentos de seguro de vida obligatorio", "title": "descuentos_seguro_vida_obligatorio_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos de seguro de vida obligatorio", "title": "descuentos_seguro_vida_obligatorio"}, {"type": "integer", "description": "C\u00f3digo de descuentos de subsidios de gastos por sepelio", "title": "descuentos_subsidios_gastos_sepelio_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos de subsidios de gastos por sepelio", "title": "descuentos_subsidios_gastos_sepelio"}, {"type": "integer", "description": "C\u00f3digo de descuentos de fondo especial de transplantes de OSEP", "title": "descuentos_osep_fondo_especial_transplantes_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos de fondo especial de transplantes de OSEP", "title": "descuentos_osep_fondo_especial_transplantes"}, {"type": "integer", "description": "C\u00f3digo de descuentos de aporte patronal ANSES", "title": "descuentos_anses_aporte_patronal_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos de aporte patronal ANSES", "title": "descuentos_anses_aporte_patronal"}, {"type": "integer", "description": "C\u00f3digo de descuentos de aporte patronal OSEP", "title": "descuentos_osep_aporte_patronal_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos de aporte patronal OSEP", "title": "descuentos_osep_aporte_patronal"}, {"type": "integer", "description": "C\u00f3digo de regimen de asignaci\u00f3n complementaria previsional del 82 %", "title": "descuentos_regimen_asignacion_complementaria_previsional_82_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos de asignaci\u00f3n complementaria previsional del 82 %", "title": "descuentos_regimen_asignacion_complementaria_previsional_82"}, {"type": "integer", "description": "C\u00f3digo de descuentos contribuci\u00f3n de caja complementaria del 82%", "title": "descuentos_contribucion_caja_complementaria_82_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos de contrubuci\u00f3n de caja complementaria del 82%", "title": "descuentos_contribucion_caja_complementaria_82"}, {"type": "integer", "description": "C\u00f3digo de descuentos de deuda de reafiliaci\u00f3n AGAP", "title": "descuentos_agap_deuda_reafiliacion_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos de deuda de reafiliaci\u00f3n AGAP", "title": "descuentos_agap_deuda_reafiliacion"}, {"type": "integer", "description": "C\u00f3digo de descuentos de asistencia de OSEP", "title": "descuentos_asistencia_osep_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos de asistencia de OSEP", "title": "descuentos_asistencia_osep"}, {"type": "integer", "description": "C\u00f3digo de descuentos de ATE", "title": "descuentos_ate_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos de ATE", "title": "descuentos_ate"}, {"type": "integer", "description": "C\u00f3digo de descuentos de BANCAT", "title": "descuentos_bancat_id"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos de BANCAT", "title": "descuentos_bancat"}, {"type": "integer", "description": "C\u00f3digo de descuentos de Convenio Fiscal Municipal con ECSAPEM (Dcto Acuerdo 1413 15/11/2018, reglamentaci\u00f3n parcial Ley N\u00b0 5540 \"Convenio Fiscal Municipal\", \"Pago del Servicio de Energ\u00eda El\u00e9ctrica\")", "title": "descuentos_convenio_fiscal_municipal_ecsapem_id"}, {"units": "ARS", "type": "number", "description": "Importe de descuentos de Convenio Fiscal Municipal con ECSAPEM (Dcto Acuerdo 1413 15/11/2018, reglamentaci\u00f3n parcial Ley N\u00b0 5540 \"Convenio Fiscal Municipal\", \"Pago del Servicio de Energ\u00eda El\u00e9ctrica\")", "title": "descuentos_convenio_fiscal_municipal_ecsapem"}, {"units": "ARS", "type": "number", "description": "Importe expresado en pesos argentinos de descuentos totales municipal", "title": "descuentos_municipio_total"}],
+                            "accessURL": "https://cgp-catamarca.gob.ar/coparticipacion",
+                            "downloadURL": "http://datos.catamarca.gob.ar/dataset/93375549-ce2f-49b5-8517-721ea3d07a37/resource/9b633e17-76df-425d-b7e0-c4da1c099c51/download/catamarca-municipios-descuentos-anexo-ii-202105.csv",
+                            "identifier":       "9b633e17-76df-425d-b7e0-c4da1c099c51"
+                        } 
+                    
+                    ],
+                "keyword":        ["Coparticipaci\u00f3n Federal", "Fondo de Desarrollo Municipal", "Fondo de Emergencia Municipal", "Impuesto", "Impuesto Inmobiliario", "Impuesto a los Sellos", "Impuesto al Automotor", "Ingresos Brutos"],
+                "superTheme":         ["ECON"],
+                "language":       ["spa"],
+                "theme":          ["economia-y-finanzas"],
+                "accrualPeriodicity": "R/P0.5M",
+                "temporal":      "2021-05-01T03:00:00.000Z/2021-06-15T03:00:00.000Z",
+                "identifier":           "93375549-ce2f-49b5-8517-721ea3d07a37"
+            } ,
+            {
+                "title":           "Seguimiento de proyectos",
+                "description":           "Proyectos con financiamiento Fideicomiso Salar del Hombre Muerto",
+                "modified":           "2021-04-18T01:06:23.172215",
+                "issued":             "2020-12-01T04:45:28.269284",
+                "landingPage":        "http://datos.catamarca.gob.ar/dataset/proyectos",
+                "license":            "Creative Commons Attribution 4.0",
+                "spatial":            ["ARG", "10"],
+                "publisher":          {"name": "Direcci\u00f3n Provincial de Gesti\u00f3n de Indicadores con perspectiva de g\u00e9nero"},
+                "contactPoint":       {"fn": "Direcci\u00f3n Provincial de Gesti\u00f3n de Indicadores con perspectiva de g\u00e9nero"},
+                "distribution":
+                    [
+                        {
+                            "format":       "XLS",
+                            "title":       "Proyectos financiados por fideicomiso Salar del Hombre Muerto al 30/09/2020",
+                            "description":       "Proyectos financiados por fideicomiso Salar del Hombre Muerto al 30/09/2020",
+                            "fileName":     "financiamiento-fideicomiso-salar-del-hombre-muerto-20201031.xlsx",
+                            "type":         "file.upload",
+                            "issued":       "2020-12-01T04:59:17.788722",
+                            "modified":     "2020-12-23T09:46:54.011335",
+                            "license":      "CC-BY-4.0",
+                            "field":       [{"type": "string", "description": "C\u00f3digo de identificaci\u00f3n de la provincia", "title": "provincia_id"}, {"type": "string", "description": "Nombre de la provincia", "title": "provincia_nombre"}, {"type": "string", "description": "C\u00f3digo de identificaci\u00f3n del departamento", "title": "departamento_id"}, {"type": "string", "description": "Nombre del departamento", "title": "departamento_nombre"}, {"type": "string", "description": "C\u00f3digo de identificaci\u00f3n de la localidad", "title": "localidad_id"}, {"type": "string", "description": "Nombre de la localidad", "title": "localidad_nombre"}, {"type": "string", "description": "Area de incumbencia del proyecto", "title": "proyecto_area"}, {"type": "string", "description": "Nombre del proyecto", "title": "proyecto_nombre"}, {"type": "string", "description": "Estado del proyecto En ejecucion | Paralizado | Finalizado | Rescindido", "title": "proyecto_estado"}, {"type": "string", "description": "Moneda del presupuesto oficial ARS", "title": "proyecto_presupuesto_oficial_moneda_id"}, {"type": "number", "description": "Monto del presupuesto oficial adjudicado", "title": "proyecto_adjudicado_monto"}, {"type": "date", "description": "Fecha de inicio del proyecto", "title": "proyecto_fecha_inicio"}, {"type": "integer", "description": "Plazo de ejecuci\u00f3n del proyecto", "title": "proyecto_plazo_ejecucion_meses"}, {"type": "number", "description": "Porcentaje de avance real del proyecto", "title": "proyecto_porcentaje_avance_real"}, {"type": "string", "description": "Observaciones del proyecto", "title": "proyecto_observacion"}, {"type": "string", "description": "Tipo de identificaci\u00f3n de la empresa adjudicataria", "title": "empresa_adjudicataria_tipo_id"}, {"type": "string", "description": "Identificaci\u00f3n de la empresa", "title": "empresa_adjudicataria_id"}, {"type": "string", "description": "Nombre de la empresa adjudicataria", "title": "empresa_adjudicataria_nombre"}, {"type": "string", "description": "C\u00f3digo de identificaci\u00f3n del pais de la empresa adjudicataria", "title": "empresa_adjudicataria_pais_id"}, {"type": "string", "description": "Nombre del pa\u00eds de la empresa adjudicataria", "title": "empresa_adjudicataria_pais_nombre"}, {"type": "integer", "description": "Identificaci\u00f3n del Objetivo de desarrollo sostenible", "title": "ods_id"}, {"type": "string", "description": "Objetivo de desarrollo sostenible", "title": "ods_nombre"}, {"type": "string", "description": "Identificaci\u00f3n de la meta del objetivo de desarrollo sostenible", "title": "ods_meta_id"}, {"type": "string", "description": "Descripci\u00f3n de la meta del objetivo de desarrollo sostenible", "title": "ods_meta_descripcion"}],
+                            "accessURL": "http://www.planificacion.catamarca.gob.ar/ods/",
+                            "downloadURL": "http://datos.catamarca.gob.ar/dataset/9621455b-7b4d-4d0f-8115-9556ac63a4bc/resource/f39ab5fe-0044-43cc-966f-cc768ecdd294/download/financiamiento-fideicomiso-salar-del-hombre-muerto-20201031.xlsx",
+                            "identifier":       "f39ab5fe-0044-43cc-966f-cc768ecdd294"
+                        } 
+                    
+                    ],
+                "keyword":        ["Financiamiento", "ODS", "Objetivos de desarrollo sostenibles", "Proyectos"],
+                "superTheme":         ["ECON"],
+                "language":       ["spa"],
+                "theme":          ["economia-y-finanzas"],
+                "accrualPeriodicity": "R/P1M",
+                "temporal":      "2020-09-01T03:00:00.000Z/2020-09-30T03:00:00.000Z",
+                "identifier":           "9621455b-7b4d-4d0f-8115-9556ac63a4bc"
+            } 
+        ]
+}

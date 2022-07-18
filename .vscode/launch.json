@@ -11,7 +11,7 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": false,
-            "args": ["--file",".\\test\\samples\\nodos.csv"]
+            "args": ["--file",".\\test\\samples\\single_node.csv"]
         }
     ]
 }
