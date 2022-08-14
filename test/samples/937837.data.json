@@ -1,0 +1,2584 @@
+{
+    "title": "CKAN",
+    "description": "Portal de datos públicos",
+    "publisher": {
+        "name": "CKAN",
+        "mbox": null
+    },
+    "superThemeTaxonomy": "http://datos.gob.ar/superThemeTaxonomy.json",
+    "dataset": [
+        {
+            "title": "Bloques, Interbloques e Integración",
+            "description": "Listado actual de los Bloques e Interbloques que conforman la Cámara, y de los diputados que integran cada uno de ellos.",
+            "issued": "2017-11-07T14:09:50.758788",
+            "modified": "2022-04-05T11:58:53.168480",
+            "license": "Creative Commons Attribution",
+            "identifier": "b238e6ab-691a-4e64-91d9-1445c4506ef4",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Doc_bloques_int.pdf",
+            "publisher": {
+                "name": "Dirección de Coordinación de Labor Parlamentaria",
+                "mbox": "dclp@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección de Coordinación de Labor Parlamentaria",
+                "hasEmail": "dclp@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/b238e6ab-691a-4e64-91d9-1445c4506ef4/resource/02a14a9d-b868-4565-9a76-6f458e9227dd/download/listado_actual_de_bloques1.8.csv",
+                    "title": "Listado actual de Bloques de la Cámara de Diputados",
+                    "issued": "2017-11-07T14:10:35.947777",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-04-05T11:56:13.505020",
+                    "mediaType": "text/csv",
+                    "byteSize": 2359,
+                    "identifier": "02a14a9d-b868-4565-9a76-6f458e9227dd",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/b238e6ab-691a-4e64-91d9-1445c4506ef4/resource/02a14a9d-b868-4565-9a76-6f458e9227dd"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/b238e6ab-691a-4e64-91d9-1445c4506ef4/resource/9bb8f5e9-c316-46b4-9ae5-d5681f349511/download/listado_actual_de_interbloques2.7.csv",
+                    "title": "Listado actual de Interbloques de la Cámara de Diputados",
+                    "issued": "2017-11-07T14:11:38.883064",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-04-05T11:57:14.681686",
+                    "mediaType": "text/csv",
+                    "byteSize": 400,
+                    "identifier": "9bb8f5e9-c316-46b4-9ae5-d5681f349511",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/b238e6ab-691a-4e64-91d9-1445c4506ef4/resource/9bb8f5e9-c316-46b4-9ae5-d5681f349511"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/b238e6ab-691a-4e64-91d9-1445c4506ef4/resource/237f85b1-0b99-42e4-9b64-31a3935870a2/download/composicion_actual_bloques_parlamentarios2.7.csv",
+                    "title": "Composición actual de bloques parlamentarios",
+                    "issued": "2017-11-07T14:12:13.515863",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-04-05T11:58:32.005461",
+                    "mediaType": "text/csv",
+                    "byteSize": 15702,
+                    "identifier": "237f85b1-0b99-42e4-9b64-31a3935870a2",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/b238e6ab-691a-4e64-91d9-1445c4506ef4/resource/237f85b1-0b99-42e4-9b64-31a3935870a2"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/b238e6ab-691a-4e64-91d9-1445c4506ef4/resource/0bffcf81-a458-4deb-a0b9-b5e83399eadb/download/listado_actual_de_bloques1.8.json",
+                    "title": "Listado actual de Bloques de la Cámara de Diputados",
+                    "issued": "2018-04-23T15:26:02.337101",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-04-05T11:56:39.026199",
+                    "mediaType": "application/json",
+                    "byteSize": 5496,
+                    "identifier": "0bffcf81-a458-4deb-a0b9-b5e83399eadb",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/b238e6ab-691a-4e64-91d9-1445c4506ef4/resource/0bffcf81-a458-4deb-a0b9-b5e83399eadb"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/b238e6ab-691a-4e64-91d9-1445c4506ef4/resource/d070eac4-230b-4e09-aadb-5bf75bed8d11/download/listado_actual_de_interbloques2.7.json",
+                    "title": "Listado actual de Interbloques de la Cámara de Diputados",
+                    "issued": "2018-04-23T15:27:45.945576",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-04-05T11:57:50.326922",
+                    "mediaType": "application/json",
+                    "byteSize": 843,
+                    "identifier": "d070eac4-230b-4e09-aadb-5bf75bed8d11",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/b238e6ab-691a-4e64-91d9-1445c4506ef4/resource/d070eac4-230b-4e09-aadb-5bf75bed8d11"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/b238e6ab-691a-4e64-91d9-1445c4506ef4/resource/233a2e63-1583-4317-99f2-10bcb12a919d/download/composicion_actual_bloques_parlamentarios2.7.json",
+                    "title": "Composición actual de bloques parlamentarios",
+                    "issued": "2018-04-23T15:29:16.123323",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-04-05T11:58:53.155807",
+                    "mediaType": "application/json",
+                    "byteSize": 38617,
+                    "identifier": "233a2e63-1583-4317-99f2-10bcb12a919d",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/b238e6ab-691a-4e64-91d9-1445c4506ef4/resource/233a2e63-1583-4317-99f2-10bcb12a919d"
+                }
+            ],
+            "theme": [
+                "bloques",
+                "legisladores-nacionales"
+            ],
+            "keyword": [
+                "bloques",
+                "conformación",
+                "diputados actuales",
+                "interbloques",
+                "legisladores"
+            ]
+        },
+        {
+            "title": "Comisiones",
+            "description": "Comisiones parlamentarias permanentes, especiales y bicamerales en las que interviene la Cámara de Diputados.\r\n\r\nLas presentes son replicas en formatos abiertos de la información publicada en la pagina oficial de la HCDN (http://hcdn.gob.ar/comisiones/index.html) Cualquier error o diferencia se tomara como valida la información publicada en la pagina oficial.",
+            "issued": "2018-06-05T14:03:04.547163",
+            "modified": "2022-08-09T21:41:55.111772",
+            "license": "Creative Commons Attribution",
+            "identifier": "a71100a5-f569-4881-8528-aec6fd9232c8",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – COMISIONES.pdf",
+            "publisher": {
+                "name": "Dirección de Información Parlamentaria",
+                "mbox": "dip@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección de Información Parlamentaria",
+                "hasEmail": "dip@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/6774a719-b439-4ef9-8943-9ea66bb588c6/download/comisiones1.5.csv",
+                    "title": "Comisiones",
+                    "issued": "2018-06-05T14:03:29.224642",
+                    "description": "Comisiones parlamentarias permanentes, especiales y bicamerales en las que interviene la Cámara de Diputados.",
+                    "format": "CSV",
+                    "modified": "2022-04-05T20:42:38.301275",
+                    "mediaType": "text/csv",
+                    "byteSize": 2495,
+                    "identifier": "6774a719-b439-4ef9-8943-9ea66bb588c6",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/6774a719-b439-4ef9-8943-9ea66bb588c6"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/4d6ac4e3-8113-42b8-831f-fda680d7e604/download/dictamenes-de-leyes-sancionadas.csv",
+                    "title": "Dictamenes Leyes Sancionadas",
+                    "issued": "2019-10-21T13:29:33.948857",
+                    "description": "Dictámenes de las comisiones de ambas Cámaras sobre expedientes parlamentarios iniciados desde el período parlamentario 126º (01/03/2008).",
+                    "format": "CSV",
+                    "modified": "2019-10-21T13:29:33.888630",
+                    "mediaType": "text/csv",
+                    "byteSize": 144219,
+                    "identifier": "4d6ac4e3-8113-42b8-831f-fda680d7e604",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/4d6ac4e3-8113-42b8-831f-fda680d7e604"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/79334dda-b3af-4056-b930-0f288f5dfaeb/download/giro-a-comisiones-de-leyes-sancionadas1.1.csv",
+                    "title": "Giro a Comisiones de Leyes Sancionadas",
+                    "issued": "2019-10-21T13:31:51.027975",
+                    "description": "Comisiones parlamentarias de ambas Cámaras que recibieron expedientes para dictaminar, en proyectos ingresados desde el período parlamentario 126° (01/03/2008) y que resultaron sancionados definitivamente. Los proyectos ingresados en cada Cámara son girados a las comisiones que tengan incumbencia según lo fijado por el reglamento o por norma respectiva, para que se expida.",
+                    "format": "CSV",
+                    "modified": "2022-04-05T20:46:39.782136",
+                    "mediaType": "text/csv",
+                    "byteSize": 217491,
+                    "identifier": "79334dda-b3af-4056-b930-0f288f5dfaeb",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/79334dda-b3af-4056-b930-0f288f5dfaeb"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/bef1610c-ad55-4651-826a-5a0abee8f8a6/download/comisiones_autoridades.csv",
+                    "title": "Comisiones Permanentes Autoridades ",
+                    "issued": "2022-08-09T19:45:27.746701",
+                    "description": "Autoridades  de cada una de las comisiones Permanentes",
+                    "format": "CSV",
+                    "modified": "2022-08-09T19:45:27.658282",
+                    "mediaType": "text/csv",
+                    "byteSize": 17428,
+                    "identifier": "bef1610c-ad55-4651-826a-5a0abee8f8a6",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/bef1610c-ad55-4651-826a-5a0abee8f8a6"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/8f360114-2663-43e3-99b2-e588560e5bec/download/integrantes.csv",
+                    "title": "Comisiones Permanentes - integrantes ",
+                    "issued": "2022-08-09T20:20:08.004121",
+                    "description": "integrantes de cada una de las comisiones Permanentes",
+                    "format": "CSV",
+                    "modified": "2022-08-09T20:20:07.952803",
+                    "mediaType": "text/csv",
+                    "byteSize": 57204,
+                    "identifier": "8f360114-2663-43e3-99b2-e588560e5bec",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/8f360114-2663-43e3-99b2-e588560e5bec"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/68bd5ebb-991f-4a4a-8ffd-4eee0fd608bb/download/integrantes_bloque.csv",
+                    "title": "Comisiones Permanentes integrantes por Bloque",
+                    "issued": "2022-08-09T20:22:07.650011",
+                    "description": "Integración de cada una de las comisiones Permanentes dividida por el bloque ",
+                    "format": "CSV",
+                    "modified": "2022-08-09T20:22:07.594223",
+                    "mediaType": "text/csv",
+                    "byteSize": 58047,
+                    "identifier": "68bd5ebb-991f-4a4a-8ffd-4eee0fd608bb",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/68bd5ebb-991f-4a4a-8ffd-4eee0fd608bb"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/0bd70e66-1872-44dd-adb0-067406d152b1/download/integrantes_genero.csv",
+                    "title": "Comisiones Permanentes integrantes por Género",
+                    "issued": "2022-08-09T20:23:18.965049",
+                    "description": "Integración de cada una de las comisiones Permanentes dividida por género",
+                    "format": "CSV",
+                    "modified": "2022-08-09T20:23:18.909841",
+                    "mediaType": "text/csv",
+                    "byteSize": 43185,
+                    "identifier": "0bd70e66-1872-44dd-adb0-067406d152b1",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/0bd70e66-1872-44dd-adb0-067406d152b1"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/0ae7cf69-b859-47fa-8a5d-d62b1785d458/download/comisiones1.5.json",
+                    "title": "Comisiones",
+                    "issued": "2018-06-05T14:03:49.704423",
+                    "description": "Comisiones parlamentarias permanentes, especiales y bicamerales en las que interviene la Cámara de Diputados.",
+                    "format": "JSON",
+                    "modified": "2022-04-05T20:42:58.701634",
+                    "mediaType": "application/json",
+                    "byteSize": 6577,
+                    "identifier": "0ae7cf69-b859-47fa-8a5d-d62b1785d458",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/0ae7cf69-b859-47fa-8a5d-d62b1785d458"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/326908e7-749f-4f61-a0aa-9948b67043bb/download/dictamenes-de-leyes-sancionadas.json",
+                    "title": "Dictamenes Leyes Sancionadas",
+                    "issued": "2019-10-21T13:30:31.943618",
+                    "description": "Dictámenes de las comisiones de ambas Cámaras sobre expedientes parlamentarios iniciados desde el período parlamentario 126º (01/03/2008).",
+                    "format": "JSON",
+                    "modified": "2019-10-21T13:30:31.904217",
+                    "mediaType": "application/json",
+                    "byteSize": 410529,
+                    "identifier": "326908e7-749f-4f61-a0aa-9948b67043bb",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/326908e7-749f-4f61-a0aa-9948b67043bb"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/cb94c15b-dd0b-415e-82b3-c8d5ed29919d/download/giro-a-comisiones-de-leyes-sancionadas1.1.json",
+                    "title": "Giros a Comisiones de Leyes Sancionadas",
+                    "issued": "2019-10-21T13:32:31.529342",
+                    "description": "Comisiones parlamentarias de ambas Cámaras que recibieron expedientes para dictaminar, en proyectos ingresados desde el período parlamentario 126° (01/03/2008) y que resultaron sancionados definitivamente. Los proyectos ingresados en cada Cámara son girados a las comisiones que tengan incumbencia según lo fijado por el reglamento o por norma respectiva, para que se expida.",
+                    "format": "JSON",
+                    "modified": "2022-04-05T20:47:11.979101",
+                    "mediaType": "application/json",
+                    "byteSize": 550359,
+                    "identifier": "cb94c15b-dd0b-415e-82b3-c8d5ed29919d",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/cb94c15b-dd0b-415e-82b3-c8d5ed29919d"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/05d9e5f7-2a69-4e10-ba25-9700b9189870/download/comisiones_autoridades.json",
+                    "title": "Comisiones Permanentes Autoridades",
+                    "issued": "2022-08-09T20:18:44.996767",
+                    "description": "Autoridades  de cada una de las comisiones Permanentes",
+                    "format": "JSON",
+                    "modified": "2022-08-09T20:18:44.935804",
+                    "mediaType": "application/json",
+                    "byteSize": 43332,
+                    "identifier": "05d9e5f7-2a69-4e10-ba25-9700b9189870",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/05d9e5f7-2a69-4e10-ba25-9700b9189870"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/5702c048-bf82-4a87-a881-390acaa3f8af/download/integrantes.json",
+                    "title": "Comisiones Permanentes - integrantes ",
+                    "issued": "2022-08-09T20:20:51.792835",
+                    "description": "integrantes de cada una de las comisiones Permanentes",
+                    "format": "JSON",
+                    "modified": "2022-08-09T20:20:51.659380",
+                    "mediaType": "application/json",
+                    "byteSize": 169956,
+                    "identifier": "5702c048-bf82-4a87-a881-390acaa3f8af",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/5702c048-bf82-4a87-a881-390acaa3f8af"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/7b5b51fc-fab5-480b-b638-3c05c61deb24/download/integrantes_bloque.json",
+                    "title": "Comisiones Permanentes integrantes por Bloque ",
+                    "issued": "2022-08-09T20:22:35.589434",
+                    "description": "Integración de cada una de las comisiones Permanentes dividida por el bloque ",
+                    "format": "JSON",
+                    "modified": "2022-08-09T20:22:35.536787",
+                    "mediaType": "application/json",
+                    "byteSize": 167264,
+                    "identifier": "7b5b51fc-fab5-480b-b638-3c05c61deb24",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/7b5b51fc-fab5-480b-b638-3c05c61deb24"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/ddf6ebff-784c-4ff0-8c96-2e3955919b41/download/integrantes_genero.json",
+                    "title": "Comisiones Permanentes integrantes por Género",
+                    "issued": "2022-08-09T20:23:37.490544",
+                    "description": "Integración de cada una de las comisiones Permanentes dividida por género",
+                    "format": "JSON",
+                    "modified": "2022-08-09T20:23:37.432628",
+                    "mediaType": "application/json",
+                    "byteSize": 169993,
+                    "identifier": "ddf6ebff-784c-4ff0-8c96-2e3955919b41",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a71100a5-f569-4881-8528-aec6fd9232c8/resource/ddf6ebff-784c-4ff0-8c96-2e3955919b41"
+                }
+            ],
+            "theme": [
+                "comisiones"
+            ],
+            "keyword": [
+                "comisiones",
+                "comisiones especiales",
+                "comisiones permanentes",
+                "dictámenes",
+                "giros",
+                "reglamento"
+            ]
+        },
+        {
+            "title": "Diarios de Sesiones",
+            "description": " El Diario de Sesiones es la publicación oficial de la Honorable Cámara de la que surge el debate parlamentario y las sanciones que han tenido lugar. Se lo confecciona por medio del Cuerpo de Taquígrafos, integrado en su totalidad por empleados técnicos de carrera que hicieron su ingreso por concurso público de oposición y antecedentes, y que se valen para su labor del uso de la taquigrafía y estenotipia, quienes en su carácter de funcionarios públicos dan fe de todo cuanto acontece en el recinto de sesiones.",
+            "issued": "2018-05-08T16:57:50.566500",
+            "modified": "2022-04-04T14:12:50.786347",
+            "license": "Creative Commons Attribution",
+            "identifier": "de9dba3e-f6c3-401a-9786-9253af8c34e8",
+            "landingPage": "",
+            "publisher": {
+                "name": "Dirección de Información Parlamentaria",
+                "mbox": "dip@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección de Información Parlamentaria",
+                "hasEmail": "dip@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/de9dba3e-f6c3-401a-9786-9253af8c34e8/resource/ee980a48-d8f9-46a9-83e0-8fd178104ae6/download/diarios-de-sesiones2.2.csv",
+                    "title": "Diario de Sesiones",
+                    "issued": "2018-05-09T17:53:47.894606",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-04-04T14:12:14.526957",
+                    "mediaType": "text/csv",
+                    "byteSize": 26946,
+                    "identifier": "ee980a48-d8f9-46a9-83e0-8fd178104ae6",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/de9dba3e-f6c3-401a-9786-9253af8c34e8/resource/ee980a48-d8f9-46a9-83e0-8fd178104ae6"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/de9dba3e-f6c3-401a-9786-9253af8c34e8/resource/0cc5b87d-1c0b-4163-9719-f8c4397aa835/download/diarios-de-sesiones2.2.json",
+                    "title": "Diario de sesiones",
+                    "issued": "2018-06-27T12:44:22.862377",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-04-04T14:12:50.774826",
+                    "mediaType": "application/json",
+                    "byteSize": 57256,
+                    "identifier": "0cc5b87d-1c0b-4163-9719-f8c4397aa835",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/de9dba3e-f6c3-401a-9786-9253af8c34e8/resource/0cc5b87d-1c0b-4163-9719-f8c4397aa835"
+                }
+            ],
+            "theme": [
+                "sesiones"
+            ],
+            "keyword": [
+                "diarios",
+                "periodos",
+                "reuniones",
+                "sesiones",
+                "versiones taquigraficas"
+            ]
+        },
+        {
+            "title": "Dictamenes",
+            "description": "Resoluciones fundadas de las comisiones sobre los expedientes parlamentarios.",
+            "issued": "2019-08-08T14:39:53.672278",
+            "modified": "2022-04-05T20:45:18.241331",
+            "license": "Creative Commons Attribution",
+            "identifier": "47704991-ab9d-4934-bcd3-1115294f6ebf",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Documentacion-dictamenes.pdf",
+            "publisher": {
+                "name": "Secretaría Parlamentaria",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "Secretaria Parlamentaria",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/47704991-ab9d-4934-bcd3-1115294f6ebf/resource/59595a93-5a5e-4ba6-a3db-c1044e2f949e/download/dictamenes2.0.csv",
+                    "title": "Dictamenes",
+                    "issued": "2019-08-08T14:40:16.155511",
+                    "description": "Resoluciones fundadas de las comisiones sobre los expedientes parlamentarios. ",
+                    "format": "CSV",
+                    "modified": "2022-04-05T20:43:53.006816",
+                    "mediaType": "text/csv",
+                    "byteSize": 3210914,
+                    "identifier": "59595a93-5a5e-4ba6-a3db-c1044e2f949e",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/47704991-ab9d-4934-bcd3-1115294f6ebf/resource/59595a93-5a5e-4ba6-a3db-c1044e2f949e"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/47704991-ab9d-4934-bcd3-1115294f6ebf/resource/0688ef92-3c38-4b74-a398-587865fdad20/download/dictamenes2.0.json",
+                    "title": "Dictamentes",
+                    "issued": "2019-08-08T14:40:41.116256",
+                    "description": "Resoluciones fundadas de las comisiones sobre los expedientes parlamentarios. ",
+                    "format": "JSON",
+                    "modified": "2022-04-05T20:45:18.233760",
+                    "mediaType": "application/json",
+                    "byteSize": 7032699,
+                    "identifier": "0688ef92-3c38-4b74-a398-587865fdad20",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/47704991-ab9d-4934-bcd3-1115294f6ebf/resource/0688ef92-3c38-4b74-a398-587865fdad20"
+                }
+            ],
+            "theme": [
+                "comisiones"
+            ],
+            "keyword": []
+        },
+        {
+            "title": "Dietas y Gastos de Representación - Legisladores/as",
+            "description": "Remuneración de Legisladores/as Nacionales por dieta, gastos de representación, desarraigo y movilidad, y los respectivos descuentos. ",
+            "issued": "2018-08-13T12:55:08.873168",
+            "modified": "2021-12-13T12:34:43.286983",
+            "license": "Creative Commons Attribution",
+            "identifier": "07518f0f-43f0-41f5-a462-53ed8a1bebb6",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Doc_Dieta.pdf",
+            "publisher": {
+                "name": "Dirección General de Recursos Humanos",
+                "mbox": "dgrrhh@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección General de Recursos Humanos",
+                "hasEmail": "rrhh@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/0c91eb20-f694-4064-a65b-b8bfe3673c7e/download/remuneraciones1.5.csv",
+                    "title": "Remuneraciones",
+                    "issued": "2018-08-13T12:55:50.943407",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2021-12-13T12:34:22.239831",
+                    "mediaType": "text/csv",
+                    "byteSize": 96,
+                    "identifier": "0c91eb20-f694-4064-a65b-b8bfe3673c7e",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/0c91eb20-f694-4064-a65b-b8bfe3673c7e"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/ac0906c1-62dc-48a0-acc6-e1f10fb7c697/download/desarraigo1.5.csv",
+                    "title": "Desarraigo",
+                    "issued": "2018-08-13T12:56:54.312022",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2021-12-13T12:30:28.057465",
+                    "mediaType": "text/csv",
+                    "byteSize": 61,
+                    "identifier": "ac0906c1-62dc-48a0-acc6-e1f10fb7c697",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/ac0906c1-62dc-48a0-acc6-e1f10fb7c697"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/92101cff-5d92-4887-b49b-eed101e5a1ae/download/movilidad1.5.csv",
+                    "title": "Movilidad",
+                    "issued": "2018-08-13T12:57:45.226044",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2021-12-13T12:33:12.174617",
+                    "mediaType": "text/csv",
+                    "byteSize": 136,
+                    "identifier": "92101cff-5d92-4887-b49b-eed101e5a1ae",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/92101cff-5d92-4887-b49b-eed101e5a1ae"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/52f0279d-5570-4b54-beab-80b522810544/download/descuentos1.5.csv",
+                    "title": "Descuentos",
+                    "issued": "2018-08-13T18:51:00.538189",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2021-12-13T12:31:45.943799",
+                    "mediaType": "text/csv",
+                    "byteSize": 211,
+                    "identifier": "52f0279d-5570-4b54-beab-80b522810544",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/52f0279d-5570-4b54-beab-80b522810544"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/72f5ff51-4394-4149-bd1f-eab7ca0a825f/download/remuneraciones1.5.json",
+                    "title": "Remuneraciones",
+                    "issued": "2018-08-13T13:00:14.135067",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2021-12-13T12:34:43.273785",
+                    "mediaType": "application/json",
+                    "byteSize": 187,
+                    "identifier": "72f5ff51-4394-4149-bd1f-eab7ca0a825f",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/72f5ff51-4394-4149-bd1f-eab7ca0a825f"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/132938a8-345a-45e3-9916-07579227d10f/download/desarraigo1.5.json",
+                    "title": "Desarraigo",
+                    "issued": "2018-08-13T13:00:33.612871",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2021-12-13T12:30:53.593388",
+                    "mediaType": "application/json",
+                    "byteSize": 88,
+                    "identifier": "132938a8-345a-45e3-9916-07579227d10f",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/132938a8-345a-45e3-9916-07579227d10f"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/3f2b2093-59fb-4a21-9e32-ae81b6fdc704/download/movilidad1.5.json",
+                    "title": "Movilidad",
+                    "issued": "2018-08-13T13:01:18.109086",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2021-12-13T12:33:36.209464",
+                    "mediaType": "application/json",
+                    "byteSize": 295,
+                    "identifier": "3f2b2093-59fb-4a21-9e32-ae81b6fdc704",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/3f2b2093-59fb-4a21-9e32-ae81b6fdc704"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/5ef4b425-0c1b-4424-8682-84d8b2811bb0/download/descuentos1.5.json",
+                    "title": "Descuentos",
+                    "issued": "2018-08-13T18:51:22.204196",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2021-12-13T12:32:15.236246",
+                    "mediaType": "application/json",
+                    "byteSize": 478,
+                    "identifier": "5ef4b425-0c1b-4424-8682-84d8b2811bb0",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/07518f0f-43f0-41f5-a462-53ed8a1bebb6/resource/5ef4b425-0c1b-4424-8682-84d8b2811bb0"
+                }
+            ],
+            "theme": [
+                "legisladores-nacionales",
+                "nomina-de-personal"
+            ],
+            "keyword": [
+                "descuentos",
+                "dieta",
+                "diputadas",
+                "diputados",
+                "gastos de representación",
+                "liquidación",
+                "movilidad",
+                "recibos",
+                "remuneración",
+                "sueldo"
+            ]
+        },
+        {
+            "title": "Ejecución Presupuestaria de la Cámara de Diputados de la Nación",
+            "description": "Información sobre la ejecución presupuestaria de la Cámara de Diputados de la Nación por partida parcial, incluyendo el compromiso preventivo, el compromiso reservado, el compromiso consumido, el devengado reservado, devengado consumido y el crédito vigente.",
+            "issued": "2017-11-07T14:18:07.363849",
+            "modified": "2022-05-23T21:23:40.477187",
+            "license": "Creative Commons Attribution",
+            "identifier": "2d37c6ab-0f77-45be-a8ad-40425be66c51",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Documentación Ejecución Presupuestaria.pdf",
+            "publisher": {
+                "name": "Dirección General Administrativo Contable",
+                "mbox": "dgac@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección General Administrativo Contable",
+                "hasEmail": "dgac@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/a52ee255-012f-4208-80d1-6ad7d195f272/download/ejecucion-1-trimestre-ej.-2022.csv",
+                    "title": "EJECUCIÓN PRESUPUESTARIA PRIMER TRIMESTRE 2022",
+                    "issued": "2022-05-23T20:04:09.903867",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-05-23T21:22:53.110323",
+                    "mediaType": "text/csv",
+                    "byteSize": 10243,
+                    "identifier": "a52ee255-012f-4208-80d1-6ad7d195f272",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/a52ee255-012f-4208-80d1-6ad7d195f272"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/0b1b6993-4ed0-4d36-bbcf-33c1c5d9bf5d/download/ejecucion-cuarto-trim-2021.csv",
+                    "title": "EJECUCIÓN PRESUPUESTARIA CUARTO TRIMESTRE 2021",
+                    "issued": "2022-03-01T12:50:03.601362",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-03-01T12:52:38.978061",
+                    "mediaType": "text/csv",
+                    "byteSize": 10311,
+                    "identifier": "0b1b6993-4ed0-4d36-bbcf-33c1c5d9bf5d",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/0b1b6993-4ed0-4d36-bbcf-33c1c5d9bf5d"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/7960ee35-a44d-489a-915c-3fbf1ba95375/download/ejecucion-tercer-trimestre-2021-dab-0007.csv",
+                    "title": "EJECUCIÓN PRESUPUESTARIA TERCER TRIMESTRE 2021",
+                    "issued": "2021-11-12T18:11:20.027262",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2021-11-12T18:11:19.984280",
+                    "mediaType": "text/csv",
+                    "byteSize": 8801,
+                    "identifier": "7960ee35-a44d-489a-915c-3fbf1ba95375",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/7960ee35-a44d-489a-915c-3fbf1ba95375"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/1e641c19-868e-4678-bf38-895649c2bdf1/download/ejecucion-segundo-trimestre-2021-dab-0006.csv",
+                    "title": "EJECUCIÓN PRESUPUESTARIA SEGUNDO TRIMESTRE 2021",
+                    "issued": "2021-11-12T18:07:24.046764",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2021-11-12T18:07:24.004437",
+                    "mediaType": "text/csv",
+                    "byteSize": 9400,
+                    "identifier": "1e641c19-868e-4678-bf38-895649c2bdf1",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/1e641c19-868e-4678-bf38-895649c2bdf1"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/97affb2e-c5ef-46aa-a56d-2c3f7c85f02a/download/ejecucion-1-trimestre-2021-dab-0005.csv",
+                    "title": "EJECUCIÓN PRESUPUESTARIA PRIMER TRIMESTRE 2021",
+                    "issued": "2021-11-12T18:00:37.985963",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2021-11-12T18:04:21.805697",
+                    "mediaType": "text/csv",
+                    "byteSize": 9602,
+                    "identifier": "97affb2e-c5ef-46aa-a56d-2c3f7c85f02a",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/97affb2e-c5ef-46aa-a56d-2c3f7c85f02a"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/0a4c7d7a-970a-46e3-a632-e8dcae007be3/download/ejecucion-presupuestaria-2020-dab-0004.csv",
+                    "title": "EJECUCIÓN PRESUPUESTARIA 2020",
+                    "issued": "2021-11-12T17:44:05.281633",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2021-11-12T17:44:05.197162",
+                    "mediaType": "text/csv",
+                    "byteSize": 8639,
+                    "identifier": "0a4c7d7a-970a-46e3-a632-e8dcae007be3",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/0a4c7d7a-970a-46e3-a632-e8dcae007be3"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/465dc18d-a63c-4456-8a40-467927bcc99a/download/ejecucion_al_31_diciembre_2018.csv",
+                    "title": "EJECUCIÓN PRESUPUESTARIA 2018",
+                    "issued": "2018-04-09T16:49:29.391099",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2019-01-08T13:54:08.223059",
+                    "mediaType": "text/csv",
+                    "byteSize": 19146,
+                    "identifier": "465dc18d-a63c-4456-8a40-467927bcc99a",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/465dc18d-a63c-4456-8a40-467927bcc99a"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/a21eed7a-3c8f-45ab-9cd4-3d2ffea75e6d/download/ejecucion_2017.1.2.csv",
+                    "title": "Ejecución Presupuestaria 2017",
+                    "issued": "2017-11-07T14:19:23.274760",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2018-04-27T12:52:54.566487",
+                    "mediaType": "text/csv",
+                    "byteSize": 18626,
+                    "identifier": "a21eed7a-3c8f-45ab-9cd4-3d2ffea75e6d",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/a21eed7a-3c8f-45ab-9cd4-3d2ffea75e6d"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/2e06fe50-853d-4f90-9b47-e8c971f0bc01/download/ejecucion_2016.1.1.csv",
+                    "title": "Ejecución Presupuestaria 2016",
+                    "issued": "2017-11-07T14:18:42.657573",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2018-04-27T12:51:33.035527",
+                    "mediaType": "text/csv",
+                    "byteSize": 18857,
+                    "identifier": "2e06fe50-853d-4f90-9b47-e8c971f0bc01",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/2e06fe50-853d-4f90-9b47-e8c971f0bc01"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/e0b876da-1884-47d4-9046-4e7a6d816b0f/download/ejecucion-al-31-de-diciembre2019.csv",
+                    "title": "EJECUCIÓN PRESUPUESTARIA AL 31 DE DICIEMBRE DEL 2019",
+                    "issued": "2019-03-14T15:01:30.076676",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2020-01-13T14:06:42.885315",
+                    "mediaType": "text/csv",
+                    "byteSize": 18530,
+                    "identifier": "e0b876da-1884-47d4-9046-4e7a6d816b0f",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/e0b876da-1884-47d4-9046-4e7a6d816b0f"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/448d2a82-b3ce-4c8c-a4c6-1676ac86f82b/download/ejecucion-presupuestaria-2020-dab-0004.json",
+                    "title": "Ejecución Presupuestaria 2020",
+                    "issued": "2021-11-12T17:52:58.065113",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2021-11-12T17:52:58.026802",
+                    "mediaType": "application/json",
+                    "byteSize": 13153,
+                    "identifier": "448d2a82-b3ce-4c8c-a4c6-1676ac86f82b",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/448d2a82-b3ce-4c8c-a4c6-1676ac86f82b"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/067e1850-33d1-40b2-947c-9fb6884918b2/download/ejecucion-al-30-de-noviembre-2019.json",
+                    "title": "EJECUCIÓN PRESUPUESTARIA AL 30 DE NOVIEMBRE DEL 2019",
+                    "issued": "2019-03-14T15:02:11.281651",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2019-12-16T17:16:56.449273",
+                    "mediaType": "application/json",
+                    "byteSize": 57678,
+                    "identifier": "067e1850-33d1-40b2-947c-9fb6884918b2",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/067e1850-33d1-40b2-947c-9fb6884918b2"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/2c609835-0981-4272-babd-898995664007/download/ejecucion-al-30-de-abril-2019.json",
+                    "title": "EJECUCIÓN PRESUPUESTARIA AL 30 DE ABRIL DEL 2019",
+                    "issued": "2018-04-23T13:34:24.568128",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2019-05-10T15:42:28.380591",
+                    "mediaType": "application/json",
+                    "byteSize": 56067,
+                    "identifier": "2c609835-0981-4272-babd-898995664007",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/2c609835-0981-4272-babd-898995664007"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/4a8c8357-7358-4e5a-b368-dfc17688864d/download/ejecucion_2017.1.2.json",
+                    "title": "Ejecución Presupuestaria 2017",
+                    "issued": "2018-04-23T13:33:36.985789",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2018-04-27T12:53:23.354333",
+                    "mediaType": "application/json",
+                    "byteSize": 57694,
+                    "identifier": "4a8c8357-7358-4e5a-b368-dfc17688864d",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/4a8c8357-7358-4e5a-b368-dfc17688864d"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/e560f9b3-3ea9-4af7-b0df-2d6a9d1a30e8/download/ejecucion_2016.1.1.json",
+                    "title": "Ejecución Presupuestaria 2016",
+                    "issued": "2018-04-23T13:33:04.985721",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2018-04-27T12:52:06.306160",
+                    "mediaType": "application/json",
+                    "byteSize": 59703,
+                    "identifier": "e560f9b3-3ea9-4af7-b0df-2d6a9d1a30e8",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/e560f9b3-3ea9-4af7-b0df-2d6a9d1a30e8"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/5da7646a-ae2f-46bc-9f0b-780b11fa9ba0/download/ejecucion-primer-trimestre-2021-dab-0005.json",
+                    "title": "EJECUCIÓN PRESUPUESTARIA PRIMER TRIMESTRE 2021",
+                    "issued": "2021-11-12T18:06:32.954957",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2021-11-12T18:06:32.907932",
+                    "mediaType": "application/json",
+                    "byteSize": 9964,
+                    "identifier": "5da7646a-ae2f-46bc-9f0b-780b11fa9ba0",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/5da7646a-ae2f-46bc-9f0b-780b11fa9ba0"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/3aa67026-51c6-4a70-b61f-2a38e7a05372/download/ejecucion-segundo-trimestre-2021-dab-0006.json",
+                    "title": "EJECUCIÓN PRESUPUESTARIA SEGUNDO TRIMESTRE 2021",
+                    "issued": "2021-11-12T18:10:18.588150",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2021-11-12T18:10:18.548325",
+                    "mediaType": "application/json",
+                    "byteSize": 8969,
+                    "identifier": "3aa67026-51c6-4a70-b61f-2a38e7a05372",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/3aa67026-51c6-4a70-b61f-2a38e7a05372"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/78a94882-413e-4888-94f3-9e56a7182e2d/download/ejecucion-tercer-trimestre-2021-dab-0007.json",
+                    "title": "EJECUCIÓN PRESUPUESTARIA TERCER TRIMESTRE 2021",
+                    "issued": "2021-11-12T18:11:59.864708",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2021-11-12T18:11:59.812711",
+                    "mediaType": "application/json",
+                    "byteSize": 15932,
+                    "identifier": "78a94882-413e-4888-94f3-9e56a7182e2d",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/78a94882-413e-4888-94f3-9e56a7182e2d"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/5cd45236-9325-46e9-bbac-16e611c0f64f/download/ejecucion-cuarto-trim-2021.json",
+                    "title": "EJECUCIÓN PRESUPUESTARIA CUARTO TRIMESTRE 2021",
+                    "issued": "2022-03-01T12:54:07.632534",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-03-01T12:54:07.584642",
+                    "mediaType": "application/json",
+                    "byteSize": 12104,
+                    "identifier": "5cd45236-9325-46e9-bbac-16e611c0f64f",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/5cd45236-9325-46e9-bbac-16e611c0f64f"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/8e1dd5cd-6281-47e4-9799-f9bc78b93210/download/ejecucion-1-trimestre-ej.-2022.json",
+                    "title": "EJECUCIÓN PRESUPUESTARIA PRIMER TRIMESTRE 2022",
+                    "issued": "2022-05-23T20:04:54.122515",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-05-23T21:23:40.457688",
+                    "mediaType": "application/json",
+                    "byteSize": 425618,
+                    "identifier": "8e1dd5cd-6281-47e4-9799-f9bc78b93210",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2d37c6ab-0f77-45be-a8ad-40425be66c51/resource/8e1dd5cd-6281-47e4-9799-f9bc78b93210"
+                }
+            ],
+            "theme": [
+                "administracion-financiera-y-contable"
+            ],
+            "keyword": [
+                "gastos",
+                "presupuesto",
+                "recursos"
+            ]
+        },
+        {
+            "title": "Escala Salarial",
+            "description": "Detalle del sueldo total clasificado por categorías.",
+            "issued": "2018-04-26T13:16:11.471778",
+            "modified": "2020-10-14T21:59:48.071159",
+            "license": "Creative Commons Attribution",
+            "identifier": "e471dfa2-92ab-4c6d-9bd1-b46d97c6ea1b",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Doc Escala Salarial.pdf",
+            "publisher": {
+                "name": "Dirección General de Recursos Humanos",
+                "mbox": "dgrrhh@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección General de Recursos Humanos",
+                "hasEmail": "dgrrhh@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/e471dfa2-92ab-4c6d-9bd1-b46d97c6ea1b/resource/673f193d-1cfb-46e0-b6c8-e931aa0a5314/download/escala-salarial1.3.csv",
+                    "title": "Escala Salarial",
+                    "issued": "2018-04-26T13:18:16.386121",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2020-10-14T21:59:03.903753",
+                    "mediaType": "text/csv",
+                    "byteSize": 193,
+                    "identifier": "673f193d-1cfb-46e0-b6c8-e931aa0a5314",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/e471dfa2-92ab-4c6d-9bd1-b46d97c6ea1b/resource/673f193d-1cfb-46e0-b6c8-e931aa0a5314"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/e471dfa2-92ab-4c6d-9bd1-b46d97c6ea1b/resource/faaddbc7-ff11-4e1f-afe2-93af873fd0ef/download/escala-salarial1.3.json",
+                    "title": "Escala Salarial",
+                    "issued": "2018-04-26T13:18:31.558521",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2020-10-14T21:59:48.062575",
+                    "mediaType": "application/json",
+                    "byteSize": 591,
+                    "identifier": "faaddbc7-ff11-4e1f-afe2-93af873fd0ef",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/e471dfa2-92ab-4c6d-9bd1-b46d97c6ea1b/resource/faaddbc7-ff11-4e1f-afe2-93af873fd0ef"
+                }
+            ],
+            "theme": [
+                "nomina-de-personal"
+            ],
+            "keyword": [
+                "adicionales",
+                "sueldo",
+                "sueldo básico",
+                "títulos"
+            ]
+        },
+        {
+            "title": "Estructura orgánica de la Cámara de Diputados de la Nación",
+            "description": "Información sobre la estructura orgánica y autoridades de la Cámara de Diputados de la Nación, donde se especifica el nombre de cada unidad, el cargo, nombre y apellido del titular, y el nombre de la unidad de la que depende la presente unidad.",
+            "issued": "2017-11-07T14:16:22.586708",
+            "modified": "2021-06-18T14:47:34.142547",
+            "license": "Creative Commons Attribution",
+            "identifier": "9a3efb31-5564-4690-bfa3-f0cbb6fd0534",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Doc Estructura Orgánica.pdf",
+            "publisher": {
+                "name": "Dirección General de Recursos Humanos",
+                "mbox": "dgrrhh@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección General de Recursos Humanos",
+                "hasEmail": "dgrrhh@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/9a3efb31-5564-4690-bfa3-f0cbb6fd0534/resource/c6646110-e042-43e0-b119-8c5a32ae954d/download/estructura-organica2.6.csv",
+                    "title": "Estructura orgánica de la Cámara de Diputados de la Nación",
+                    "issued": "2017-11-07T14:17:06.026088",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2021-06-18T14:46:59.987480",
+                    "mediaType": "text/csv",
+                    "byteSize": 10714,
+                    "identifier": "c6646110-e042-43e0-b119-8c5a32ae954d",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/9a3efb31-5564-4690-bfa3-f0cbb6fd0534/resource/c6646110-e042-43e0-b119-8c5a32ae954d"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/9a3efb31-5564-4690-bfa3-f0cbb6fd0534/resource/ced2a125-7aac-4ed0-bd72-f4d5c49330be/download/estructura-organica2.6.json",
+                    "title": "Estructura orgánica de la Cámara de Diputados de la Nación",
+                    "issued": "2018-04-26T13:26:14.404776",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2021-06-18T14:47:34.130581",
+                    "mediaType": "application/json",
+                    "byteSize": 23994,
+                    "identifier": "ced2a125-7aac-4ed0-bd72-f4d5c49330be",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/9a3efb31-5564-4690-bfa3-f0cbb6fd0534/resource/ced2a125-7aac-4ed0-bd72-f4d5c49330be"
+                }
+            ],
+            "theme": [
+                "estructura-organica"
+            ],
+            "keyword": [
+                "autoridades",
+                "cargos",
+                "estructura",
+                "guía de funcionarios",
+                "organigrama",
+                "unidades"
+            ]
+        },
+        {
+            "title": "Estructura orgánica de la Cámara de Diputados de la Nación",
+            "description": "Información sobre la estructura orgánica y autoridades de la Cámara de Diputados de la Nación, donde se especifica el nombre de cada unidad, el cargo, nombre y apellido del titular, y el nombre de la unidad de la que depende la presente unidad.",
+            "issued": "2017-10-24T18:41:21.342039",
+            "modified": "2017-10-24T18:47:29.877618",
+            "license": "Creative Commons Attribution",
+            "identifier": "1932fd7c-4830-437f-9067-3f4d06a88dde",
+            "landingPage": "http://www4.hcdn.gob.ar/Andino_doc/Doc_Estructura_Organica.pdf",
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/1932fd7c-4830-437f-9067-3f4d06a88dde/resource/baa8c32a-12e0-4fce-a9de-aa07fc224a5a/download/estructuraorganica.csv",
+                    "title": "estructuraorganica.csv",
+                    "issued": "2017-10-24T18:42:30.227846",
+                    "description": "Estructura orgánica y autoridades",
+                    "format": "CSV",
+                    "modified": "2017-10-24T18:42:30.169828",
+                    "mediaType": "text/csv",
+                    "byteSize": 10356,
+                    "identifier": "baa8c32a-12e0-4fce-a9de-aa07fc224a5a",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/1932fd7c-4830-437f-9067-3f4d06a88dde/resource/baa8c32a-12e0-4fce-a9de-aa07fc224a5a"
+                }
+            ],
+            "theme": [
+                "estructura-organica"
+            ],
+            "keyword": [
+                "autoridades",
+                "cargos",
+                "estructura",
+                "guía de funcionarios",
+                "organigrama",
+                "unidades"
+            ]
+        },
+        {
+            "title": "Expedientes",
+            "description": "Listado de expedientes asociados a las votaciones nominales",
+            "issued": "2019-07-05T18:23:25.444149",
+            "modified": "2019-08-07T12:30:57.259773",
+            "license": "Creative Commons Attribution",
+            "identifier": "bbf6cbcc-a4ee-4b6b-89bf-f23b847c25b7",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Documentacion-VotacionesExpedientes.pdf",
+            "publisher": {
+                "name": "Dirección de Sistemas Electrónicos",
+                "mbox": "nbullorini@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección de Sistemas Electrónicos",
+                "hasEmail": "nbullorini@hcdn.gob.ar"
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/bbf6cbcc-a4ee-4b6b-89bf-f23b847c25b7/resource/f03e828b-c139-41ad-8063-f77f7ed3e009/download/expedientes_137-1.1.csv",
+                    "title": "Expedientes Período 137",
+                    "issued": "2019-07-05T18:23:52.311561",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2019-08-07T12:30:18.535654",
+                    "mediaType": "text/csv",
+                    "byteSize": 20617,
+                    "identifier": "f03e828b-c139-41ad-8063-f77f7ed3e009",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/bbf6cbcc-a4ee-4b6b-89bf-f23b847c25b7/resource/f03e828b-c139-41ad-8063-f77f7ed3e009"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/bbf6cbcc-a4ee-4b6b-89bf-f23b847c25b7/resource/32588585-d821-427c-aba2-6e9e53b26fdd/download/expedientes_129_137-1.1.csv",
+                    "title": "Expedientes Períodos 129 a 137",
+                    "issued": "2019-07-05T18:24:38.290756",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2019-08-07T12:30:02.823288",
+                    "mediaType": "text/csv",
+                    "byteSize": 350218,
+                    "identifier": "32588585-d821-427c-aba2-6e9e53b26fdd",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/bbf6cbcc-a4ee-4b6b-89bf-f23b847c25b7/resource/32588585-d821-427c-aba2-6e9e53b26fdd"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/bbf6cbcc-a4ee-4b6b-89bf-f23b847c25b7/resource/2c29c0b7-8456-4486-93ed-e909eb93b1c1/download/expedientes_137-1.1.json",
+                    "title": "Expedientes Período 137",
+                    "issued": "2019-07-05T18:24:07.869763",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2019-08-07T12:30:34.884682",
+                    "mediaType": "application/json",
+                    "byteSize": 32572,
+                    "identifier": "2c29c0b7-8456-4486-93ed-e909eb93b1c1",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/bbf6cbcc-a4ee-4b6b-89bf-f23b847c25b7/resource/2c29c0b7-8456-4486-93ed-e909eb93b1c1"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/bbf6cbcc-a4ee-4b6b-89bf-f23b847c25b7/resource/2f917f50-f5d6-4252-83d5-86a38b3d2987/download/expedientes_129_137-1.1.json",
+                    "title": "Expedientes Períodos 129 a 137",
+                    "issued": "2019-07-05T18:24:58.265336",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2019-08-07T12:30:57.249812",
+                    "mediaType": "application/json",
+                    "byteSize": 518129,
+                    "identifier": "2f917f50-f5d6-4252-83d5-86a38b3d2987",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/bbf6cbcc-a4ee-4b6b-89bf-f23b847c25b7/resource/2f917f50-f5d6-4252-83d5-86a38b3d2987"
+                }
+            ],
+            "theme": [
+                "votaciones"
+            ],
+            "keyword": [
+                "expedientes",
+                "votaciones"
+            ]
+        },
+        {
+            "title": "Firmantes Leyes Sancionadas",
+            "description": "Firmantes y cofirmantes de proyectos de ley que resultaron sancionados definitivamente.",
+            "issued": "2018-04-27T14:39:04.300923",
+            "modified": "2020-02-27T13:41:14.722963",
+            "license": "Creative Commons Attribution",
+            "identifier": "08b650e9-b8e5-4b68-a1b2-ecc9b45a63d4",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Doc_Firmantes leyes sancionadas.pdf",
+            "publisher": {
+                "name": "Dirección de Información Parlamentaria",
+                "mbox": "dip@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección de Información Parlamentaria",
+                "hasEmail": "dip@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/08b650e9-b8e5-4b68-a1b2-ecc9b45a63d4/resource/a88b42c3-d375-4072-8542-92b11db1d711/download/firmantes-leyes-sancionadas1.8.csv",
+                    "title": "Firmantes Leyes Sancionadas",
+                    "issued": "2018-04-27T14:39:35.220738",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2020-02-27T13:40:50.600562",
+                    "mediaType": "text/csv",
+                    "byteSize": 308404,
+                    "identifier": "a88b42c3-d375-4072-8542-92b11db1d711",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/08b650e9-b8e5-4b68-a1b2-ecc9b45a63d4/resource/a88b42c3-d375-4072-8542-92b11db1d711"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/08b650e9-b8e5-4b68-a1b2-ecc9b45a63d4/resource/079b9c08-2bad-48e5-ac65-296a494f1353/download/firmantes-leyes-sancionadas1.8.json",
+                    "title": "Firmantes Leyes Sancionadas",
+                    "issued": "2018-04-27T14:40:21.148201",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2020-02-27T13:41:14.711313",
+                    "mediaType": "application/json",
+                    "byteSize": 804847,
+                    "identifier": "079b9c08-2bad-48e5-ac65-296a494f1353",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/08b650e9-b8e5-4b68-a1b2-ecc9b45a63d4/resource/079b9c08-2bad-48e5-ac65-296a494f1353"
+                }
+            ],
+            "theme": [
+                "legisladores-nacionales",
+                "leyes"
+            ],
+            "keyword": [
+                "bloque",
+                "diputados",
+                "ley",
+                "leyes sancionadas"
+            ]
+        },
+        {
+            "title": "Giro a Comisiones",
+            "description": "Remisión de expedientes a las comisiones parlamentarias para su dictamen. ",
+            "issued": "2019-08-08T14:45:13.378351",
+            "modified": "2022-04-05T20:50:37.048848",
+            "license": "Creative Commons Attribution",
+            "identifier": "1289f369-a98e-4005-a648-1593877c4a45",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Documentacion-giro comisiones.pdf",
+            "publisher": {
+                "name": "Secretaría Parlamentaria",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "Secretaria Parlamentaria",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/1289f369-a98e-4005-a648-1593877c4a45/resource/b6774819-f8bc-44c7-b685-7da2e7fb3e55/download/giro-a-comisiones1.6.csv",
+                    "title": "Giro a Comisiones",
+                    "issued": "2019-08-08T14:46:07.904456",
+                    "description": "Remisión de expedientes a las comisiones parlamentarias para su dictamen. ",
+                    "format": "CSV",
+                    "modified": "2022-04-05T20:48:32.246234",
+                    "mediaType": "text/csv",
+                    "byteSize": 14124823,
+                    "identifier": "b6774819-f8bc-44c7-b685-7da2e7fb3e55",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/1289f369-a98e-4005-a648-1593877c4a45/resource/b6774819-f8bc-44c7-b685-7da2e7fb3e55"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/1289f369-a98e-4005-a648-1593877c4a45/resource/8d4aadd4-c276-40af-a818-35be537455d3/download/giro-a-comisiones1.6.json",
+                    "title": "Giro a Comisiones",
+                    "issued": "2019-08-08T14:46:29.921683",
+                    "description": "Remisión de expedientes a las comisiones parlamentarias para su dictamen. ",
+                    "format": "JSON",
+                    "modified": "2022-04-05T20:50:37.040966",
+                    "mediaType": "application/json",
+                    "byteSize": 35789158,
+                    "identifier": "8d4aadd4-c276-40af-a818-35be537455d3",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/1289f369-a98e-4005-a648-1593877c4a45/resource/8d4aadd4-c276-40af-a818-35be537455d3"
+                }
+            ],
+            "theme": [
+                "comisiones"
+            ],
+            "keyword": []
+        },
+        {
+            "title": "Grupos Parlamentarios de Amistad",
+            "description": "Información sobre los grupos parlamentarios de amistad creados durante distintos períodos, abarcando desde el año 2012 a la actualidad, incluyendo sus integrantes y cargos internos.",
+            "issued": "2018-04-25T17:43:58.779633",
+            "modified": "2018-06-28T16:15:24.155947",
+            "license": "Creative Commons Attribution",
+            "identifier": "a03826b6-0c7e-4fd3-b939-ffb7f99bfba3",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Doc Grupos Parlamentarios de Amistad.pdf",
+            "publisher": {
+                "name": "Dirección General de Relaciones Internacionales",
+                "mbox": "info.dgri@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección General de Relaciones Internacionales",
+                "hasEmail": "info.dgri@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/2acaffd6-c914-46d2-bc45-c7af06cf33a0/download/grupos-parlamentarios-amistad-2018-2019.csv",
+                    "title": "Grupos Parlamentarios Amistad 2018-2019",
+                    "issued": "2018-04-25T17:53:56.110465",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2018-04-25T17:53:56.059913",
+                    "mediaType": "text/csv",
+                    "byteSize": 7123,
+                    "identifier": "2acaffd6-c914-46d2-bc45-c7af06cf33a0",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/2acaffd6-c914-46d2-bc45-c7af06cf33a0"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/806f3b58-f7b1-45e8-9752-1fd77e95d09c/download/grupos-parlamentarios-amistad-2016-2017.csv",
+                    "title": "Grupos Parlamentarios Amistad 2016-2017",
+                    "issued": "2018-04-25T17:52:55.582963",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2018-04-25T17:52:55.531476",
+                    "mediaType": "text/csv",
+                    "byteSize": 49944,
+                    "identifier": "806f3b58-f7b1-45e8-9752-1fd77e95d09c",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/806f3b58-f7b1-45e8-9752-1fd77e95d09c"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/9a40de6d-1508-4e4f-859b-6619d98d939f/download/grupos-parlamentarios-amistad-2014-2015.csv",
+                    "title": "Grupos Parlamentarios Amistad 2014-2015",
+                    "issued": "2018-04-25T17:52:02.723870",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2018-04-25T17:52:02.673714",
+                    "mediaType": "text/csv",
+                    "byteSize": 33477,
+                    "identifier": "9a40de6d-1508-4e4f-859b-6619d98d939f",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/9a40de6d-1508-4e4f-859b-6619d98d939f"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/a521acea-0d3c-4728-82b7-ec32669a5265/download/grupos-parlamentarios-amistad-2012-2013.csv",
+                    "title": "Grupos Parlamentarios Amistad 2012-2013",
+                    "issued": "2018-04-25T17:49:56.418498",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2018-04-25T17:49:56.377726",
+                    "mediaType": "text/csv",
+                    "byteSize": 48434,
+                    "identifier": "a521acea-0d3c-4728-82b7-ec32669a5265",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/a521acea-0d3c-4728-82b7-ec32669a5265"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/8f433cef-efa2-4b4b-a7ea-5e7ae0efd7f8/download/grupos-parlamentarios-amistad-2018-2019.json",
+                    "title": "Grupos Parlamentarios Amistad 2018-2019",
+                    "issued": "2018-04-25T17:54:12.695375",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2018-04-25T17:54:12.640235",
+                    "mediaType": "application/json",
+                    "byteSize": 14617,
+                    "identifier": "8f433cef-efa2-4b4b-a7ea-5e7ae0efd7f8",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/8f433cef-efa2-4b4b-a7ea-5e7ae0efd7f8"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/318c76b2-eaf0-4dd8-a6ec-29494ab6aef5/download/grupos-parlamentarios-amistad-2016-20171.0.json",
+                    "title": "Grupos Parlamentarios Amistad 2016-2017",
+                    "issued": "2018-04-25T17:53:29.424244",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2018-06-28T16:15:24.068769",
+                    "mediaType": "application/json",
+                    "byteSize": 104320,
+                    "identifier": "318c76b2-eaf0-4dd8-a6ec-29494ab6aef5",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/318c76b2-eaf0-4dd8-a6ec-29494ab6aef5"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/d8e5ae8a-6592-4db5-a0a9-e45a5134ba41/download/grupos-parlamentarios-amistad-2014-2015.json",
+                    "title": "Grupos Parlamentarios Amistad 2014-2015",
+                    "issued": "2018-04-25T17:52:27.612882",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2018-04-25T17:52:27.549174",
+                    "mediaType": "application/json",
+                    "byteSize": 100688,
+                    "identifier": "d8e5ae8a-6592-4db5-a0a9-e45a5134ba41",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/d8e5ae8a-6592-4db5-a0a9-e45a5134ba41"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/e0b9bd4a-9ccd-4921-bf6f-5ae0213890e5/download/grupos-parlamentarios-amistad-2012-2013.json",
+                    "title": "Grupos Parlamentarios Amistad 2012-2013",
+                    "issued": "2018-04-25T17:51:24.816943",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2018-04-25T17:51:24.775812",
+                    "mediaType": "application/json",
+                    "byteSize": 121667,
+                    "identifier": "e0b9bd4a-9ccd-4921-bf6f-5ae0213890e5",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a03826b6-0c7e-4fd3-b939-ffb7f99bfba3/resource/e0b9bd4a-9ccd-4921-bf6f-5ae0213890e5"
+                }
+            ],
+            "theme": [
+                "diplomacia-parlamentaria"
+            ],
+            "keyword": [
+                "cargos internos",
+                "cooperación internacional",
+                "grupos parlamentarios"
+            ]
+        },
+        {
+            "title": "Diputados",
+            "description": "Composición de la Cámara de Diputados.",
+            "issued": "2018-04-27T14:33:09.889409",
+            "modified": "2022-04-05T22:23:11.623993",
+            "license": "Creative Commons Attribution",
+            "identifier": "a80e0fa7-d73a-4ed1-9dec-80465e368951",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – DIPUTADOS.pdf",
+            "publisher": {
+                "name": "Dirección de Información Parlamentaria",
+                "mbox": "dip@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección de Información Parlamentaria",
+                "hasEmail": "dip@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a80e0fa7-d73a-4ed1-9dec-80465e368951/resource/169de2eb-465f-4007-a4c2-39a5ba4c0df3/download/diputados2.0.csv",
+                    "title": "Diputados",
+                    "issued": "2018-04-27T14:34:03.612620",
+                    "description": "Composición de la Cámara de Diputados.",
+                    "format": "CSV",
+                    "modified": "2022-04-05T22:22:51.791183",
+                    "mediaType": "text/csv",
+                    "byteSize": 320765,
+                    "identifier": "169de2eb-465f-4007-a4c2-39a5ba4c0df3",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a80e0fa7-d73a-4ed1-9dec-80465e368951/resource/169de2eb-465f-4007-a4c2-39a5ba4c0df3"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/a80e0fa7-d73a-4ed1-9dec-80465e368951/resource/16cd699d-83fb-4d5f-afd4-0af9b47b1bd7/download/diputados2.0.json",
+                    "title": "Diputados",
+                    "issued": "2018-04-27T14:34:38.133615",
+                    "description": "Composición de la Cámara de Diputados.",
+                    "format": "JSON",
+                    "modified": "2022-04-05T22:23:11.615453",
+                    "mediaType": "application/json",
+                    "byteSize": 685835,
+                    "identifier": "16cd699d-83fb-4d5f-afd4-0af9b47b1bd7",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/a80e0fa7-d73a-4ed1-9dec-80465e368951/resource/16cd699d-83fb-4d5f-afd4-0af9b47b1bd7"
+                }
+            ],
+            "theme": [
+                "legisladores-nacionales"
+            ],
+            "keyword": [
+                "diputado",
+                "diputados",
+                "legisladores"
+            ]
+        },
+        {
+            "title": "Leyes Promulgadas",
+            "description": "Datos de promulgación por el PEN de las leyes sancionadas y su publicación en el BO.",
+            "issued": "2018-06-05T16:00:44.128012",
+            "modified": "2020-02-27T13:44:08.750013",
+            "license": "Creative Commons Attribution",
+            "identifier": "337ef578-7faf-41fb-92fa-00c28f64a4d6",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – LEYESPRMULGADAS.pdf",
+            "publisher": {
+                "name": "Dirección de Información Parlamentaria",
+                "mbox": "dip@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección de Información Parlamentaria",
+                "hasEmail": "dip@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/337ef578-7faf-41fb-92fa-00c28f64a4d6/resource/cbf78f72-1098-4e84-99e7-695d6d65a02a/download/leyes-promulgadas1.5.csv",
+                    "title": "Leyes Promulgadas",
+                    "issued": "2018-06-05T16:00:59.365193",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2020-02-27T13:43:54.573233",
+                    "mediaType": "text/csv",
+                    "byteSize": 326231,
+                    "identifier": "cbf78f72-1098-4e84-99e7-695d6d65a02a",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/337ef578-7faf-41fb-92fa-00c28f64a4d6/resource/cbf78f72-1098-4e84-99e7-695d6d65a02a"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/337ef578-7faf-41fb-92fa-00c28f64a4d6/resource/acc0b695-447a-40a8-88f7-6b46dfcae1c3/download/leyes-promulgadas1.5.json",
+                    "title": "Leyes Promulgadas",
+                    "issued": "2018-06-05T16:01:46.093667",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2020-02-27T13:44:08.742643",
+                    "mediaType": "application/json",
+                    "byteSize": 791244,
+                    "identifier": "acc0b695-447a-40a8-88f7-6b46dfcae1c3",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/337ef578-7faf-41fb-92fa-00c28f64a4d6/resource/acc0b695-447a-40a8-88f7-6b46dfcae1c3"
+                }
+            ],
+            "theme": [
+                "leyes"
+            ],
+            "keyword": [
+                "leyes",
+                "promulgación",
+                "publicación"
+            ]
+        },
+        {
+            "title": "Leyes Sancionadas",
+            "description": "Trámite parlamentario de los proyectos convertidos en ley.",
+            "issued": "2019-07-11T16:39:36.874385",
+            "modified": "2020-02-27T13:45:15.392760",
+            "license": "Creative Commons Attribution",
+            "identifier": "5b1d2f38-e23f-412c-a286-02ab9dcf6082",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Doc_leyes_sancionadas.pdf",
+            "publisher": {
+                "name": "Secretaria Parlamentaria",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/5b1d2f38-e23f-412c-a286-02ab9dcf6082/resource/68dfd7f8-91f3-4ecf-aebf-a860d1ca1a98/download/leyes-sancionadas1.4.csv",
+                    "title": "Leyes sancionadas",
+                    "issued": "2019-07-11T16:39:57.345158",
+                    "description": "Trámite parlamentario de los proyectos convertidos en ley.",
+                    "format": "CSV",
+                    "modified": "2020-02-27T13:45:01.566534",
+                    "mediaType": "text/csv",
+                    "byteSize": 99540,
+                    "identifier": "68dfd7f8-91f3-4ecf-aebf-a860d1ca1a98",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/5b1d2f38-e23f-412c-a286-02ab9dcf6082/resource/68dfd7f8-91f3-4ecf-aebf-a860d1ca1a98"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/5b1d2f38-e23f-412c-a286-02ab9dcf6082/resource/a449095f-1818-4918-8600-455724db34ac/download/leyes-sancionadas1.4.json",
+                    "title": "leyes sancionadas",
+                    "issued": "2019-07-11T16:41:11.372063",
+                    "description": "Trámite parlamentario de los proyectos convertidos en ley.",
+                    "format": "JSON",
+                    "modified": "2020-02-27T13:45:15.382209",
+                    "mediaType": "application/json",
+                    "byteSize": 292491,
+                    "identifier": "a449095f-1818-4918-8600-455724db34ac",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/5b1d2f38-e23f-412c-a286-02ab9dcf6082/resource/a449095f-1818-4918-8600-455724db34ac"
+                }
+            ],
+            "theme": [
+                "leyes"
+            ],
+            "keyword": [
+                "legislacion",
+                "leyes sancionadas"
+            ]
+        },
+        {
+            "title": "Sumario de leyes",
+            "description": "Información semántica para referencias temáticas.",
+            "issued": "2019-07-11T16:36:17.320550",
+            "modified": "2020-02-27T14:32:18.248286",
+            "license": "Creative Commons Attribution",
+            "identifier": "5418c27d-344f-48bd-b21b-8fe1c7ad7eec",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – SUMARIO LEYES.pdf",
+            "publisher": {
+                "name": "Secretaría Parlamentaria",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/5418c27d-344f-48bd-b21b-8fe1c7ad7eec/resource/3dc4e8e1-2148-4bf0-b9c9-f19cafc6ff8e/download/sumario-leyes1.3.csv",
+                    "title": "Sumarios de Leyes",
+                    "issued": "2019-07-11T16:36:31.413102",
+                    "description": "Información semántica para referencias temáticas.",
+                    "format": "CSV",
+                    "modified": "2020-02-27T14:31:59.869305",
+                    "mediaType": "text/csv",
+                    "byteSize": 1269839,
+                    "identifier": "3dc4e8e1-2148-4bf0-b9c9-f19cafc6ff8e",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/5418c27d-344f-48bd-b21b-8fe1c7ad7eec/resource/3dc4e8e1-2148-4bf0-b9c9-f19cafc6ff8e"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/5418c27d-344f-48bd-b21b-8fe1c7ad7eec/resource/959310e3-ff6a-4f66-9fac-62512339d8f5/download/sumario-leyes1.3.json",
+                    "title": "Sumarios de Leyes",
+                    "issued": "2019-07-11T16:37:35.772876",
+                    "description": "Información semántica para referencias temáticas.",
+                    "format": "JSON",
+                    "modified": "2020-02-27T14:32:18.239942",
+                    "mediaType": "application/json",
+                    "byteSize": 1343257,
+                    "identifier": "959310e3-ff6a-4f66-9fac-62512339d8f5",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/5418c27d-344f-48bd-b21b-8fe1c7ad7eec/resource/959310e3-ff6a-4f66-9fac-62512339d8f5"
+                }
+            ],
+            "theme": [
+                "leyes"
+            ],
+            "keyword": [
+                "legislacion",
+                "leyes sancionadas",
+                "sumario de leyes"
+            ]
+        },
+        {
+            "title": "Licitaciones y Contrataciones",
+            "description": "Procesos de contrataciones y licitaciones públicas y privadas, adjudicadas y en proceso, correspondientes a los años 2016, 2017, 2018 y 2019.",
+            "issued": "2017-11-07T14:05:52.768936",
+            "modified": "2019-12-27T15:38:01.551649",
+            "license": "Creative Commons Attribution",
+            "identifier": "59dc06fb-7ae0-4bb8-889d-a002376eb00b",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Documentación Licitaciones y Contrataciones.pdf",
+            "publisher": {
+                "name": "Dirección General Administrativo Contable",
+                "mbox": "dgac@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección General Administrativo Contable",
+                "hasEmail": "dgac@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/59dc06fb-7ae0-4bb8-889d-a002376eb00b/resource/40a6a884-f1ed-45cb-b193-addc2c89f03d/download/licitaciones1.4.csv",
+                    "title": "Licitaciones 2019",
+                    "issued": "2017-11-07T14:07:13.705478",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2019-12-27T15:37:37.240286",
+                    "mediaType": "text/csv",
+                    "byteSize": 94903,
+                    "identifier": "40a6a884-f1ed-45cb-b193-addc2c89f03d",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/59dc06fb-7ae0-4bb8-889d-a002376eb00b/resource/40a6a884-f1ed-45cb-b193-addc2c89f03d"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/59dc06fb-7ae0-4bb8-889d-a002376eb00b/resource/02ce872c-5bbc-48e8-86fb-2411e99b02aa/download/licitaciones1.4.json",
+                    "title": "Licitaciones 2019",
+                    "issued": "2018-04-25T18:02:21.817211",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2019-12-27T15:38:01.544135",
+                    "mediaType": "application/json",
+                    "byteSize": 132304,
+                    "identifier": "02ce872c-5bbc-48e8-86fb-2411e99b02aa",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/59dc06fb-7ae0-4bb8-889d-a002376eb00b/resource/02ce872c-5bbc-48e8-86fb-2411e99b02aa"
+                }
+            ],
+            "theme": [
+                "administracion-financiera-y-contable"
+            ],
+            "keyword": [
+                "compras",
+                "concurso",
+                "contrataciones",
+                "licitaciones"
+            ]
+        },
+        {
+            "title": "Misiones Oficiales",
+            "description": "Información sobre las misiones oficiales en las que participan diputados y diputadas (conferencias, cumbres, foros, encuentros internacionales, etc.).",
+            "issued": "2018-09-13T13:49:51.397736",
+            "modified": "2019-12-26T16:36:22.371294",
+            "license": "Creative Commons Attribution",
+            "identifier": "7b79514a-5dc0-4519-a43e-edf7877ef730",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Documentacion_Misiones_Oficiales.pdf",
+            "publisher": {
+                "name": "Dirección General de Coordinación Administrativa",
+                "mbox": "dgca@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección General de Coordinación Administrativa",
+                "hasEmail": "dgca@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/7b79514a-5dc0-4519-a43e-edf7877ef730/resource/4518878e-919f-4b5f-8d9b-16379c84d806/download/misiones_oficiales_2019_ene_nov-hoja-1.csv",
+                    "title": "Misiones Oficiales 2019",
+                    "issued": "2019-02-11T13:33:58.085895",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2019-12-26T16:35:54.915735",
+                    "mediaType": "text/csv",
+                    "byteSize": 30395,
+                    "identifier": "4518878e-919f-4b5f-8d9b-16379c84d806",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/7b79514a-5dc0-4519-a43e-edf7877ef730/resource/4518878e-919f-4b5f-8d9b-16379c84d806"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/7b79514a-5dc0-4519-a43e-edf7877ef730/resource/de8eee66-0a7f-4d57-a940-db25e75a8435/download/misiones_oficiales_2018.2.0.csv",
+                    "title": "Misiones Oficiales 2018",
+                    "issued": "2018-09-13T13:52:27.471420",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2019-01-04T17:33:47.985632",
+                    "mediaType": "text/csv",
+                    "byteSize": 31661,
+                    "identifier": "de8eee66-0a7f-4d57-a940-db25e75a8435",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/7b79514a-5dc0-4519-a43e-edf7877ef730/resource/de8eee66-0a7f-4d57-a940-db25e75a8435"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/7b79514a-5dc0-4519-a43e-edf7877ef730/resource/34aa9ac9-767d-47d8-b35b-9d35994a6236/download/misiones_oficiales_2015_2016_2017.csv",
+                    "title": "Misiones Oficiales 2015 2016 2017",
+                    "issued": "2018-09-13T13:50:32.473031",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2018-09-13T13:50:32.427690",
+                    "mediaType": "text/csv",
+                    "byteSize": 78019,
+                    "identifier": "34aa9ac9-767d-47d8-b35b-9d35994a6236",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/7b79514a-5dc0-4519-a43e-edf7877ef730/resource/34aa9ac9-767d-47d8-b35b-9d35994a6236"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/7b79514a-5dc0-4519-a43e-edf7877ef730/resource/d859fd77-433e-4700-a6cb-ea960b3f47bc/download/misiones_oficiales_2019_ene_nov-hoja-1.json",
+                    "title": "Misiones Oficiales 2019",
+                    "issued": "2019-02-11T13:34:32.949164",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2019-12-26T16:36:22.359307",
+                    "mediaType": "application/json",
+                    "byteSize": 64844,
+                    "identifier": "d859fd77-433e-4700-a6cb-ea960b3f47bc",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/7b79514a-5dc0-4519-a43e-edf7877ef730/resource/d859fd77-433e-4700-a6cb-ea960b3f47bc"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/7b79514a-5dc0-4519-a43e-edf7877ef730/resource/26db2ce0-df6d-4788-8811-700591fd57a7/download/misiones_oficiales_2018.2.0..json",
+                    "title": "Misiones Oficiales 2018",
+                    "issued": "2018-09-13T13:53:00.629579",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2019-01-04T17:34:25.024957",
+                    "mediaType": "application/json",
+                    "byteSize": 60571,
+                    "identifier": "26db2ce0-df6d-4788-8811-700591fd57a7",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/7b79514a-5dc0-4519-a43e-edf7877ef730/resource/26db2ce0-df6d-4788-8811-700591fd57a7"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/7b79514a-5dc0-4519-a43e-edf7877ef730/resource/77390002-08a3-4cac-afa5-78a2da558446/download/misiones_oficiales_2015_2016_2017.json",
+                    "title": "Misiones Oficiales 2015 2016 2017",
+                    "issued": "2018-09-13T13:51:23.652647",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2018-09-13T13:51:23.599879",
+                    "mediaType": "application/json",
+                    "byteSize": 167123,
+                    "identifier": "77390002-08a3-4cac-afa5-78a2da558446",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/7b79514a-5dc0-4519-a43e-edf7877ef730/resource/77390002-08a3-4cac-afa5-78a2da558446"
+                }
+            ],
+            "theme": [
+                "diplomacia-parlamentaria"
+            ],
+            "keyword": [
+                "conferencias",
+                "exterior",
+                "foros",
+                "internacionales",
+                "misiones",
+                "viáticos"
+            ]
+        },
+        {
+            "title": "Movimientos de proyectos",
+            "description": "Tratamiento parlamentario sobre los proyectos",
+            "issued": "2019-08-08T14:24:22.648674",
+            "modified": "2020-02-27T13:47:18.484768",
+            "license": "Creative Commons Attribution",
+            "identifier": "384c2ec9-f503-49d5-8313-ee355b6da7ba",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Documentacion-movimientos proyectos .pdf",
+            "publisher": {
+                "name": "Secretaría Parlamentaria",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "Secretaria Parlamentaria",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/384c2ec9-f503-49d5-8313-ee355b6da7ba/resource/6108ea83-3f12-423c-a136-df1ae9cb2972/download/movimientos-proyectos1.2.csv",
+                    "title": "Movimientos de proyectos",
+                    "issued": "2019-08-08T14:25:48.024318",
+                    "description": "Tratamiento parlamentario sobre los proyectos",
+                    "format": "CSV",
+                    "modified": "2020-02-27T13:46:04.887524",
+                    "mediaType": "text/csv",
+                    "byteSize": 4544336,
+                    "identifier": "6108ea83-3f12-423c-a136-df1ae9cb2972",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/384c2ec9-f503-49d5-8313-ee355b6da7ba/resource/6108ea83-3f12-423c-a136-df1ae9cb2972"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/384c2ec9-f503-49d5-8313-ee355b6da7ba/resource/680ee432-c728-40e5-bf26-29c6fd52b110/download/movimientos-proyectos1.2.json",
+                    "title": "Movimientos de proyectos",
+                    "issued": "2019-08-08T14:26:04.449766",
+                    "description": "Tratamiento parlamentario sobre los proyectos",
+                    "format": "JSON",
+                    "modified": "2020-02-27T13:47:18.476477",
+                    "mediaType": "application/json",
+                    "byteSize": 12893861,
+                    "identifier": "680ee432-c728-40e5-bf26-29c6fd52b110",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/384c2ec9-f503-49d5-8313-ee355b6da7ba/resource/680ee432-c728-40e5-bf26-29c6fd52b110"
+                }
+            ],
+            "theme": [
+                "proyectos"
+            ],
+            "keyword": [
+                "giros",
+                "inserciones",
+                "mociones",
+                "pases",
+                "proyectos parlamentarios",
+                "reproducciones",
+                "resoluciones"
+            ]
+        },
+        {
+            "title": "Nómina de personal",
+            "description": "Listado del personal de la Cámara de Diputados incluyendo número de legajo, nombre y apellido, tipo de planta, categoría y área de trabajo.",
+            "issued": "2018-04-23T14:52:22.636376",
+            "modified": "2022-05-10T19:21:46.837153",
+            "license": "Creative Commons Attribution",
+            "identifier": "af7136d5-84eb-49b2-af2e-aaf6319e4aae",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Documentación Nómina de Personal.pdf",
+            "publisher": {
+                "name": "Dirección General de Recursos Humanos",
+                "mbox": "dgrrhh@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección General de Recursos Humanos",
+                "hasEmail": "dgrrhh@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/af7136d5-84eb-49b2-af2e-aaf6319e4aae/resource/6e49506e-6757-44cd-94e9-0e75f3bd8c38/download/nomina2.7.csv",
+                    "title": "Nómina de Personal",
+                    "issued": "2018-04-23T14:52:53.499329",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-05-10T19:21:15.055696",
+                    "mediaType": "text/csv",
+                    "byteSize": 424352,
+                    "identifier": "6e49506e-6757-44cd-94e9-0e75f3bd8c38",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/af7136d5-84eb-49b2-af2e-aaf6319e4aae/resource/6e49506e-6757-44cd-94e9-0e75f3bd8c38"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/af7136d5-84eb-49b2-af2e-aaf6319e4aae/resource/3c819c65-35c2-4671-a4f6-4e557e677c92/download/nomina2.7.json",
+                    "title": "Nómina de Personal",
+                    "issued": "2018-04-23T14:57:13.415667",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-05-10T19:21:46.826986",
+                    "mediaType": "application/json",
+                    "byteSize": 991992,
+                    "identifier": "3c819c65-35c2-4671-a4f6-4e557e677c92",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/af7136d5-84eb-49b2-af2e-aaf6319e4aae/resource/3c819c65-35c2-4671-a4f6-4e557e677c92"
+                }
+            ],
+            "theme": [
+                "nomina-de-personal"
+            ],
+            "keyword": [
+                "categoría",
+                "contratos",
+                "nómina",
+                "personal"
+            ]
+        },
+        {
+            "title": "Periodos Parlamentarios",
+            "description": "Períodos en los que se organiza el trabajo del H. Congreso de la Nación.",
+            "issued": "2019-07-11T17:52:11.040326",
+            "modified": "2022-04-04T14:11:29.498968",
+            "license": "Creative Commons Attribution",
+            "identifier": "b2081b7c-0fd5-4ea5-804d-daec6c97176e",
+            "landingPage": "",
+            "publisher": {
+                "name": "Secretaria Parlamentaria",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/b2081b7c-0fd5-4ea5-804d-daec6c97176e/resource/a3ccd8d8-800b-49bf-bcc5-564e3c51489d/download/periodos-parlamentarios1.1.csv",
+                    "title": "Periodos parlamentarios",
+                    "issued": "2019-07-11T17:52:29.515473",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-04-04T14:11:10.384114",
+                    "mediaType": "text/csv",
+                    "byteSize": 3238,
+                    "identifier": "a3ccd8d8-800b-49bf-bcc5-564e3c51489d",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/b2081b7c-0fd5-4ea5-804d-daec6c97176e/resource/a3ccd8d8-800b-49bf-bcc5-564e3c51489d"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/b2081b7c-0fd5-4ea5-804d-daec6c97176e/resource/c342159d-263a-459c-bc53-2945afe33f74/download/periodos-parlamentarios1.1.json",
+                    "title": "Periodos parlamentarios",
+                    "issued": "2019-07-11T17:52:47.672380",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-04-04T14:11:29.488231",
+                    "mediaType": "application/json",
+                    "byteSize": 5582,
+                    "identifier": "c342159d-263a-459c-bc53-2945afe33f74",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/b2081b7c-0fd5-4ea5-804d-daec6c97176e/resource/c342159d-263a-459c-bc53-2945afe33f74"
+                }
+            ],
+            "theme": [
+                "sesiones"
+            ],
+            "keyword": [
+                "organización parlamentaria"
+            ]
+        },
+        {
+            "title": "Proyectos Parlamentarios",
+            "description": "Proyectos en los que intervino la Cámara de Diputados.",
+            "issued": "2018-06-14T14:20:38.631913",
+            "modified": "2022-04-05T22:16:50.377100",
+            "license": "Creative Commons Attribution",
+            "identifier": "839441fc-1b5c-45b8-82c9-8b0f18ac7c9b",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION - PROYECTOS PARLAMENTARIOS.pdf",
+            "publisher": {
+                "name": "Dirección de Información Parlamentaria",
+                "mbox": "dip@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección de Información Parlamentaria",
+                "hasEmail": "dip@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/839441fc-1b5c-45b8-82c9-8b0f18ac7c9b/resource/22b2d52c-7a0e-426b-ac0a-a3326c388ba6/download/proyectos-parlamentarios1.7.csv",
+                    "title": "Proyectos Parlamentarios",
+                    "issued": "2018-06-14T14:21:26.740123",
+                    "description": "Proyectos en los que intervino la Cámara de Diputados.",
+                    "format": "CSV",
+                    "modified": "2022-04-05T22:16:11.662025",
+                    "mediaType": "text/csv",
+                    "byteSize": 7011608,
+                    "identifier": "22b2d52c-7a0e-426b-ac0a-a3326c388ba6",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/839441fc-1b5c-45b8-82c9-8b0f18ac7c9b/resource/22b2d52c-7a0e-426b-ac0a-a3326c388ba6"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/839441fc-1b5c-45b8-82c9-8b0f18ac7c9b/resource/10953cf9-e851-4187-bb94-356b7256e112/download/proyectos-parlamentarios1.7.json",
+                    "title": "Proyectos Parlamentarios",
+                    "issued": "2018-06-14T14:22:11.302469",
+                    "description": "Proyectos en los que intervino la Cámara de Diputados.",
+                    "format": "JSON",
+                    "modified": "2022-04-05T22:16:50.363303",
+                    "mediaType": "application/json",
+                    "byteSize": 20608712,
+                    "identifier": "10953cf9-e851-4187-bb94-356b7256e112",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/839441fc-1b5c-45b8-82c9-8b0f18ac7c9b/resource/10953cf9-e851-4187-bb94-356b7256e112"
+                }
+            ],
+            "theme": [
+                "proyectos"
+            ],
+            "keyword": [
+                "aprobaciones",
+                "declaraciones",
+                "leyes",
+                "proyectos",
+                "publicaciones",
+                "resoluciones"
+            ]
+        },
+        {
+            "title": "Publicaciones",
+            "description": "Publicación de la H. Cámara de Diputados (Trámite  Parlamentario) de los proyectos parlamentarios.",
+            "issued": "2018-04-27T14:48:24.865219",
+            "modified": "2022-04-04T14:10:11.191917",
+            "license": "Creative Commons Attribution",
+            "identifier": "0467709c-f955-4218-a1ee-47c4d789f15a",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – PUBLICACIONES.pdf",
+            "publisher": {
+                "name": "Dirección de Información Parlamentaria",
+                "mbox": "dip@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección de Información Parlamentaria",
+                "hasEmail": "dip@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/0467709c-f955-4218-a1ee-47c4d789f15a/resource/9ef22cd7-b7d8-47a6-bbf3-79095d47275c/download/publicaciones1.7.csv",
+                    "title": "Publicaciones",
+                    "issued": "2018-04-27T14:48:41.622801",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-04-04T14:09:22.195752",
+                    "mediaType": "text/csv",
+                    "byteSize": 121231,
+                    "identifier": "9ef22cd7-b7d8-47a6-bbf3-79095d47275c",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/0467709c-f955-4218-a1ee-47c4d789f15a/resource/9ef22cd7-b7d8-47a6-bbf3-79095d47275c"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/0467709c-f955-4218-a1ee-47c4d789f15a/resource/a775de5f-45ae-4eca-b35f-94fd5d8bef66/download/publicaciones1.7.json",
+                    "title": "Publicaciones",
+                    "issued": "2018-04-27T14:48:54.489205",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-04-04T14:10:11.182461",
+                    "mediaType": "application/json",
+                    "byteSize": 400814,
+                    "identifier": "a775de5f-45ae-4eca-b35f-94fd5d8bef66",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/0467709c-f955-4218-a1ee-47c4d789f15a/resource/a775de5f-45ae-4eca-b35f-94fd5d8bef66"
+                }
+            ],
+            "theme": [
+                "sesiones"
+            ],
+            "keyword": []
+        },
+        {
+            "title": "Resultado de proyectos",
+            "description": "Proyectos que fueron resueltos por la Cámara de Diputados",
+            "issued": "2019-07-11T16:46:45.200089",
+            "modified": "2019-07-11T16:48:05.507830",
+            "license": "Creative Commons Attribution",
+            "identifier": "dd4e8c75-7afa-4ff4-8df5-ec7973e466bf",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Doc_resultadosdeproyectos.pdf",
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/dd4e8c75-7afa-4ff4-8df5-ec7973e466bf/resource/116d9385-250e-4291-b287-5cb839a1a3c3/download/resultado-de-proyectos.csv",
+                    "title": "Resultado de proyectos",
+                    "issued": "2019-07-11T16:47:05.778377",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2019-07-11T16:47:05.755977",
+                    "mediaType": "text/csv",
+                    "byteSize": 1441132,
+                    "identifier": "116d9385-250e-4291-b287-5cb839a1a3c3",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/dd4e8c75-7afa-4ff4-8df5-ec7973e466bf/resource/116d9385-250e-4291-b287-5cb839a1a3c3"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/dd4e8c75-7afa-4ff4-8df5-ec7973e466bf/resource/655f5146-a299-43f7-a8b9-b795baeb625e/download/resultado-de-proyectos.json",
+                    "title": "Resultado de proyectos",
+                    "issued": "2019-07-11T16:48:05.216613",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2019-07-11T16:48:05.188462",
+                    "mediaType": "application/json",
+                    "byteSize": 2646884,
+                    "identifier": "655f5146-a299-43f7-a8b9-b795baeb625e",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/dd4e8c75-7afa-4ff4-8df5-ec7973e466bf/resource/655f5146-a299-43f7-a8b9-b795baeb625e"
+                }
+            ],
+            "theme": [],
+            "keyword": [
+                "legislacion",
+                "leyes sancionadas"
+            ]
+        },
+        {
+            "title": "RESULTADO PROYECTOS",
+            "description": "Estado de los expedientes parlamentarios",
+            "issued": "2019-08-07T12:48:11.702622",
+            "modified": "2022-04-05T22:18:09.026252",
+            "license": "Creative Commons Attribution",
+            "identifier": "74011487-857d-4971-b7d1-24ab90a2e397",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – resultado proyectos.pdf",
+            "publisher": {
+                "name": "Secretaria Parlamentaria",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "Secretaria Parlamentaria",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/74011487-857d-4971-b7d1-24ab90a2e397/resource/daf0e90e-d94f-4186-b7cf-dfad5b6f9369/download/resultado-proyectos1.5.csv",
+                    "title": "RESULTADO PROYECTOS",
+                    "issued": "2019-08-07T12:48:27.250202",
+                    "description": "Estado de los expedientes parlamentarios",
+                    "format": "CSV",
+                    "modified": "2022-04-05T22:17:35.690480",
+                    "mediaType": "text/csv",
+                    "byteSize": 3001875,
+                    "identifier": "daf0e90e-d94f-4186-b7cf-dfad5b6f9369",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/74011487-857d-4971-b7d1-24ab90a2e397/resource/daf0e90e-d94f-4186-b7cf-dfad5b6f9369"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/74011487-857d-4971-b7d1-24ab90a2e397/resource/51ec1b19-b9e4-4d38-93e1-b6e87fec3029/download/resultado-proyectos1.5.json",
+                    "title": "RESULTADO PROYECTOS",
+                    "issued": "2019-08-07T12:48:47.099980",
+                    "description": "Estado de los expedientes parlamentarios",
+                    "format": "JSON",
+                    "modified": "2022-04-05T22:18:09.015614",
+                    "mediaType": "application/json",
+                    "byteSize": 14939909,
+                    "identifier": "51ec1b19-b9e4-4d38-93e1-b6e87fec3029",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/74011487-857d-4971-b7d1-24ab90a2e397/resource/51ec1b19-b9e4-4d38-93e1-b6e87fec3029"
+                }
+            ],
+            "theme": [
+                "proyectos"
+            ],
+            "keyword": [
+                "aprobaciones",
+                "dictámenes",
+                "proyectos",
+                "sanciones"
+            ]
+        },
+        {
+            "title": "Sesiones",
+            "description": "Participación de la Cámara de Diputados en las reuniones en el recinto.",
+            "issued": "2018-04-27T14:52:20.972926",
+            "modified": "2022-04-04T14:08:22.131755",
+            "license": "Creative Commons Attribution",
+            "identifier": "f744ea10-83b4-4493-8bef-6fc9fb9e41e9",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – SESIONES DESDE 1983.pdf",
+            "publisher": {
+                "name": " Dirección de Información Parlamentaria",
+                "mbox": "dip@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": " Dirección de Información Parlamentaria",
+                "hasEmail": "dip@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/f744ea10-83b4-4493-8bef-6fc9fb9e41e9/resource/4ac70a51-a82d-428b-966a-0a203dd0a7e3/download/sesiones1.5.csv",
+                    "title": "Sesiones",
+                    "issued": "2018-04-27T14:53:16.043359",
+                    "description": "Participación de la Cámara de Diputados en las reuniones en el recinto.",
+                    "format": "CSV",
+                    "modified": "2022-04-04T14:07:58.378268",
+                    "mediaType": "text/csv",
+                    "byteSize": 25191,
+                    "identifier": "4ac70a51-a82d-428b-966a-0a203dd0a7e3",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/f744ea10-83b4-4493-8bef-6fc9fb9e41e9/resource/4ac70a51-a82d-428b-966a-0a203dd0a7e3"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/f744ea10-83b4-4493-8bef-6fc9fb9e41e9/resource/ed8783bc-a755-4227-ad07-fd8ace0aeb55/download/sesiones1.5.json",
+                    "title": "Sesiones",
+                    "issued": "2018-04-27T14:53:32.261990",
+                    "description": "Participación de la Cámara de Diputados en las reuniones en el recinto.",
+                    "format": "JSON",
+                    "modified": "2022-04-04T14:08:22.117720",
+                    "mediaType": "application/json",
+                    "byteSize": 58606,
+                    "identifier": "ed8783bc-a755-4227-ad07-fd8ace0aeb55",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/f744ea10-83b4-4493-8bef-6fc9fb9e41e9/resource/ed8783bc-a755-4227-ad07-fd8ace0aeb55"
+                }
+            ],
+            "theme": [
+                "sesiones"
+            ],
+            "keyword": [
+                "sesiones extraordinarias",
+                "sesiones ordinarias"
+            ]
+        },
+        {
+            "title": "Subsidios",
+            "description": "Beneficiarios de subsidios otorgados por la HCDN",
+            "issued": "2020-04-30T00:31:40.491369",
+            "modified": "2020-04-30T13:19:07.513483",
+            "license": "Creative Commons Attribution",
+            "identifier": "69a937b2-2c00-4eaf-84bc-3267262f3d9c",
+            "landingPage": "",
+            "publisher": {
+                "name": "Secretaria General",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/69a937b2-2c00-4eaf-84bc-3267262f3d9c/resource/2cdaef71-f802-4067-bfa0-810dd3a22583/download/subsidios_covid_19.csv",
+                    "title": "Subsidios 2020 - COVID19",
+                    "issued": "2020-04-30T00:33:06.927785",
+                    "description": "Subsidios otorgados para evitar la propagación del Coronavirus (COVID19) y brindar asistencia a entidades de la sociedad civil que trabajen con personas afectadas por la pandemia",
+                    "format": "CSV",
+                    "modified": "2020-04-30T00:33:06.897234",
+                    "mediaType": "text/csv",
+                    "byteSize": 4462,
+                    "identifier": "2cdaef71-f802-4067-bfa0-810dd3a22583",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/69a937b2-2c00-4eaf-84bc-3267262f3d9c/resource/2cdaef71-f802-4067-bfa0-810dd3a22583"
+                }
+            ],
+            "theme": [
+                "legisladores-nacionales"
+            ],
+            "keyword": [
+                "ayuda",
+                "beneficiarios",
+                "legisladoras",
+                "legisladores",
+                "nacionales",
+                "subsidios",
+                "transferencias"
+            ]
+        },
+        {
+            "title": "Viajes Nacionales",
+            "description": "Viajes nacionales realizados por diputados y diputadas a partir de la entrada en vigencia de la RP N°487/18, en mayo de 2018.\r\n\r\nSe deja constancia que los tramos detallados no implican viajes efectivamente realizados por parte de las/os Señoras/es Diputadas/os, pero sí sus emisiones y consecuentes gastos afrontados por parte de la Honorable Cámara de Diputados, en función de lo solicitado por las/os Diputadas/os a través del Sistema de Administración de Pasajes.",
+            "issued": "2018-08-22T16:49:18.182993",
+            "modified": "2022-06-10T22:05:45.150798",
+            "license": "Creative Commons Attribution",
+            "identifier": "ec94f902-2fe8-4d59-a740-c29cbf2a3db9",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/DocumentacionViajesNacionales.pdf",
+            "publisher": {
+                "name": "Dirección General de Coordinación Administrativa",
+                "mbox": "dgca@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección General de Coordinación Administrativa",
+                "hasEmail": "dgca@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/d2b46c60-41fd-496e-92a9-32348960afd5/download/1trimestre-2022.csv",
+                    "title": "Viajes Nacionales 1 trimestre 2022",
+                    "issued": "2022-05-12T12:42:16.423224",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-05-12T12:42:16.359474",
+                    "mediaType": "text/csv",
+                    "byteSize": 175934,
+                    "identifier": "d2b46c60-41fd-496e-92a9-32348960afd5",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/d2b46c60-41fd-496e-92a9-32348960afd5"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/de3f1bc2-11df-4674-9524-b590f94d34f9/download/1-semestre-2021-viajes-nacionales-1.1.csv",
+                    "title": "Viajes Nacionales 1 semestre 2021",
+                    "issued": "2021-11-12T18:20:53.877760",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-06-10T22:01:31.569485",
+                    "mediaType": "text/csv",
+                    "byteSize": 186528,
+                    "identifier": "de3f1bc2-11df-4674-9524-b590f94d34f9",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/de3f1bc2-11df-4674-9524-b590f94d34f9"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/9aeb1197-8996-44cd-996a-004fe3a25ca2/download/2-semestre-2021-viajes-nacionales-1.1.csv",
+                    "title": "Viajes Nacionales 2 semestre 2021",
+                    "issued": "2021-11-12T18:24:42.659723",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-06-10T22:05:00.477296",
+                    "mediaType": "text/csv",
+                    "byteSize": 378383,
+                    "identifier": "9aeb1197-8996-44cd-996a-004fe3a25ca2",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/9aeb1197-8996-44cd-996a-004fe3a25ca2"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/82c91424-891d-4a04-8c68-987ce7693ca5/download/2-semestre-2020-1.1-viajes-nacionales.csv",
+                    "title": "Viajes Nacionales 2 semestre 2020",
+                    "issued": "2021-11-12T18:27:03.030086",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-06-10T21:59:48.911545",
+                    "mediaType": "text/csv",
+                    "byteSize": 59705,
+                    "identifier": "82c91424-891d-4a04-8c68-987ce7693ca5",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/82c91424-891d-4a04-8c68-987ce7693ca5"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/05ae127d-2703-43b6-97a0-2c26e990dab3/download/1-semestre-2020-viajes-nacionales-1.1.csv",
+                    "title": "Viajes Nacionales 1 semestre 2020",
+                    "issued": "2020-10-20T14:16:25.654460",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-06-10T21:51:46.768190",
+                    "mediaType": "text/csv",
+                    "byteSize": 183243,
+                    "identifier": "05ae127d-2703-43b6-97a0-2c26e990dab3",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/05ae127d-2703-43b6-97a0-2c26e990dab3"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/ddaa7a7e-11b0-4957-9607-294c0bfeece1/download/viajes_nacionales_1_semestre_2019.csv",
+                    "title": "VIAJES NACIONALES 1 SEMESTRE 2019",
+                    "issued": "2019-11-26T18:47:43.434602",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2019-11-26T18:49:59.129917",
+                    "mediaType": "text/csv",
+                    "byteSize": 426805,
+                    "identifier": "ddaa7a7e-11b0-4957-9607-294c0bfeece1",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/ddaa7a7e-11b0-4957-9607-294c0bfeece1"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/8f0aa232-2be1-45a2-b893-814984a37cce/download/viajes-nacionales-2-semestre-2019.v1.0.csv",
+                    "title": "Viajes Nacionales 2 semestre 2019",
+                    "issued": "2020-10-20T14:18:00.978113",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2020-10-20T14:18:00.933220",
+                    "mediaType": "text/csv",
+                    "byteSize": 353242,
+                    "identifier": "8f0aa232-2be1-45a2-b893-814984a37cce",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/8f0aa232-2be1-45a2-b893-814984a37cce"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/d692a0de-65b5-4fcd-a6e7-3049ec560b3a/download/viajes_nacionales_1_semestre_2018.1.1.csv",
+                    "title": "VIAJES NACIONALES 1 SEMESTRE 2018 (desde la entrada en vigencia de RP N°487/18)",
+                    "issued": "2018-08-22T16:49:50.608388",
+                    "description": "Viajes realizados a partir de la entrada en vigencia de la RP N°487/18, en mayo de 2018",
+                    "format": "CSV",
+                    "modified": "2019-03-25T13:24:09.030760",
+                    "mediaType": "text/csv",
+                    "byteSize": 140708,
+                    "identifier": "d692a0de-65b5-4fcd-a6e7-3049ec560b3a",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/d692a0de-65b5-4fcd-a6e7-3049ec560b3a"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/ff1459eb-2879-40cf-b525-9d0cb3033781/download/viajes_nacionales_2_semestre_2018.csv",
+                    "title": "VIAJES NACIONALES 2 SEMESTRE 2018",
+                    "issued": "2019-03-25T13:25:02.107984",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2019-03-25T13:25:02.072866",
+                    "mediaType": "text/csv",
+                    "byteSize": 410444,
+                    "identifier": "ff1459eb-2879-40cf-b525-9d0cb3033781",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/ff1459eb-2879-40cf-b525-9d0cb3033781"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/543b92fd-959f-40fd-a643-f265218d61c6/download/1trimestre-2022.json",
+                    "title": "Viajes Nacionales 1 trimestre 2022",
+                    "issued": "2022-05-12T12:43:30.540469",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-05-12T12:43:30.483345",
+                    "mediaType": "application/json",
+                    "byteSize": 425618,
+                    "identifier": "543b92fd-959f-40fd-a643-f265218d61c6",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/543b92fd-959f-40fd-a643-f265218d61c6"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/c3e97b43-819f-4012-a584-d76f0b8fc374/download/2-semestre-2021-viajes-nacionales-1.1.json",
+                    "title": "Viajes Nacionales 2 semestre 2021",
+                    "issued": "2021-11-12T18:25:37.639611",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-06-10T22:05:45.131988",
+                    "mediaType": "application/json",
+                    "byteSize": 896983,
+                    "identifier": "c3e97b43-819f-4012-a584-d76f0b8fc374",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/c3e97b43-819f-4012-a584-d76f0b8fc374"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/3f309ea8-0d55-46b0-bb11-8f2cbbfb2008/download/1-semestre-2021-viajes-nacionales-1.1.json",
+                    "title": "Viajes Nacionales 1 semestre 2021",
+                    "issued": "2021-11-12T18:22:24.553235",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-06-10T22:03:05.340944",
+                    "mediaType": "application/json",
+                    "byteSize": 465596,
+                    "identifier": "3f309ea8-0d55-46b0-bb11-8f2cbbfb2008",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/3f309ea8-0d55-46b0-bb11-8f2cbbfb2008"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/f7a24750-8494-4a7d-bab0-6787020a13c3/download/viajes-nacionales-2-semestre-2019.v1.0.json",
+                    "title": "Viajes Nacionales 2 semestre 2019",
+                    "issued": "2020-10-20T14:18:27.390640",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2020-10-20T14:18:27.346393",
+                    "mediaType": "application/json",
+                    "byteSize": 1279946,
+                    "identifier": "f7a24750-8494-4a7d-bab0-6787020a13c3",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/f7a24750-8494-4a7d-bab0-6787020a13c3"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/434a242d-f6a6-4de3-afc4-4bf985337313/download/2-semestre-2020-1.1-viajes-nacionales.json",
+                    "title": "Viajes Nacionales 2 semestre 2020",
+                    "issued": "2021-11-12T18:27:41.022414",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-06-10T21:59:20.169300",
+                    "mediaType": "application/json",
+                    "byteSize": 148081,
+                    "identifier": "434a242d-f6a6-4de3-afc4-4bf985337313",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/434a242d-f6a6-4de3-afc4-4bf985337313"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/64cdcb25-aa4b-4639-8538-15b941ecc177/download/1-semestre-2020-viajes-nacionales-1.1.json",
+                    "title": "Viajes Nacionales 1 semestre 2020",
+                    "issued": "2020-10-20T14:16:59.276680",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2022-06-10T21:52:22.973447",
+                    "mediaType": "application/json",
+                    "byteSize": 442689,
+                    "identifier": "64cdcb25-aa4b-4639-8538-15b941ecc177",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/64cdcb25-aa4b-4639-8538-15b941ecc177"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/a1213850-32e8-4f68-9e6d-9fa9f5aae715/download/viajes_nacionales_1_semestre_2019-hoja-1.json",
+                    "title": "VIAJES NACIONALES 1 SEMESTRE 2019",
+                    "issued": "2019-11-26T18:48:03.744741",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2019-11-26T18:48:03.709364",
+                    "mediaType": "application/json",
+                    "byteSize": 1433908,
+                    "identifier": "a1213850-32e8-4f68-9e6d-9fa9f5aae715",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/a1213850-32e8-4f68-9e6d-9fa9f5aae715"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/9308af18-07d9-471e-b69e-c2ef894a5ff8/download/viajes_nacionales_1_semestre_2018.1.1.json",
+                    "title": "VIAJES NACIONALES 1 SEMESTRE 2018 (desde la entrada en vigencia de RP N°487/18)",
+                    "issued": "2018-08-22T17:02:33.180209",
+                    "description": "Viajes realizados a partir de la entrada en vigencia de la RP N°487/18, en mayo de 2018",
+                    "format": "JSON",
+                    "modified": "2019-03-25T13:24:27.872676",
+                    "mediaType": "application/json",
+                    "byteSize": 484927,
+                    "identifier": "9308af18-07d9-471e-b69e-c2ef894a5ff8",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/9308af18-07d9-471e-b69e-c2ef894a5ff8"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/e917ccc4-4e04-407d-8dc3-3abc45a67920/download/viajes_nacionales_2_semestre_2018.json",
+                    "title": "VIAJES NACIONALES 2 SEMESTRE 2018",
+                    "issued": "2019-03-25T13:25:23.302706",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2019-03-25T13:25:23.264894",
+                    "mediaType": "application/json",
+                    "byteSize": 1419969,
+                    "identifier": "e917ccc4-4e04-407d-8dc3-3abc45a67920",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/ec94f902-2fe8-4d59-a740-c29cbf2a3db9/resource/e917ccc4-4e04-407d-8dc3-3abc45a67920"
+                }
+            ],
+            "theme": [
+                "legisladores-nacionales"
+            ],
+            "keyword": [
+                "argentina",
+                "diputados",
+                "legisladores",
+                "nacionales",
+                "país",
+                "tramos",
+                "viajes"
+            ]
+        },
+        {
+            "title": "Votaciones Nominales",
+            "description": "Información de las Votaciones Nominales realizadas en la Cámara de Diputados desde el período 129 hasta la fecha.",
+            "issued": "2017-10-24T19:21:20.106656",
+            "modified": "2017-10-24T19:31:32.659457",
+            "license": "Creative Commons Attribution",
+            "identifier": "59fff38a-0a79-405b-a11b-29bc8722891b",
+            "landingPage": "",
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "Sistemas Electronicos",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/59fff38a-0a79-405b-a11b-29bc8722891b/resource/4a1f2093-c77a-4205-b53d-c5a0a8458e2c/download/actas-datos-generales-135.csv",
+                    "title": "Votaciones Nominales período 135 – Cabecera",
+                    "issued": "2017-10-24T19:21:52.651825",
+                    "description": "Listado de las cabeceras de las votaciones nominales correspondiente al período 135\r\n",
+                    "format": "CSV",
+                    "modified": "2017-10-24T19:21:52.617736",
+                    "mediaType": "text/csv",
+                    "byteSize": 13739,
+                    "identifier": "4a1f2093-c77a-4205-b53d-c5a0a8458e2c",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/59fff38a-0a79-405b-a11b-29bc8722891b/resource/4a1f2093-c77a-4205-b53d-c5a0a8458e2c"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/59fff38a-0a79-405b-a11b-29bc8722891b/resource/e14854fa-2178-4f18-94c3-d304164b1f20/download/acta-detalle-votos-135.csv",
+                    "title": "Votaciones Nominales período 135 – Detalles",
+                    "issued": "2017-10-24T19:22:15.040822",
+                    "description": "Detalle de las votaciones nominales correspondiente al período 135\r\n",
+                    "format": "CSV",
+                    "modified": "2017-10-24T19:22:15.005684",
+                    "mediaType": "text/csv",
+                    "byteSize": 1428187,
+                    "identifier": "e14854fa-2178-4f18-94c3-d304164b1f20",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/59fff38a-0a79-405b-a11b-29bc8722891b/resource/e14854fa-2178-4f18-94c3-d304164b1f20"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/59fff38a-0a79-405b-a11b-29bc8722891b/resource/c3c30d22-5b4f-4f4c-8873-cf298cb1ea53/download/votaciones-nominales-periodos-129-a-135-cabecera.csv",
+                    "title": "Votaciones Nominales períodos 129 a 135 – Cabecera",
+                    "issued": "2017-10-24T19:22:41.351744",
+                    "description": "Listado de las cabeceras de las votaciones nominales correspondiente al períodos 129 a 135.\r\n",
+                    "format": "CSV",
+                    "modified": "2017-10-24T19:22:41.308925",
+                    "mediaType": "text/csv",
+                    "byteSize": 140220,
+                    "identifier": "c3c30d22-5b4f-4f4c-8873-cf298cb1ea53",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/59fff38a-0a79-405b-a11b-29bc8722891b/resource/c3c30d22-5b4f-4f4c-8873-cf298cb1ea53"
+                },
+                {
+                    "downloadURL": "http://votaciones-nominales-periodos-129-a-135-detalle.csv",
+                    "title": "Votaciones Nominales períodos 129 a 135 – Detalles",
+                    "issued": "2017-10-24T19:30:19.107796",
+                    "description": "Detalle de las votaciones nominales correspondiente al períodos 129 a 135.\r\n",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": "text/csv",
+                    "byteSize": null,
+                    "identifier": "a632c40e-4881-4a4b-8773-9e464d76593e",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/59fff38a-0a79-405b-a11b-29bc8722891b/resource/a632c40e-4881-4a4b-8773-9e464d76593e"
+                }
+            ],
+            "theme": [],
+            "keyword": [
+                "detalles de votación",
+                "resultados",
+                "votaciones",
+                "votación",
+                "votos por diputado"
+            ]
+        },
+        {
+            "title": "Votaciones Nominales",
+            "description": "Información de las Votaciones Nominales realizadas en la Cámara de Diputados desde el período N°129.",
+            "issued": "2017-11-06T14:15:16.807258",
+            "modified": "2020-02-03T16:57:18.472952",
+            "license": "Creative Commons Attribution",
+            "identifier": "2e08ab84-09f4-4aac-86b3-9573ca9810db",
+            "landingPage": "http://www4.hcdn.gob.ar/Datos_doc/Documentación Votaciones Nominales.pdf",
+            "publisher": {
+                "name": "Dirección de Sistemas Electrónicos",
+                "mbox": "soporte.dse@hcdn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Dirección de Sistemas Electrónicos",
+                "hasEmail": "soporte.dse@hcdn.gob.ar"
+            },
+            "accrualPeriodicity": "eventual",
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/59c05ba8-ad0a-4d55-803d-20e3fe464d0b/download/actas-cabecera-137-2.0.csv",
+                    "title": "Votaciones Nominales período 137 – Cabecera",
+                    "issued": "2019-04-10T14:14:15.233268",
+                    "description": "Listado de las cabeceras de las votaciones nominales correspondiente al período 137",
+                    "format": "CSV",
+                    "modified": "2020-02-03T16:49:53.725515",
+                    "mediaType": "text/csv",
+                    "byteSize": 20576,
+                    "identifier": "59c05ba8-ad0a-4d55-803d-20e3fe464d0b",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/59c05ba8-ad0a-4d55-803d-20e3fe464d0b"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/f86728ed-d4b9-479e-b939-a9841fd6d8d3/download/actas-detalle-137-2.0.csv",
+                    "title": "Votaciones Nominales período 137 – Detalles",
+                    "issued": "2019-04-10T14:15:54.752213",
+                    "description": "Detalle de las votaciones nominales correspondiente al período 137",
+                    "format": "CSV",
+                    "modified": "2020-02-03T16:51:33.484110",
+                    "mediaType": "text/csv",
+                    "byteSize": 1941490,
+                    "identifier": "f86728ed-d4b9-479e-b939-a9841fd6d8d3",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/f86728ed-d4b9-479e-b939-a9841fd6d8d3"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/28bdc184-d8e3-4d50-b5b5-e2151f902ac7/download/actas-datos-generales-2.4.csv",
+                    "title": "VOTACIONES NOMINALES PERÍODOS 129 A 137 - CABECERA",
+                    "issued": "2018-07-02T16:54:24.560131",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2020-02-03T16:52:52.476360",
+                    "mediaType": "text/csv",
+                    "byteSize": 187178,
+                    "identifier": "28bdc184-d8e3-4d50-b5b5-e2151f902ac7",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/28bdc184-d8e3-4d50-b5b5-e2151f902ac7"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/262cc543-3186-401b-b35e-dcdb2635976d/download/detalle-actas-datos-generales-2.4.csv",
+                    "title": "VOTACIONES NOMINALES PERÍODOS 129 A 137 - DETALLES",
+                    "issued": "2018-07-02T16:55:59.061463",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2020-02-03T16:53:36.837728",
+                    "mediaType": "text/csv",
+                    "byteSize": 18463248,
+                    "identifier": "262cc543-3186-401b-b35e-dcdb2635976d",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/262cc543-3186-401b-b35e-dcdb2635976d"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/2ec36d41-e387-4e86-8275-a78b5524be87/download/actas-cabecera-137-2.0.json",
+                    "title": "Votaciones Nominales período 137 – Cabecera",
+                    "issued": "2019-04-10T14:14:52.289199",
+                    "description": "Listado de las cabeceras de las votaciones nominales correspondiente al período 137",
+                    "format": "JSON",
+                    "modified": "2020-02-03T16:50:12.943419",
+                    "mediaType": "application/json",
+                    "byteSize": 51964,
+                    "identifier": "2ec36d41-e387-4e86-8275-a78b5524be87",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/2ec36d41-e387-4e86-8275-a78b5524be87"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/95ab89bf-2a4a-4c60-be19-d47cd5747b6f/download/actas-detalle-137-2.0.json",
+                    "title": "Votaciones Nominales período 137 – Detalles",
+                    "issued": "2019-04-10T14:17:17.702820",
+                    "description": "Detalle de las votaciones nominales correspondiente al período 137",
+                    "format": "JSON",
+                    "modified": "2020-02-03T16:52:09.109502",
+                    "mediaType": "application/json",
+                    "byteSize": 5051079,
+                    "identifier": "95ab89bf-2a4a-4c60-be19-d47cd5747b6f",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/95ab89bf-2a4a-4c60-be19-d47cd5747b6f"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/cbc1a4e1-5616-40d9-947e-22e567eba2f5/download/actas-datos-generales-2.4.json",
+                    "title": "VOTACIONES NOMINALES PERÍODOS 129 A 137 - CABECERA",
+                    "issued": "2018-07-02T16:55:13.868712",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2020-02-03T16:53:07.953622",
+                    "mediaType": "application/json",
+                    "byteSize": 472812,
+                    "identifier": "cbc1a4e1-5616-40d9-947e-22e567eba2f5",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/cbc1a4e1-5616-40d9-947e-22e567eba2f5"
+                },
+                {
+                    "downloadURL": "https://datos.hcdn.gob.ar:443/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/52b28075-1690-4c4e-b4b8-7eec0fb71618/download/detalle-actas-datos-generales-2.4.json",
+                    "title": "VOTACIONES NOMINALES PERÍODOS 129 A 137 - DETALLES",
+                    "issued": "2018-07-02T16:56:35.539632",
+                    "description": "",
+                    "format": "JSON",
+                    "modified": "2020-02-03T16:57:18.459104",
+                    "mediaType": "application/json",
+                    "byteSize": 46696428,
+                    "identifier": "52b28075-1690-4c4e-b4b8-7eec0fb71618",
+                    "accessURL": "https://datos.hcdn.gob.ar/dataset/2e08ab84-09f4-4aac-86b3-9573ca9810db/resource/52b28075-1690-4c4e-b4b8-7eec0fb71618"
+                }
+            ],
+            "theme": [
+                "votaciones"
+            ],
+            "keyword": [
+                "detalles de votación",
+                "resultados",
+                "votaciones",
+                "votación",
+                "votos por diputado"
+            ]
+        }
+    ],
+    "themeTaxonomy": [
+        {
+            "id": "administracion-financiera-y-contable",
+            "label": "Administración Financiera y Contable",
+            "description": ""
+        },
+        {
+            "id": "bloques",
+            "label": "Bloques",
+            "description": ""
+        },
+        {
+            "id": "comisiones",
+            "label": "Comisiones",
+            "description": ""
+        },
+        {
+            "id": "diplomacia-parlamentaria",
+            "label": "Diplomacia Parlamentaria",
+            "description": ""
+        },
+        {
+            "id": "estructura-organica",
+            "label": "Estructura orgánica",
+            "description": ""
+        },
+        {
+            "id": "legisladores-nacionales",
+            "label": "Legisladores nacionales",
+            "description": ""
+        },
+        {
+            "id": "leyes",
+            "label": "Leyes",
+            "description": ""
+        },
+        {
+            "id": "nomina-de-personal",
+            "label": "Nomina de personal",
+            "description": ""
+        },
+        {
+            "id": "proyectos",
+            "label": "Proyectos",
+            "description": ""
+        },
+        {
+            "id": "sesiones",
+            "label": "Sesiones",
+            "description": ""
+        },
+        {
+            "id": "votaciones",
+            "label": "Votaciones",
+            "description": ""
+        }
+    ]
+}

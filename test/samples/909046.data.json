@@ -1,0 +1,37 @@
+{
+    "title": "Legislatura Neuquén | Datos Abiertos",
+    "description": "",
+    "publisher": {
+        "name": "Legislatura Neuquén | Datos Abiertos",
+        "mbox": null
+    },
+    "superThemeTaxonomy": "http://datos.gob.ar/superThemeTaxonomy.json",
+    "dataset": [],
+    "themeTaxonomy": [
+        {
+            "id": "camara",
+            "label": "Cámara",
+            "description": "Grupo de datos que permite visualizar información acerca de los legisladores y bloques parlamentarios que integran la Cámara del Poder Legislativo provincial."
+        },
+        {
+            "id": "comisiones",
+            "label": "Comisiones",
+            "description": "Grupo de datos que permite visualizar la conformación y actividad de las comisiones parlamentarias de la Legislatura de Neuquén."
+        },
+        {
+            "id": "gestion-administrativa",
+            "label": "Gestión administrativa",
+            "description": "Grupo de datos que permite visualizar información acerca del presupuesto sancionado, compras adjudicadas y licitaciones.\r\n"
+        },
+        {
+            "id": "institucional",
+            "label": "Institucional",
+            "description": "Grupo de datos que permite visualizar la estructura orgánica de la Legislatura de Neuquén. "
+        },
+        {
+            "id": "actividad-legislativa",
+            "label": "Sesiones",
+            "description": "Grupo de datos que permite visualizar información acerca de las sesiones parlamentarias  y las leyes sancionadas por la Cámara de la Legislatura de Neuquén"
+        }
+    ]
+}

@@ -1,7 +1,6 @@
 from datetime import date
 import util, csv
 
-header = None
 dfc = 'distribuciones_formatos_cant'
 
 def generate_output_catalog_indicator(file, source, accessible, indicators=None):

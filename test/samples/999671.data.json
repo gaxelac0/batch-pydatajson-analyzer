@@ -1,0 +1,17 @@
+{
+    "title": "Datos Abiertos San Juan",
+    "description": "Transparencia",
+    "publisher": {
+        "name": "Datos Abiertos San Juan",
+        "mbox": null
+    },
+    "superThemeTaxonomy": "http://datos.gob.ar/superThemeTaxonomy.json",
+    "dataset": [],
+    "themeTaxonomy": [
+        {
+            "id": "iiee",
+            "label": "IIEE",
+            "description": "Instituto de Investigaciones Económicas y Estadísticas \r\nMinisterio de Hacienda y Finanzas\r\nGobierno de San Juan"
+        }
+    ]
+}

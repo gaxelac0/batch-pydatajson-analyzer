@@ -1,0 +1,518 @@
+{
+    "title": "Legislatura Neuquén | Datos Abiertos",
+    "description": "",
+    "publisher": {
+        "name": "Legislatura Neuquén | Datos Abiertos",
+        "mbox": null
+    },
+    "superThemeTaxonomy": "http://datos.gob.ar/superThemeTaxonomy.json",
+    "dataset": [
+        {
+            "title": "Actividad de las Comisiones",
+            "description": "Nómina de proyectos tratados en las comisiones permanentes del poder legislativo provincial. Este set de datos registra el número de expediente, asunto, autor, tipo de proyecto, período legislativo, fecha y comisión en la que comienza su debate, fecha de votación y tipo de despacho.\r\n",
+            "issued": "2021-12-03T14:10:03.510368",
+            "modified": "2022-08-04T13:49:17.663410",
+            "license": "Otra (Public Domain)",
+            "identifier": "891918c0-b1a7-4363-8684-194acd18376c",
+            "landingPage": "",
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/891918c0-b1a7-4363-8684-194acd18376c/resource/999b3486-0fd7-42b8-9b23-8957a6840035/download/dataset-actividad-comisiones.csv",
+                    "title": "Actividad de las Comisiones",
+                    "issued": "2021-12-03T14:10:29.097742",
+                    "description": "El recurso se puede previsualizar, así como generar gráficos en línea.",
+                    "format": "CSV",
+                    "modified": "2022-08-04T13:49:02.034230",
+                    "mediaType": "text/csv",
+                    "byteSize": 8784335,
+                    "identifier": "999b3486-0fd7-42b8-9b23-8957a6840035",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/891918c0-b1a7-4363-8684-194acd18376c/resource/999b3486-0fd7-42b8-9b23-8957a6840035"
+                },
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/891918c0-b1a7-4363-8684-194acd18376c/resource/b60cb8de-13cc-4ea0-9e04-a79bc1a78687/download/dataset-actividad-comisiones.xlsx",
+                    "title": "Actividad Comisiones",
+                    "issued": "2021-12-06T19:02:04.536454",
+                    "description": "",
+                    "format": "XLSX",
+                    "modified": "2022-08-04T13:49:17.654180",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "byteSize": 1210652,
+                    "identifier": "b60cb8de-13cc-4ea0-9e04-a79bc1a78687",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/891918c0-b1a7-4363-8684-194acd18376c/resource/b60cb8de-13cc-4ea0-9e04-a79bc1a78687"
+                }
+            ],
+            "theme": [
+                "comisiones"
+            ],
+            "keyword": []
+        },
+        {
+            "title": "Bloques parlamentarios",
+            "description": "Nómina de los bloques políticos que conforman la Cámara del Poder Legislativo de la Provincia. Además este set de datos permite visualizar la cantidad, nombre y apellido de legisladores que lo integran así como nombre de cada presidente de bloque.\r\n",
+            "issued": "2021-12-03T12:13:15.134620",
+            "modified": "2022-08-04T13:58:48.426818",
+            "license": "Otra (Public Domain)",
+            "identifier": "ad307413-fe05-48c5-bc75-448b1436c6f6",
+            "landingPage": "",
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/ad307413-fe05-48c5-bc75-448b1436c6f6/resource/cbf449d3-c7df-4977-8398-2ef4e2b6f867/download/dataset-bloques.csv",
+                    "title": "Dataset - Bloques",
+                    "issued": "2021-12-03T12:13:43.914570",
+                    "description": "El recurso se puede previsualizar, así como generar gráficos en línea.",
+                    "format": "CSV",
+                    "modified": "2022-08-04T13:58:31.869411",
+                    "mediaType": "text/csv",
+                    "byteSize": 2600,
+                    "identifier": "cbf449d3-c7df-4977-8398-2ef4e2b6f867",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/ad307413-fe05-48c5-bc75-448b1436c6f6/resource/cbf449d3-c7df-4977-8398-2ef4e2b6f867"
+                },
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/ad307413-fe05-48c5-bc75-448b1436c6f6/resource/756b0e5e-f332-4c89-88c3-d131eb632d4d/download/dataset-bloques.xlsx",
+                    "title": "Dataset - Bloques",
+                    "issued": "2021-12-06T16:53:39.568026",
+                    "description": "",
+                    "format": "XLSX",
+                    "modified": "2022-08-04T13:58:48.417464",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "byteSize": 10649,
+                    "identifier": "756b0e5e-f332-4c89-88c3-d131eb632d4d",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/ad307413-fe05-48c5-bc75-448b1436c6f6/resource/756b0e5e-f332-4c89-88c3-d131eb632d4d"
+                }
+            ],
+            "theme": [
+                "camara"
+            ],
+            "keyword": [
+                "Bloque parlamentario",
+                "Presidente del bloque"
+            ]
+        },
+        {
+            "title": "Compras adjudicadas",
+            "description": "Este set de datos detalla rubro y descripción de las compras adjudicada por la Legislatura\r\nde Neuquén, además de información acerca del nombre y cuit del proveedor, fecha de\r\npublicación, apertura y contratación, importe, expediente y detalle de la compra.",
+            "issued": "2021-12-03T12:00:19.989841",
+            "modified": "2022-08-04T13:52:01.514473",
+            "license": "Otra (Public Domain)",
+            "identifier": "773d45e4-b890-4aa8-9681-94b6de75bfb1",
+            "landingPage": "",
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/773d45e4-b890-4aa8-9681-94b6de75bfb1/resource/53cf2701-29df-4444-803e-bcb6d07ab831/download/dataset-compras-adjudicadas.csv",
+                    "title": "Dataset - Compras adjudicadas",
+                    "issued": "2021-12-03T13:31:59.854706",
+                    "description": "El recurso se puede previsualizar, así como generar gráficos en línea.",
+                    "format": "CSV",
+                    "modified": "2022-08-04T13:51:33.797734",
+                    "mediaType": "text/csv",
+                    "byteSize": 2677865,
+                    "identifier": "53cf2701-29df-4444-803e-bcb6d07ab831",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/773d45e4-b890-4aa8-9681-94b6de75bfb1/resource/53cf2701-29df-4444-803e-bcb6d07ab831"
+                },
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/773d45e4-b890-4aa8-9681-94b6de75bfb1/resource/a5c670e0-6252-438f-91c1-6e0671bcafec/download/dataset-compras-adjudicadas.xlsx",
+                    "title": "Dataset - Compras adjudicadas",
+                    "issued": "2021-12-06T18:26:05.417639",
+                    "description": "",
+                    "format": "XLSX",
+                    "modified": "2022-08-04T13:52:01.497696",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "byteSize": 882944,
+                    "identifier": "a5c670e0-6252-438f-91c1-6e0671bcafec",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/773d45e4-b890-4aa8-9681-94b6de75bfb1/resource/a5c670e0-6252-438f-91c1-6e0671bcafec"
+                }
+            ],
+            "theme": [
+                "gestion-administrativa"
+            ],
+            "keyword": [
+                "compras"
+            ]
+        },
+        {
+            "title": "Compras en curso",
+            "description": "Nómina de compras y contrataciones en curso en la Legislatura de Neuquén. Este set de datos detalla el tipo, rubro, estado del trámite, importe, fecha de apertura, número de expediente, asunto, número y detalle del acto.",
+            "issued": "2021-12-03T12:33:16.353368",
+            "modified": "2022-08-04T14:01:31.432552",
+            "license": "",
+            "identifier": "10f98826-4c99-4194-ba70-f16d38fcab0f",
+            "landingPage": "",
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/10f98826-4c99-4194-ba70-f16d38fcab0f/resource/b07f54b8-c414-471b-b2c5-55dc4c8e82a6/download/dataset-licitaciones.csv",
+                    "title": "Dataset - Compras en curso",
+                    "issued": "2021-12-03T12:33:31.000490",
+                    "description": "El recurso se puede previsualizar, así como generar gráficos en línea.",
+                    "format": "CSV",
+                    "modified": "2022-08-04T14:01:00.475413",
+                    "mediaType": "text/csv",
+                    "byteSize": 8670,
+                    "identifier": "b07f54b8-c414-471b-b2c5-55dc4c8e82a6",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/10f98826-4c99-4194-ba70-f16d38fcab0f/resource/b07f54b8-c414-471b-b2c5-55dc4c8e82a6"
+                },
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/10f98826-4c99-4194-ba70-f16d38fcab0f/resource/d44c2bff-01f6-4f8b-82ce-121e7d11368f/download/dataset-licitaciones.xlsx",
+                    "title": "Dataset - Compras en curso",
+                    "issued": "2021-12-06T18:02:40.967357",
+                    "description": "",
+                    "format": "XLSX",
+                    "modified": "2022-08-04T14:01:31.424341",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "byteSize": 13151,
+                    "identifier": "d44c2bff-01f6-4f8b-82ce-121e7d11368f",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/10f98826-4c99-4194-ba70-f16d38fcab0f/resource/d44c2bff-01f6-4f8b-82ce-121e7d11368f"
+                }
+            ],
+            "theme": [
+                "gestion-administrativa"
+            ],
+            "keyword": []
+        },
+        {
+            "title": "Conformación de las Comisiones",
+            "description": "Composición actual de las Comisiones Permanentes de la Legislatura de la Provincia de Neuquén. Este set de datos permite visualizar el nombre y la letra que identifica a cada comisión así como los legisladores que la integran, el bloque político al que pertenecen y el cargo que ocupan dentro de la comisión.",
+            "issued": "2021-12-03T13:58:46.361449",
+            "modified": "2022-08-04T13:59:38.554581",
+            "license": "Otra (Public Domain)",
+            "identifier": "61e22822-ef98-44f2-8208-2991f86fccda",
+            "landingPage": "",
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/61e22822-ef98-44f2-8208-2991f86fccda/resource/df5a2ddc-b647-449f-b257-a8c2d5ef0d28/download/dataset_conformacion-comisiones.csv",
+                    "title": "Conformación de las Comisiones",
+                    "issued": "2021-12-03T13:59:05.902652",
+                    "description": "El recurso se puede previsualizar, así como generar gráficos en línea.\r\n",
+                    "format": "CSV",
+                    "modified": "2022-08-04T13:59:23.158793",
+                    "mediaType": "text/csv",
+                    "byteSize": 17608,
+                    "identifier": "df5a2ddc-b647-449f-b257-a8c2d5ef0d28",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/61e22822-ef98-44f2-8208-2991f86fccda/resource/df5a2ddc-b647-449f-b257-a8c2d5ef0d28"
+                },
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/61e22822-ef98-44f2-8208-2991f86fccda/resource/80473e77-79c9-4d12-9a38-4e4504701ff3/download/dataset_conformacion-comisiones.xlsx",
+                    "title": "Dataset - Comisiones conformación.xlsx",
+                    "issued": "2021-12-06T18:52:29.773159",
+                    "description": "",
+                    "format": "XLSX",
+                    "modified": "2022-08-04T13:59:38.546399",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "byteSize": 14934,
+                    "identifier": "80473e77-79c9-4d12-9a38-4e4504701ff3",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/61e22822-ef98-44f2-8208-2991f86fccda/resource/80473e77-79c9-4d12-9a38-4e4504701ff3"
+                }
+            ],
+            "theme": [
+                "comisiones"
+            ],
+            "keyword": []
+        },
+        {
+            "title": "Estructura orgánica",
+            "description": "Este set de datos permite visualizar el nombre y apellido, sector, cargo y correo electrónico de quienes pertenecen a la estructura orgánica de Legislatura de la provincia de Neuquén.",
+            "issued": "2021-12-03T12:18:42.795591",
+            "modified": "2022-08-03T15:21:42.870852",
+            "license": "Otra (Public Domain)",
+            "identifier": "7800c108-e9ac-472b-ac4e-4efa5f512a49",
+            "landingPage": "",
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/7800c108-e9ac-472b-ac4e-4efa5f512a49/resource/f24cf683-f10d-41d2-b9f8-0d708cd7c170/download/dataset-estructura-organica.csv",
+                    "title": "Dataset - Estructura orgánica",
+                    "issued": "2021-12-06T19:04:53.494978",
+                    "description": "El recurso se puede previsualizar, así como generar gráficos en línea.",
+                    "format": "CSV",
+                    "modified": "2022-08-03T15:21:42.861816",
+                    "mediaType": "text/csv",
+                    "byteSize": 17739,
+                    "identifier": "f24cf683-f10d-41d2-b9f8-0d708cd7c170",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/7800c108-e9ac-472b-ac4e-4efa5f512a49/resource/f24cf683-f10d-41d2-b9f8-0d708cd7c170"
+                },
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/7800c108-e9ac-472b-ac4e-4efa5f512a49/resource/7860473b-5999-4e2a-af1e-c33d03d0572e/download/dataset-estructura-organica.xlsx",
+                    "title": "Dataset - Estructura orgánica",
+                    "issued": "2021-12-06T19:08:08.746302",
+                    "description": "",
+                    "format": "XLSX",
+                    "modified": "2022-02-04T20:34:16.997050",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "byteSize": 24236,
+                    "identifier": "7860473b-5999-4e2a-af1e-c33d03d0572e",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/7800c108-e9ac-472b-ac4e-4efa5f512a49/resource/7860473b-5999-4e2a-af1e-c33d03d0572e"
+                }
+            ],
+            "theme": [
+                "institucional"
+            ],
+            "keyword": [
+                "cámara",
+                "estructura"
+            ]
+        },
+        {
+            "title": "Legisladores",
+            "description": "Este set registra los datos de los 35 legisladores que componen la Cámara de la Provincia de Neuquén. Permite visualizar nombre y apellido, DNI, bloque político que integra, fecha de nacimiento, género, correo electrónico y número de teléfono interno de su oficina",
+            "issued": "2021-12-03T14:28:28.637331",
+            "modified": "2022-08-04T13:57:59.919193",
+            "license": "Otra (Public Domain)",
+            "identifier": "c3c6f32c-91d3-4065-b4dc-f367a958cff4",
+            "landingPage": "",
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/c3c6f32c-91d3-4065-b4dc-f367a958cff4/resource/bd2a8f9e-59d1-4a23-ae46-ce704acb0a51/download/dataset-legisladores.csv",
+                    "title": "Dataset - Legisladores",
+                    "issued": "2022-02-07T23:40:28.642654",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2022-08-04T13:57:45.109368",
+                    "mediaType": "text/csv",
+                    "byteSize": 4922,
+                    "identifier": "bd2a8f9e-59d1-4a23-ae46-ce704acb0a51",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/c3c6f32c-91d3-4065-b4dc-f367a958cff4/resource/bd2a8f9e-59d1-4a23-ae46-ce704acb0a51"
+                },
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/c3c6f32c-91d3-4065-b4dc-f367a958cff4/resource/4eb0a1ae-97d6-4b7f-bdb6-90701ecfd5b4/download/dataset-legisladores.xlsx",
+                    "title": "Dataset - Legisladores",
+                    "issued": "2021-12-06T17:08:51.634772",
+                    "description": "",
+                    "format": "XLSX",
+                    "modified": "2022-08-04T13:57:59.909957",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "byteSize": 12618,
+                    "identifier": "4eb0a1ae-97d6-4b7f-bdb6-90701ecfd5b4",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/c3c6f32c-91d3-4065-b4dc-f367a958cff4/resource/4eb0a1ae-97d6-4b7f-bdb6-90701ecfd5b4"
+                }
+            ],
+            "theme": [
+                "camara"
+            ],
+            "keyword": []
+        },
+        {
+            "title": "Leyes Sancionadas",
+            "description": "Este set de datos detalla la nómina de leyes sancionadas junto a su número de expediente y proyecto, además permite visualizar número y fecha del decreto de promulgación, número y fecha de publicación en el boletín oficial y número y fecha del decreto reglamentario.",
+            "issued": "2021-12-03T14:41:32.511823",
+            "modified": "2022-08-04T13:52:51.238587",
+            "license": "Otra (Public Domain)",
+            "identifier": "cdc7c398-2bb1-426f-a3ab-f3e443561b04",
+            "landingPage": "",
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/cdc7c398-2bb1-426f-a3ab-f3e443561b04/resource/6a8545c5-8880-4f79-ba30-5454542f2c5e/download/dataset-leyes-sancionadas.csv",
+                    "title": "Leyes Sancionadas",
+                    "issued": "2021-12-03T14:43:32.419386",
+                    "description": "El recurso se puede previsualizar, así como generar gráficos en línea.",
+                    "format": "CSV",
+                    "modified": "2022-08-04T13:52:34.830832",
+                    "mediaType": "text/csv",
+                    "byteSize": 251853,
+                    "identifier": "6a8545c5-8880-4f79-ba30-5454542f2c5e",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/cdc7c398-2bb1-426f-a3ab-f3e443561b04/resource/6a8545c5-8880-4f79-ba30-5454542f2c5e"
+                },
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/cdc7c398-2bb1-426f-a3ab-f3e443561b04/resource/044ad1a8-d282-42f1-ac1a-1f654f94faa1/download/dataset-leyes-sancionadas.xlsx",
+                    "title": "Dataset - Leyes sancionadas",
+                    "issued": "2021-12-06T17:49:07.770625",
+                    "description": "",
+                    "format": "XLSX",
+                    "modified": "2022-08-04T13:52:51.227478",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "byteSize": 159420,
+                    "identifier": "044ad1a8-d282-42f1-ac1a-1f654f94faa1",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/cdc7c398-2bb1-426f-a3ab-f3e443561b04/resource/044ad1a8-d282-42f1-ac1a-1f654f94faa1"
+                }
+            ],
+            "theme": [
+                "actividad-legislativa"
+            ],
+            "keyword": []
+        },
+        {
+            "title": "Presupuestos Sancionados",
+            "description": "Este set de datos permite visualizar el presupuesto anual de la Legislatura de Neuquén aprobado con las partidas atribuidas a los diferentes programas, el objeto del gasto, memoria descriptiva y anexos.",
+            "issued": "2021-12-03T11:43:00.932310",
+            "modified": "2022-03-04T13:29:40.252864",
+            "license": "Otra (Public Domain)",
+            "identifier": "d0251c24-1947-48b9-b417-a4759b6cae63",
+            "landingPage": "",
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/d0251c24-1947-48b9-b417-a4759b6cae63/resource/5ab2f8e6-fb01-4b22-a59a-f47cd5e0703c/download/presupuesto-sancionado-2022-ley-3314.pdf",
+                    "title": "Presupuesto Sancionado 2022",
+                    "issued": "2022-03-04T12:07:37.812372",
+                    "description": "Presupuesto sancionado correspondiente al Ejercicio 2022.",
+                    "format": "PDF",
+                    "modified": "2022-03-04T12:07:37.779025",
+                    "mediaType": "application/pdf",
+                    "byteSize": 8942308,
+                    "identifier": "5ab2f8e6-fb01-4b22-a59a-f47cd5e0703c",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/d0251c24-1947-48b9-b417-a4759b6cae63/resource/5ab2f8e6-fb01-4b22-a59a-f47cd5e0703c"
+                },
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/d0251c24-1947-48b9-b417-a4759b6cae63/resource/b3376af2-ee1f-4299-9b3d-7b71748f7d39/download/presupuesto-sancionado-2021-ley-3277.pdf",
+                    "title": "Presupuesto Sancionado 2021",
+                    "issued": "2022-03-04T12:19:22.742232",
+                    "description": "Presupuesto sancionado correspondiente al Ejercicio 2021.",
+                    "format": "PDF",
+                    "modified": "2022-03-04T12:19:22.721085",
+                    "mediaType": "application/pdf",
+                    "byteSize": 10958746,
+                    "identifier": "b3376af2-ee1f-4299-9b3d-7b71748f7d39",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/d0251c24-1947-48b9-b417-a4759b6cae63/resource/b3376af2-ee1f-4299-9b3d-7b71748f7d39"
+                }
+            ],
+            "theme": [
+                "gestion-administrativa"
+            ],
+            "keyword": [
+                "presupuesto"
+            ]
+        },
+        {
+            "title": "Sesiones Parlamentarias",
+            "description": "Este set de datos registra los expedientes tratados en las sesiones del Poder Legislativo provincial desde el año 2017 en adelante. Detalla el período legislativo, fecha, número y tipo de reunión, el número de expediente y asunto.",
+            "issued": "2021-12-03T14:00:11.164191",
+            "modified": "2022-08-04T13:54:58.541269",
+            "license": "Otra (Public Domain)",
+            "identifier": "23f12d19-86bf-4e64-97b5-d256638109a2",
+            "landingPage": "",
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/23f12d19-86bf-4e64-97b5-d256638109a2/resource/f7dcc3a8-64e8-4fba-9e3a-ab23dd6d7a8e/download/dataset-sesiones.csv",
+                    "title": "Dataset - Sesiones",
+                    "issued": "2021-12-03T14:01:06.217826",
+                    "description": "El recurso se puede previsualizar, así como generar gráficos en línea.",
+                    "format": "CSV",
+                    "modified": "2022-08-04T13:54:27.869126",
+                    "mediaType": "text/csv",
+                    "byteSize": 3590419,
+                    "identifier": "f7dcc3a8-64e8-4fba-9e3a-ab23dd6d7a8e",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/23f12d19-86bf-4e64-97b5-d256638109a2/resource/f7dcc3a8-64e8-4fba-9e3a-ab23dd6d7a8e"
+                },
+                {
+                    "downloadURL": "https://datos.legislaturaneuquen.gob.ar/dataset/23f12d19-86bf-4e64-97b5-d256638109a2/resource/4a61ce7b-aea3-40c0-a7e4-a120f44cac91/download/dataset-sesiones.xlsx",
+                    "title": "Dataset - Sesiones",
+                    "issued": "2021-12-06T18:14:55.823108",
+                    "description": "",
+                    "format": "XLSX",
+                    "modified": "2022-08-04T13:54:58.532267",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "byteSize": 849568,
+                    "identifier": "4a61ce7b-aea3-40c0-a7e4-a120f44cac91",
+                    "accessURL": "https://datos.legislaturaneuquen.gob.ar/dataset/23f12d19-86bf-4e64-97b5-d256638109a2/resource/4a61ce7b-aea3-40c0-a7e4-a120f44cac91"
+                }
+            ],
+            "theme": [
+                "actividad-legislativa"
+            ],
+            "keyword": []
+        }
+    ],
+    "themeTaxonomy": [
+        {
+            "id": "camara",
+            "label": "Cámara",
+            "description": "Grupo de datos que permite visualizar información acerca de los legisladores y bloques parlamentarios que integran la Cámara del Poder Legislativo provincial."
+        },
+        {
+            "id": "comisiones",
+            "label": "Comisiones",
+            "description": "Grupo de datos que permite visualizar la conformación y actividad de las comisiones parlamentarias de la Legislatura de Neuquén."
+        },
+        {
+            "id": "gestion-administrativa",
+            "label": "Gestión administrativa",
+            "description": "Grupo de datos que permite visualizar información acerca del presupuesto sancionado, compras adjudicadas y licitaciones.\r\n"
+        },
+        {
+            "id": "institucional",
+            "label": "Institucional",
+            "description": "Grupo de datos que permite visualizar la estructura orgánica de la Legislatura de Neuquén. "
+        },
+        {
+            "id": "actividad-legislativa",
+            "label": "Sesiones",
+            "description": "Grupo de datos que permite visualizar información acerca de las sesiones parlamentarias  y las leyes sancionadas por la Cámara de la Legislatura de Neuquén"
+        }
+    ]
+}
