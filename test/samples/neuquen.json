@@ -1,0 +1,2113 @@
+{
+    "title": "Neuquén Open Data",
+    "description": "",
+    "publisher": {
+        "name": "Neuquén Open Data",
+        "mbox": "you@yourdomain.com"
+    },
+    "superThemeTaxonomy": "http://datos.gob.ar/superThemeTaxonomy.json",
+    "dataset": [
+        {
+            "title": "Proveedores del estado vigentes",
+            "description": "Personas físicas y jurídicas que voluntariamente ofrecen\r\nbienes y servicios a la Estado Provincial Neuquino",
+            "issued": "2014-03-17T17:12:54.696539",
+            "modified": "2016-07-26T12:51:28.725986",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "01879acd-f735-4f13-a541-ab33fc76d082",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-07-26T12%3A48%3A14.497Z/proveedores-vigentes.xls",
+                    "title": "Proveedores-vigentes.xls",
+                    "issued": "2014-03-17T14:22:08.475998",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": "2016-07-26T09:48:13.019178",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "385536",
+                    "identifier": "51005b8b-ba63-4b50-b5a2-9c478a326028"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-07-26T12%3A51%3A44.528Z/proveedores-vigentes.csv",
+                    "title": "Proveedores-vigentes.csv",
+                    "issued": "2014-03-17T14:46:53.190180",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": "2016-07-26T09:51:28.544393",
+                    "mediaType": "text/csv",
+                    "byteSize": "149586",
+                    "identifier": "4b3b16f9-4b3d-4a3a-bdc2-4005e9020b8b"
+                }
+            ],
+            "theme": [
+                "administracion-publica",
+                "actividad-economica"
+            ],
+            "keyword": [
+                "Compras y Contrataciones",
+                "Proveedores del Estado",
+                "Proveedores vigentes"
+            ]
+        },
+        {
+            "title": "Elecciones 2015",
+            "description": "Elecciones provinciales 2015 - información Oficial\r\nhttp://elecciones2015.neuquen.gob.ar/neuquen/publicacion.php",
+            "issued": "2015-04-28T14:38:24.033767",
+            "modified": "2015-04-30T11:47:36.374632",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "09a92849-c0c9-4f7a-aa57-f6c3b4a9f311",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-28T14%3A39%3A04.311Z/cargos.xls",
+                    "title": "cargos.xls",
+                    "issued": "2015-04-28T11:39:40.724873",
+                    "description": "Contiene el nombre de todos los candidatos que se mostraban en los cuadros del Escrutinio (Gobernador y Vice y los 35 Diputados Provinciales Titulares de todos los partidos)\r\n\r\nCANID: Clave Identificación del Candidato/s\r\nCANNOMBRE: Nombre del Candidato/s\r\nCANIMAGEN: Imagen del Candidato/s  (Sin datos)\r\nCANIMAGEN_GXI: Imagen del Candidato/s (Sin datos)\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-28T11:39:48.471574",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "83968",
+                    "identifier": "0e6fbff1-7bea-4d4e-b0ac-a70968e6d3af"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-28T14%3A39%3A41.248Z/circuitos.xls",
+                    "title": "circuitos.xls",
+                    "issued": "2015-04-28T11:39:56.645167",
+                    "description": "Contiene todos los Circuitos Electorales de la Provincia de Neuquén.\r\n\r\nCIRID: Clave Identificación del Circuito\r\nCIRNOMBRE: Nombre del Circuito\r\nCIRMUNIHAB: (No usado)\r\nCIRLOCID: Clave Identificación de la  Localidad a que pertenece el Circuito\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-28T11:39:58.719110",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "39424",
+                    "identifier": "34035f4b-32b1-48da-b5ad-731756c53a2e"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-28T14%3A40%3A37.767Z/distritosescolares.xls",
+                    "title": "distritosescolares.xls",
+                    "issued": "2015-04-28T11:40:47.144482",
+                    "description": "Contiene todos los Distritos Escolares de la Provincia de Neuquén,\r\n\r\nDISTRITOID: Clave Identificación del Distrito Escolar\r\nDISTRITONOMBRE: Nombre completo del Distrito Escolar\r\nDISTRITONOMABRE: Abreviatura de Identificación del Distrito Escolar\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-28T11:40:48.236383",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "6144",
+                    "identifier": "7ca14f9c-4df1-4771-989d-38c3fa313530"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-28T14%3A40%3A47.090Z/distritosescolarescircuitos.xls",
+                    "title": "distritosescolarescircuitos.xls",
+                    "issued": "2015-04-28T11:40:58.419369",
+                    "description": "Contiene la correspondencia entre los Distritos Escolares y los Circuitos Electorales asociados a cada uno de ellos.\r\n\r\nDISTRITOID: Clave Identificación del Distrito Escolar\r\nCIRID: Clave Identificación del Circuito\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-28T11:40:59.327656",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "10240",
+                    "identifier": "d6fcb010-540a-43b0-ba41-d3aaa71fc880"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-28T14%3A41%3A09.168Z/escuela.xls",
+                    "title": "escuela.xls",
+                    "issued": "2015-04-28T11:41:18.437750",
+                    "description": "Contiene información de todas las Escuelas utilizadas para ubicar las Mesas del Escrutinio.\r\n\r\nESCID: Clave de la Escuela\r\nESCNOMBRE: Nombre  de la Escuela\r\nESCDIRECCION: Dirección  de la Escuela\r\nESCCIRAGRUPADO: (No usado)\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-28T11:41:18.798289",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "65024",
+                    "identifier": "e0ac27e9-fcfb-4e95-8046-feef885bde95"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-28T14%3A42%3A32.537Z/lista.xls",
+                    "title": "lista.xls",
+                    "issued": "2015-04-28T11:42:44.663538",
+                    "description": "Contiene todas las Listas (Partidos y Alianzas) que intervinieron en los Telegramas del Escrutinio.\r\n\r\nLISID: Clave de la Lista\r\nLISNOMBRE: Nombre de la Lista\r\nLISORDEN: Orden de la Lista en Telegrama\r\nLISIMAGEN: Imagen Logo de la Lista en Boletas (No usada)\r\nLISIMAGEN_GXI: Imagen Logo de la Lista en Boletas (No usada)\r\nLISNROLISTA: Nombre de la Lista \r\nLISSIGLA: Sigla de la Lista\r\nCOLORID: Color de la Lista para los gráficos\r\nLISTIENECOLE: Indicación si la lista tiene colectoras de votos.\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-28T11:42:46.815251",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "10240",
+                    "identifier": "1af8176f-aa69-40a6-b4ab-37686be245be"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-28T14%3A42%3A45.208Z/listacargo.xls",
+                    "title": "listacargo.xls",
+                    "issued": "2015-04-28T11:42:55.044179",
+                    "description": "Conserva la información de las Listas – Cargos – Localidades asociadas, y sobre el tratamiento de Votos a Colectoras y Totales de Votos para cuadros resumen.\r\n\r\nLISID: Clave de la Lista\r\nCARID: Clave del Cargo\r\nLOCID: Clave de la  Localidad a que pertenece el Cargo\r\nLISCARSUMA: Clave de la Lista a que suman los votos al Cargo.\r\nLISCARORDEN: Orden del Cargo\r\nLISCARHABILITADO: Código de Cargo Habilitado (0: No – 1: Si) (Todos en 1)\r\nLISCARVOTOSBD: Total de Votos Sumados al Lista – Cargo – Localidad\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-28T11:42:56.638044",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "1189888",
+                    "identifier": "fff77a1a-7834-492b-8fc4-2b20e035455a"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-28T14%3A42%3A54.842Z/localidad.xls",
+                    "title": "localidad.xls",
+                    "issued": "2015-04-28T11:43:11.226645",
+                    "description": "Conserva todas las Localidades de la Provincia de Neuquén incluidas en el Escrutinio.\r\n\r\nLOCID: Clave de la  Localidad \r\nLOCNOMBRE: Nombre de la  Localidad\r\nLOCCANTAFILIADOS: (No usado)\r\nLOCTIPOMUNICIPIO: Tipo de Municipio de la  Localidad\r\nDPTOID: Clave del Departamento a que pertenece la Localidad\r\nEJIDOID: Código del Ejido a que pertenece la Localidad (No usado)\r\nLOCNOMBREABRE: Nombre abreviado de la Localidad\r\nLOCORDEN: Nro. de Orden de la Localidad para informes.\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-28T11:43:14.506192",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "47104",
+                    "identifier": "59d0db80-356b-412c-9c2c-87c230876b35"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-28T14%3A43%3A09.798Z/localidadcargos.xls",
+                    "title": "localidadcargos.xls",
+                    "issued": "2015-04-28T11:43:21.022138",
+                    "description": "Conserva información de que Cargos se eligen en cada Localidad.\r\n\r\nLOCID: Clave de la  Localidad\r\nCARID: Clave del Cargo asociado a la Localidad\r\nLOCCARCANTIDADBANCAS (No usado)\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-28T11:43:21.819005",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "32256",
+                    "identifier": "92c9745a-92dd-4b32-b60b-86db1ada6449"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-28T14%3A43%3A21.116Z/mesas.xls",
+                    "title": "mesas.xls",
+                    "issued": "2015-04-28T11:43:30.241490",
+                    "description": "Contiene todas las Mesas que se incluyeron en el Escrutinio. (Total: 1479) (1421 de Nacionales/  58 de Extranjeras y 9 de Jóvenes–sin cargos Municipales-) \r\n\r\nMESAID: Clave de la Mesa (Nro. de Mesa) \r\nMESASEXO: Sexo de la Mesa (Todas X= Mixtas)\r\nLOCID: Clave de la  Localidad de la Mesa\r\nMESAESTADO: Estado de la Mesa (A=Activa)\r\nESCID: Clave de la Escuela de la Mesa \r\nMESAEMPADRONADOS: Total de Empadronados para la Mesa\r\nMESASOBRES: Total de Sobres Escrutados en la Mesa\r\nMESANUM: (No usado)\r\nMESACIRAGRUPADO: (No usado) \r\nCIRID: Código de Circuito Electoral de la Mesa\r\nMESAACTIVA: Código de Mesa Activa (1=Si / 0=No)\r\nMESAOBSERVACION: Observación de la Mesa\r\nMESAEXTRANJERO: Código de Mesa de Extranjeros (1=Si / 0=No) \r\nMESACANTVOTARON: Cantidad de Ciudadanos que Votaron. \r\nMESATELNUMERO: Nro. de Telegrama asociado a la Mesa.\r\nSOBRES: Cantidad de Sobres en la Urna para la Mesa \r\nMESAASOCIADA: Clave de la Mesa Asociada (Nro. de Mesa)\r\nMESAJOVENES: Código de Mesa de Jóvenes solamente (1=Si / 0=No)\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-28T11:43:30.932300",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "467456",
+                    "identifier": "7c565a05-c30d-4310-8efb-9ae47d34a58a"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-28T14%3A43%3A31.290Z/telegramas.xls",
+                    "title": "telegramas.xls",
+                    "issued": "2015-04-28T11:43:42.434029",
+                    "description": "Contiene los Nros. de Telegramas que se asociaron a las Mesas al momento de recibirlos.\r\n\r\nTELNRO: Nro. de Telegrama\r\nTELNROMESA: Nro. de Mesa asociado al Telegrama\r\nTELFECHAHORARECEP: Fecha y hora de recepción del Telegrama\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-28T11:43:43.051022",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "160768",
+                    "identifier": "fb5f2a71-6cee-49c0-850d-37c08b87d466"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-28T15%3A31%3A35.023Z/escrutiniofinal-total-mesas-desdobladas.xls",
+                    "title": "escrutiniofinal_TOTAL MESAS_DESDOBLADAS.xls",
+                    "issued": "2015-04-28T12:31:51.057317",
+                    "description": "Contiene la información de TODAS LOS VOTOS cargados en todos los Telegramas del Escrutinio. (Desdobladas en DOS HOJAS en una única planilla en formato EXCEL 2003 –Hojas: 1-50500 y 50501-94665)\r\n\r\nMESAID: Clave de la Mesa (Nro. de Mesa)\r\nLISID: Clave del Partido Político (Nro. de Partido)\r\nCARID: Clave del Cargo Electivo\r\nESCCANTIDAD: Cantidad de Votos escrutados\r\nESCFECHAHORA: Fecha y Hora de cuando fue escrutada la Mesa\r\nESCUSUARIO: Usuario del Sistema que grabó la Mesa como escrutada,\r\nESCEXPORTADO: (No se usa)\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-28T12:31:53.011143",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "9461760",
+                    "identifier": "92083124-9b90-4eef-861f-be2e2dd58ed9"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-28T16%3A39%3A20.937Z/departamento.xls",
+                    "title": "Departamento.xls",
+                    "issued": "2015-04-28T13:40:07.516699",
+                    "description": "Contiene todos los Departamentos de la Provincia del Neuquén\r\n\r\nDPTOID: Clave del Departamento\r\nDPTONOMBRE: Nombre del Departamento\r\nDPTOORDEN: Nro. de orden del Departamento para informes\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-28T13:40:13.919284",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "14848",
+                    "identifier": "ab3ccb30-c723-4760-ac5e-c4f39e7044ff"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-29T13%3A00%3A58.965Z/datos-de-tablas-de-escrutinio.doc",
+                    "title": "Datos de Tablas de Escrutinio.doc",
+                    "issued": "2015-04-29T10:02:30.237181",
+                    "description": "Descripción de la Información contenida en los archivos Excel",
+                    "format": "doc",
+                    "modified": "2015-04-29T10:02:32.236353",
+                    "mediaType": "application/msword",
+                    "byteSize": "45568",
+                    "identifier": "7cbaef16-62d3-4e75-bd15-6af66276a79b"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-30T11%3A30%3A34.441Z/resultados-mesas.xls",
+                    "title": "Resultados-Mesas.xls",
+                    "issued": "2015-04-30T08:31:15.030250",
+                    "description": "Mesas escrutadas",
+                    "format": "XLS",
+                    "modified": "2015-04-30T08:31:21.767690",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "5446656",
+                    "identifier": "82d7fe2f-df89-4298-87f7-29d6fe40fbbe"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-04-30T11%3A47%3A09.325Z/def-cargo.xls",
+                    "title": "Def-Cargo.xls",
+                    "issued": "2015-04-30T08:47:24.966273",
+                    "description": "Contiene los cargos que se eligen en el escrutinio\r\nCampos CarId: identificacion del cargo\r\n                CarNombre..........: Nombre del Cargo\r\n                CarNombreCorto: Primera abreviación del Nombre\r\n                CarOrden.............: Orden Interno del cargo\r\n                CarNombreCorto: Segunda abreviación del Nombre\r\n                CarProvincial.......: Identificador para saber si el \r\ncargo se aplica a toda la Provincia\r\n",
+                    "format": "XLS",
+                    "modified": "2015-04-30T08:47:31.500331",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "14336",
+                    "identifier": "98d8ad8e-8f24-499d-8d9c-e168da7d0a0f"
+                }
+            ],
+            "theme": [],
+            "keyword": [
+                "elecciones",
+                "escrutinio provisorio"
+            ]
+        },
+        {
+            "title": "Plan de Seguridad",
+            "description": "Cuadrantes y cuadricula policial con los moviles y sus respectivos numeros de telefono celular, asginacion a barrios y comisarias correspondientes",
+            "issued": "2014-03-20T17:53:15.802685",
+            "modified": "2015-03-03T15:51:56.612271",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "0b3da518-75c9-4d6c-ae65-609161e6e018",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T17%3A48%3A54.203Z/cuadriculas-celulares-y-moviles.xls",
+                    "title": "Cuadriculas Celulares y Moviles.xls",
+                    "issued": "2014-03-20T14:54:07.774553",
+                    "description": "Planilla de la organizacion de las comisarias, cuadrantes, cuadriculas, jurisdicciones policiales y la asignacion de los moviles con sus respectivos telefonos celulares.",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "b7527a4e-7b90-4cad-bd20-317e28b3fac0"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T11%3A53%3A46.123Z/cuadrantes-o-barrios.pdf",
+                    "title": "Cuadrantes o Barrios.pdf",
+                    "issued": "2014-03-21T08:59:54.906641",
+                    "description": "Descripcion de los cuadrantes o barrios(Division mayor que comprende uno o mas cuadriculas)",
+                    "format": "PDF",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "77030e27-0659-4057-8985-32b96d19f509"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T11%3A55%3A04.098Z/jurisdicciones-de-comisarias.pdf",
+                    "title": "Jurisdicciones de Comisarias.pdf",
+                    "issued": "2014-03-21T09:00:32.708105",
+                    "description": "Descripcion del alcance de cada Jurisdiccion Policial.",
+                    "format": "PDF",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "b4a46348-1cac-48c2-9048-7097534d199d"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T12%3A26%3A03.804Z/cuadriculas-celulares-y-moviles.csv",
+                    "title": "cuadriculas-celulares-y-moviles.csv",
+                    "issued": "2014-03-21T09:25:16.179689",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "24e8a719-c58f-4967-a5d6-00e633f115eb"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-26T15%3A31%3A28.718Z/policia.json",
+                    "title": "POLICIA.json",
+                    "issued": "2014-03-26T12:30:41.095254",
+                    "description": "Ubicacion de las comisarias y jurisdicciones policiales.",
+                    "format": "JSON",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "ef3ae653-d218-43b3-a2b3-b81928956ac7"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-26T15%3A32%3A39.279Z/barrio.json",
+                    "title": "BARRIO.json",
+                    "issued": "2014-03-26T12:31:47.279635",
+                    "description": "Ubicacion de los barrios de la ciudad de Neuquen.",
+                    "format": "JSON",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "1a69e0a6-a6ba-4cac-95ce-651a3e517c03"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-26T19%3A46%3A02.891Z/distribucion-de-cuadriculas-de-la-policia.ppt",
+                    "title": "Distribución de Cuadrículas de la policia.ppt",
+                    "issued": "2014-03-26T16:45:12.037773",
+                    "description": "Este dato explicaría graficamente las superficies abarcadas por cada cuadricula.",
+                    "format": "ppt",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "1cb13786-746b-4ca3-ab7c-e4795b8dff62"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-07-29T16%3A38%3A02.708Z/barrio.xls",
+                    "title": "barrio.xls",
+                    "issued": "2014-07-29T13:29:34.013279",
+                    "description": "Tabla de los barrios con los formatos para la aplicacion boton de panico.",
+                    "format": "XLS",
+                    "modified": "2014-07-29T13:29:34.415231",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "33280",
+                    "identifier": "eb8da925-c4b6-4130-a4d8-0931202d9ffe"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-02-20T13%3A47%3A33.579Z/localidad.xls",
+                    "title": "localidad.xls",
+                    "issued": "2014-07-29T13:30:32.434917",
+                    "description": "Tabla de las localidades con los formatos para la aplicacion boton de panico.",
+                    "format": "XLS",
+                    "modified": "2015-02-20T10:53:48.154626",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "27136",
+                    "identifier": "f47dfa10-06c5-4111-89bf-59e23647ceca"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-03-03T15%3A46%3A02.596Z/patrullero.xls",
+                    "title": "patrullero.xls",
+                    "issued": "2014-07-29T13:30:49.903620",
+                    "description": "Tabla de los patrulleros con los formatos para la aplicacion boton de panico.",
+                    "format": "XLS",
+                    "modified": "2015-03-03T12:51:54.017432",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "35328",
+                    "identifier": "d44414ee-7670-442b-864f-5d164e41ef45"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2015-02-20T13%3A53%3A33.385Z/comisaria.xls",
+                    "title": "comisaria.xls",
+                    "issued": "2015-02-20T10:34:09.324033",
+                    "description": "Tabla de las comisarias con los formatos para la aplicacion boton de panico.",
+                    "format": "XLS",
+                    "modified": "2015-02-20T10:59:45.806423",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "46592",
+                    "identifier": "f0b85066-70c4-488f-8e51-ca859cc488d7"
+                }
+            ],
+            "theme": [
+                "seguridad-y-justicia"
+            ],
+            "keyword": []
+        },
+        {
+            "title": "Programa Provincial de Promoción del Microcrédito ",
+            "description": "Asistir a emprendedores que se encuentren iniciando o desarrollando proyectos productivos de manufacturas , reinserción laboral o comercialización de bienes o servicios urbanos o rurales.\r\nDestinatarios: personas físicas o grupos asociativos sin acceso al sistema financiero.\r\n\r\nDestino de fondos: adquisición de materiales, equipamiento y herramientas (60%); compra de insumos y/o pago de gastos corrientes y capital de trabajo (40%).\r\n",
+            "issued": "2014-03-14T11:57:44.043075",
+            "modified": "2014-07-04T17:08:54.546935",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "0dc7eff9-2f1a-4460-aecf-aab919ab35a0",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T15%3A42%3A11.713Z/programa-prov-microcreditos-2009-2010.csv",
+                    "title": "Programa Prov Microcréditos 2009-2010.csv",
+                    "issued": "2014-03-20T12:32:29.697512",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "fabd3eab-3e8a-4604-ba13-5da5bd2a31f6"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T15%3A34%3A18.413Z/programa-prov-microcreditos-2011.csv",
+                    "title": "Programa Prov Microcréditos 2011.csv",
+                    "issued": "2014-03-20T12:33:36.973352",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "1d19c031-5fda-472b-83b1-ea3c50cd5f3f"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T15%3A34%3A31.381Z/programa-prov-microcreditos-2011.xls",
+                    "title": "Programa Prov Microcréditos 2011.xls",
+                    "issued": "2014-03-20T12:33:49.708029",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "c2ed8396-35df-4f1a-85c1-4b4003cf0241"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T16%3A26%3A27.870Z/programa-prov-microcreditos-2009-2010.xls",
+                    "title": "Programa Prov Microcréditos 2009-2010.xls",
+                    "issued": "2014-03-20T13:18:32.853568",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "c952b468-54f0-4d13-8127-419348efe12a"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T16%3A27%3A27.488Z/programa-prov-microcreditos-2012.csv",
+                    "title": "Programa Prov Microcréditos 2012.csv",
+                    "issued": "2014-03-20T13:26:45.801840",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "b28de250-d39e-4ba7-a002-d13f7bfba442"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T16%3A27%3A42.763Z/programa-prov-microcreditos-2013.csv",
+                    "title": "Programa Prov Microcréditos 2013.csv",
+                    "issued": "2014-03-20T13:27:01.259911",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "5dc41534-bb6f-4302-b4f9-e27cc0f4d38a"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T16%3A29%3A11.666Z/programa-prov-microcreditos-2012.xls",
+                    "title": "Programa Prov Microcréditos 2012.xls",
+                    "issued": "2014-03-20T13:28:29.902673",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "354222ea-1893-454f-887d-6def30323cdc"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T16%3A29%3A27.599Z/programa-prov-microcreditos-2013.xls",
+                    "title": "Programa Prov Microcréditos 2013.xls",
+                    "issued": "2014-03-20T13:28:45.383174",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "5f489f51-1deb-44be-97ff-43d4bc00294e"
+                }
+            ],
+            "theme": [
+                "actividad-economica"
+            ],
+            "keyword": [
+                "microcredito",
+                "microemprendimiento",
+                "prestamos",
+                "producción"
+            ]
+        },
+        {
+            "title": "Habilitaciones Comerciales de Villa la Angostura",
+            "description": "Datos relacionados con la habilitaciones comercial de nuestra localidad y los distintos servicios urbanos y suburbanos que brinda el municipio de Villa la Angostura a la comunidad.\r\n",
+            "issued": "2014-03-18T13:24:10.502101",
+            "modified": "2014-07-04T16:18:24.257277",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "16bbd4b6-1dc5-414b-9593-e3047bc14eee",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-19T16%3A20%3A50.935Z/habilitaciones-comerciales-copade-vla-2.csv",
+                    "title": "HABILITACIONES COMERCIALES COPADE VLA 2.csv",
+                    "issued": "2014-03-18T10:24:29.091489",
+                    "description": "Listado de Habilitaciones Comerciales del Municipio de Villa la Angostura ( Actualizadas a Nov de 2013) ",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "09193686-c437-4412-9009-00eccfaefd19"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T11%3A44%3A55.061Z/licencias-comerciales.pdf",
+                    "title": "LICENCIAS COMERCIALES.pdf",
+                    "issued": "2014-03-19T13:45:19.876811",
+                    "description": "Explicación de los distintos tipos de habilitaciones comerciales.",
+                    "format": "PDF",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "6bb9782f-553c-4da4-900e-f3f677c1d834"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-25T12%3A24%3A01.475Z/habilitaciones-comerciales-copade-vla-2.xls",
+                    "title": "habilitaciones-comerciales-copade-vla-2.xls",
+                    "issued": "2014-03-25T09:23:53.849769",
+                    "description": "Listado de Habilitaciones Comerciales del Municipio de Villa la Angostura ( Actualizadas a Nov de 2013) ",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "ebc42ba3-61a1-467e-bafd-d194621db349"
+                }
+            ],
+            "theme": [],
+            "keyword": [
+                "licencia",
+                "licencias comerciales",
+                "servicios"
+            ]
+        },
+        {
+            "title": "Estados de transitabilidad de Rutas",
+            "description": "Estado de transitabilidad de las rutas y pasos fronterizos de la Provincia del Neuquén, actualizado diariamente, y ante eventualidades que afecten a la circulación vehicular.\r\n\r\nLos datos de este dataset son a modo de ejemplo de la estructura provista.",
+            "issued": "2014-03-18T12:36:15.823327",
+            "modified": "2016-07-19T17:41:03.162245",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "16db4d67-8764-4ebf-adaa-f5a22101bc65",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://www.dpvneuquen.gov.ar/ParteDiario.csv",
+                    "title": "ParteDiario.csv",
+                    "issued": "2014-07-17T08:19:21.746659",
+                    "description": "Se obtiene on-line el último estado de transitabilidad de rutas en la provincia del Neuquén",
+                    "format": "CSV",
+                    "modified": "2016-03-17T09:03:40.987800",
+                    "mediaType": "text/csv",
+                    "byteSize": "14279",
+                    "identifier": "962d9ceb-b6e9-4be9-9bc8-d00a52f070bd"
+                },
+                {
+                    "downloadURL": "http://www.dpvneuquen.gov.ar/ParteDiario.xml",
+                    "title": "ParteDiario.xml",
+                    "issued": "2014-07-17T08:19:56.935240",
+                    "description": "",
+                    "format": "XML",
+                    "modified": "2016-03-17T09:04:53.714680",
+                    "mediaType": "text/xml",
+                    "byteSize": "46263",
+                    "identifier": "f3210b8d-3d4c-46bd-b295-bf25a76d914e"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-07-19T17%3A30%3A54.234Z/partediario.xls",
+                    "title": "ParteDiario.xls",
+                    "issued": "2016-07-19T14:30:59.609993",
+                    "description": "Parte diario de estado de transitabilidad de rutas, fecha 19/7/16, estático, no se actualiza del sitio de DPV",
+                    "format": "XLS",
+                    "modified": "2016-07-19T14:31:22.247491",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "31744",
+                    "identifier": "23b2e348-a5d5-4c09-b4ca-b3118ffb41f7"
+                }
+            ],
+            "theme": [
+                "infraestructura-y-obras-publicas"
+            ],
+            "keyword": [
+                "estados de rutas",
+                "rutas",
+                "transitabilidad"
+            ]
+        },
+        {
+            "title": "Datos ficticios extraídos del Sistema SIUNED",
+            "description": "Datos simulados de Personas de un establecimiento en particular correspondiente al ciclo 2013.",
+            "issued": "2014-03-12T15:49:41.155259",
+            "modified": "2014-03-21T15:35:31.090427",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "26c16e32-f922-4ff9-a53b-eac3a8902374",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-17T14%3A29%3A12.943Z/cursado.csv",
+                    "title": "Cursado.csv",
+                    "issued": "2014-03-17T11:29:09.877028",
+                    "description": "esta tabla se relaciona con la tabla persona mediante mediante el campo aluid que en la tabla persona se llama perid. y contiene el turno, curso y sección de cada alumno, como así también el ciclo lectivo que está cursando.\r\n",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "83643016-2007-4e7e-9524-755772603bf0"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T11%3A19%3A12.015Z/departamento.csv",
+                    "title": "departamento.csv",
+                    "issued": "2014-03-17T11:29:36.962835",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "9ef56d94-0292-456c-aa0c-c8e29fc45f21"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T10%3A49%3A00.868Z/estadocivil.csv",
+                    "title": "EstadoCivil.csv",
+                    "issued": "2014-03-17T11:30:24.217643",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "a6e7e7be-847d-4336-a7b4-9a22fa4f7aeb"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-17T14%3A30%3A52.474Z/explicacion-de-las-tablas.xls",
+                    "title": "Explicacion de las tablas.xls",
+                    "issued": "2014-03-17T11:30:43.887560",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "17f23e6a-0cf8-42c1-8e3e-e841b4331e0a"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-17T14%3A31%3A06.419Z/localidad.csv",
+                    "title": "Localidad.csv",
+                    "issued": "2014-03-17T11:30:57.593390",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "5c7ef727-ebca-4975-937b-9f51a1a040df"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-17T14%3A31%3A19.292Z/pais.csv",
+                    "title": "Pais.csv",
+                    "issued": "2014-03-17T11:31:12.744528",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "0010dfc8-6ff0-4424-8d30-267f31281202"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-17T14%3A31%3A51.628Z/persona.csv",
+                    "title": "Persona.csv",
+                    "issued": "2014-03-17T11:31:43.360851",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "d2565c27-159e-42d6-b3a7-aa952a258c1a"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-17T14%3A32%3A07.618Z/tipodocumento.csv",
+                    "title": "TipoDocumento.csv",
+                    "issued": "2014-03-17T11:31:58.819318",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "daa03faf-12f8-4360-8d66-1d7263333460"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-17T14%3A32%3A21.610Z/turno.csv",
+                    "title": "Turno.csv",
+                    "issued": "2014-03-17T11:32:14.225390",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "7888ef41-2e09-4835-a3e6-1364d3ec9b5f"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T15%3A15%3A40.594Z/escuelasgeo.xls",
+                    "title": "EscuelasGEO.xls",
+                    "issued": "2014-03-21T12:14:51.832227",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "867ba0d6-ca19-49ac-a0cb-950128ff8ef8"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T15%3A32%3A38.264Z/escuelasgeo.csv",
+                    "title": "escuelasgeo.csv",
+                    "issued": "2014-03-21T12:35:31.128534",
+                    "description": "Datos completos de las distintos establecimientos educativos de la Provincia del Neuquén, anexando longitud y latitud para poder ser georeferenciados.",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "96752dbb-1bd2-48f8-9dc2-daebe6032e59"
+                }
+            ],
+            "theme": [
+                "ed"
+            ],
+            "keyword": [
+                "alumnos",
+                "colegios",
+                "escuelas",
+                "establecimiento"
+            ]
+        },
+        {
+            "title": "CCI",
+            "description": "Información sobre los Centros Comunitarios Infotecnológicos.(Acceso Público a Internet)",
+            "issued": "2014-03-21T17:36:00.839098",
+            "modified": "2016-07-21T15:41:26.536907",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "4ce3a350-700b-4948-a829-3b2729e2288e",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A31%3A17.743Z/localidades-con-ccil.xls",
+                    "title": "Localidades con CCIl.xls",
+                    "issued": "2014-03-21T14:36:45.071342",
+                    "description": "Ubicacion de los diferentes Centros Comunitarios Infotecnologicos.",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "77fa1705-be0f-404b-9fd0-eb47272120ec"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A40%3A03.754Z/localidades-con-ccil.csv",
+                    "title": "localidades-con-ccil.csv",
+                    "issued": "2014-03-21T14:39:17.086657",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "6dd29340-05ed-4ecf-92c3-537141450350"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-07-21T15%3A40%3A37.908Z/listado-de-cci-instalados-2016.xls",
+                    "title": "Listado de CCI instalados 2016.xls",
+                    "issued": "2016-07-21T12:41:21.884159",
+                    "description": "Localidades con Centro Comunitario Infotecnológico instalado, y cantidad de PC's",
+                    "format": "XLS",
+                    "modified": "2016-07-21T12:41:26.445541",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "60416",
+                    "identifier": "644e7a96-7fe3-4275-bd91-fd3c2dd13479"
+                }
+            ],
+            "theme": [
+                "administracion-publica",
+                "cultura-y-recreacion"
+            ],
+            "keyword": [
+                "capacitacion",
+                "centro comunitario",
+                "tecnologia"
+            ]
+        },
+        {
+            "title": "Salud",
+            "description": "Informacion relacionada con los servicios de salud: Hospitales, Profesionales, Especialidades y demas datos provenientes del Ministerio de Salud.",
+            "issued": "2014-03-21T17:02:50.377348",
+            "modified": "2016-03-17T17:08:24.065327",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "548634a7-fe2b-44bc-8438-0a1c9aafdd82",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A03%3A53.927Z/diagramarel.jpg",
+                    "title": "diagramarel.jpg",
+                    "issued": "2014-03-21T14:03:26.203089",
+                    "description": "Diagrama de relacion entre las tablas profesionales, matriculas_de_especialidades, profesiones, especialidades.",
+                    "format": "jpg",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "fec980b7-293c-4108-b46b-01964066058a"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A06%3A08.241Z/ds-efector.csv",
+                    "title": "DS_Efector.csv",
+                    "issued": "2014-03-21T14:05:44.751293",
+                    "description": "Datos de Hospitales, Centros de Dalud, Salitas etc. Establecimiento de Salud en Neuquén.",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "a6355f5c-4b02-47d3-8b72-3fa1c5e7945c"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A06%3A50.301Z/ds-efector.xls",
+                    "title": "DS_Efector.xls",
+                    "issued": "2014-03-21T14:06:12.570094",
+                    "description": "Datos de Hospitales, Centros de Dalud, Salitas etc. Establecimiento de Salud en Neuquén.",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "a0e78c73-f59c-4753-a261-d9da9dba7334"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A08%3A07.336Z/ds-profesionales.csv",
+                    "title": "ds-profesionales.csv",
+                    "issued": "2014-03-21T14:07:36.668634",
+                    "description": "Datos personales de los Profesionales de la provincia",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "348847e3-4f4c-4369-ac0c-d08cbfeda60f"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A09%3A05.650Z/ds-profesionales.xls",
+                    "title": "ds-profesionales.xls",
+                    "issued": "2014-03-21T14:08:24.148526",
+                    "description": "Datos personales de los Profesionales de la provincia",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "5a69897e-9fca-4295-9a35-bc72fce576ac"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A14%3A19.035Z/ds-profesiones.csv",
+                    "title": "ds-profesiones.csv",
+                    "issued": "2014-03-21T14:13:37.398783",
+                    "description": "Tabla de profesiones médicas del sistema de Salud",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "aeb9c73f-c116-4617-adb1-243bb3cd050f"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A15%3A46.425Z/ds-profesiones.xls",
+                    "title": "ds-profesiones.xls",
+                    "issued": "2014-03-21T14:15:04.171599",
+                    "description": "Tabla de profesiones médicas del sistema de Salud",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "59c5b30a-99bb-4030-839b-59c8d019af59"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A16%3A56.494Z/ds-matriculas-de-especialidades.csv",
+                    "title": "ds-matriculas-de-especialidades.csv",
+                    "issued": "2014-03-21T14:17:43.627331",
+                    "description": "Tabla Profesionales,título y matrícula",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "f1af230a-d34a-473b-ac33-1160f92b5982"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A19%3A06.337Z/ds-matriculas-de-especialidades.xls",
+                    "title": "ds-matriculas-de-especialidades.xls",
+                    "issued": "2014-03-21T14:18:58.744200",
+                    "description": "Tabla Profesionales,título y matrícula",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "52a33575-eab8-46c2-907a-e0dc2541adf1"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A22%3A04.116Z/ds-especialidades.csv",
+                    "title": "ds-especialidades.csv",
+                    "issued": "2014-03-21T14:21:36.751218",
+                    "description": "Tabla con las especialidades médicas",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "dd605a39-445a-47c7-8f82-bd45f00d536b"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A22%3A45.185Z/ds-especialidades.xls",
+                    "title": "ds-especialidades.xls",
+                    "issued": "2014-03-21T14:22:02.653880",
+                    "description": "Tabla con las especialidades medicas",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "31ba46c3-5f35-4159-8ec1-a1328180f361"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A25%3A17.821Z/cie10.csv",
+                    "title": "CIE10.csv",
+                    "issued": "2014-03-21T14:26:56.958074",
+                    "description": "Código Internacional de Enfermedades.",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "baf08d89-aa4f-4cd2-8d43-8c23279c197e"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A26%3A01.820Z/hospitales-centros-de-salud-geo.xls",
+                    "title": "Hospitales, Centros de Salud, GEO.xls",
+                    "issued": "2014-03-21T14:31:25.392812",
+                    "description": "Georeferenciación de los Hospitales y Centros de Salud.",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "b47c00e2-f59f-45cc-b5d8-943dbb768307"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-25T12%3A50%3A13.511Z/hospitales-centros-de-salud-geo.csv",
+                    "title": "hospitales-centros-de-salud-geo.csv",
+                    "issued": "2014-03-25T09:49:28.688246",
+                    "description": "Georeferenciacion de los Hospitales y Centros de Salud",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "d9d9bf1b-000e-4a8f-b3b3-43ffb1b4d211"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-27T13%3A35%3A17.017Z/departamento.csv",
+                    "title": "departamento.csv",
+                    "issued": "2014-03-27T10:34:00.095163",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "fa93aa20-67ba-445e-ac22-30a721b2f398"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-27T13%3A35%3A49.326Z/zonasanitaria.csv",
+                    "title": "zonasanitaria.csv",
+                    "issued": "2014-03-27T10:34:22.435902",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "a9816eb4-aaa9-4980-9dd3-3ce18bccd9b8"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-27T13%3A36%3A12.544Z/localidades.csv",
+                    "title": "localidades.csv",
+                    "issued": "2014-03-27T10:34:45.473957",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "7bb1a70a-c633-473f-a2ba-39b7df75a9c8"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-27T15%3A30%3A55.852Z/localidades-y-efectores-salud.csv",
+                    "title": "localidades y efectores Salud.csv",
+                    "issued": "2014-03-27T12:29:30.179751",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "39eba5ab-2647-4b68-bf66-0d02da21b67c"
+                }
+            ],
+            "theme": [
+                "salud-y-servicios-sociales"
+            ],
+            "keyword": [
+                "Centros de Salud",
+                "Hospitales",
+                "Medico",
+                "Salud"
+            ]
+        },
+        {
+            "title": "Socialthon 2016",
+            "description": "Proyectos presentados para participar del SocialThon a efectuarse el 23 y 24 de Agosto de 2016 / Hackathon",
+            "issued": "2016-08-19T11:56:07.221719",
+            "modified": "2016-08-23T11:09:55.640616",
+            "license": "No se ha especificado la licencia",
+            "identifier": "6dd962b8-ead4-4d93-aecc-eaca501d46d2",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-19T12%3A29%3A42.987Z/biblioteca-popular-15-de-junio.pdf",
+                    "title": "BIBLIOTECA_POPULAR_15_DE_JUNIO.pdf",
+                    "issued": "2016-08-19T09:28:57.152883",
+                    "description": "Proyecto para Mejorar la gestión interna de la Biblioteca y su relación con pares.\r\nGenerando modificación o cambios de conductas en la comunidad",
+                    "format": "PDF",
+                    "modified": "2016-08-19T09:28:57.742177",
+                    "mediaType": "application/pdf",
+                    "byteSize": "92677",
+                    "identifier": "5118f97c-0070-4b75-b335-4b5afcd131e6"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-19T12%3A31%3A35.390Z/inquilinos-neuquen.pdf",
+                    "title": "Inquilinos_Neuquén.pdf",
+                    "issued": "2016-08-19T09:29:32.760155",
+                    "description": "Contar con un asesoramiento integral, que pretenda acceder a un alquiler que se adapte a las preferencias y posibilidades reales de los inquilinos",
+                    "format": "PDF",
+                    "modified": "2016-08-19T09:29:33.068285",
+                    "mediaType": "application/pdf",
+                    "byteSize": "78340",
+                    "identifier": "f358335e-60c4-4ad6-8571-8df72d712cbc"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-19T12%3A32%3A10.977Z/navegar-seguro.pdf",
+                    "title": "Navegar_seguro.pdf",
+                    "issued": "2016-08-19T09:31:29.860051",
+                    "description": "Proyecto sobre protección en la navegación infantil en internet",
+                    "format": "PDF",
+                    "modified": "2016-08-19T09:31:30.365747",
+                    "mediaType": "application/pdf",
+                    "byteSize": "360651",
+                    "identifier": "e0933df9-0ac5-410c-93dc-b5f76e3902fa"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-19T12%3A34%3A09.182Z/navegar-seguro-informacion-complementaria.pdf",
+                    "title": "Navegar_seguro_información_complementaria.pdf",
+                    "issued": "2016-08-19T09:31:54.306022",
+                    "description": "información complementaria proyecto Navegar Seguro",
+                    "format": "PDF",
+                    "modified": "2016-08-19T09:31:54.493027",
+                    "mediaType": "application/pdf",
+                    "byteSize": "331192",
+                    "identifier": "414c48f9-a330-4c22-bd1a-242ce0e7dbb9"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-19T12%3A34%3A31.734Z/nutricion-infantil-fundacion-conin.pdf",
+                    "title": "Nutrición_infantil_FUNDACIÓN_CONIN.pdf",
+                    "issued": "2016-08-19T09:32:57.908656",
+                    "description": "Proyecto para Lograr sostener la estructura de profesionales en atención al desarrollo integral de niñas y niños en situación de riesgo nutricional y social,",
+                    "format": "PDF",
+                    "modified": "2016-08-19T09:32:58.141168",
+                    "mediaType": "application/pdf",
+                    "byteSize": "104243",
+                    "identifier": "f4eca5ef-7438-4a72-bc50-cadab5f5cf02"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-19T12%3A35%3A35.594Z/otras-voces.pdf",
+                    "title": "Otras_voces.pdf",
+                    "issued": "2016-08-19T09:38:37.461594",
+                    "description": "Proyecto para brindar conocimiento y acceso para trabajadores y emprendedores, a información que mejore ingresos y economía familiar",
+                    "format": "PDF",
+                    "modified": "2016-08-19T09:38:37.604729",
+                    "mediaType": "application/pdf",
+                    "byteSize": "110487",
+                    "identifier": "14fb5646-ee3c-4e4d-9ee2-4dcd0ae7b8bb"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-22T13%3A24%3A17.561Z/jucaid.pdf",
+                    "title": "JUCAID.pdf",
+                    "issued": "2016-08-22T10:22:33.703577",
+                    "description": "Proyecto que ayuda a concientizar sobre temas relativos a personas con discapacidad. ",
+                    "format": "PDF",
+                    "modified": "2016-08-22T10:22:40.437227",
+                    "mediaType": "application/pdf",
+                    "byteSize": "93206",
+                    "identifier": "db04d0b7-b598-450b-b54a-0b75b07a193c"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-22T13%3A28%3A58.179Z/dislexia.pdf",
+                    "title": "Dislexia.pdf",
+                    "issued": "2016-08-22T10:28:05.078024",
+                    "description": "Asociación Civil Dislexia Neuquén presenta su proyecto para la difusión, conocimiento y capacitación de la Dislexia. ",
+                    "format": "PDF",
+                    "modified": "2016-08-22T10:28:08.343981",
+                    "mediaType": "application/pdf",
+                    "byteSize": "85200",
+                    "identifier": "fbfadb90-bae2-4364-9825-33309ac56a04"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-22T22%3A45%3A17.208Z/fichas-1.jpg",
+                    "title": "fichas 1.jpg",
+                    "issued": "2016-08-22T20:15:56.129117",
+                    "description": "Fichas de organizaciones participantes",
+                    "format": "jpg",
+                    "modified": "2016-08-22T20:16:01.416121",
+                    "mediaType": "image/jpeg",
+                    "byteSize": "737993",
+                    "identifier": "75827424-8689-48c2-a34e-a3ef2d0c954e"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-23T11%3A10%3A22.708Z/fichas2.jpg",
+                    "title": "fichas2.jpg",
+                    "issued": "2016-08-23T08:08:01.011945",
+                    "description": "Fichas de organizaciones participantes",
+                    "format": "jpg",
+                    "modified": "2016-08-23T08:08:09.041677",
+                    "mediaType": "image/jpeg",
+                    "byteSize": "757359",
+                    "identifier": "59bf8e20-986c-4253-9e18-7275ee223bfe"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-23T11%3A11%3A22.843Z/fichas3.jpg",
+                    "title": "fichas3.jpg",
+                    "issued": "2016-08-23T08:08:38.047587",
+                    "description": "Fichas de organizaciones participantes",
+                    "format": "jpg",
+                    "modified": "2016-08-23T08:08:38.632926",
+                    "mediaType": "image/jpeg",
+                    "byteSize": "710331",
+                    "identifier": "700ce873-5e28-4e75-b74a-f4754feca146"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-23T11%3A12%3A39.772Z/fichas4-repetidas.jpg",
+                    "title": "fichas4-repetidas.jpg",
+                    "issued": "2016-08-23T08:09:54.470656",
+                    "description": "Fichas de organizaciones participantes",
+                    "format": "jpg",
+                    "modified": "2016-08-23T08:09:55.592503",
+                    "mediaType": "image/jpeg",
+                    "byteSize": "791689",
+                    "identifier": "56bba84b-2423-4806-beec-7ddfce8ab20d"
+                }
+            ],
+            "theme": [],
+            "keyword": [
+                "Equipos de trabajo",
+                "Hackathon",
+                "Neuquén",
+                "Proyectos",
+                "Socialthon"
+            ]
+        },
+        {
+            "title": "Proveedores del Estado Vigentes 2016",
+            "description": "",
+            "issued": "2016-08-19T11:47:54.582278",
+            "modified": "2016-08-19T11:51:17.209277",
+            "license": "No se ha especificado la licencia",
+            "identifier": "7cd514b1-577f-45a9-ab3a-1e4f75ec5438",
+            "landingPage": null,
+            "publisher": {
+                "name": "Sebastian Pistagnesi",
+                "mbox": "spistagnesi@haciendanqn.gob.ar"
+            },
+            "contactPoint": {
+                "fn": "Matías Nicolás Pensado",
+                "hasEmail": "mpensado@haciendanqn.gob.ar"
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-19T11%3A50%3A49.564Z/proveedores-vigentes-hackathon-2016.xls",
+                    "title": "Proveedores_Vigentes HACKATHON 2016.xls",
+                    "issued": "2016-08-19T08:48:29.040263",
+                    "description": "Personas físicas y jurídicas que voluntariamente ofrecen bienes y servicios a la Estado Provincial Neuquino - 2016 - ",
+                    "format": "XLS",
+                    "modified": "2016-08-19T08:48:39.097930",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "453632",
+                    "identifier": "c2204187-9641-439d-9611-efbe7b03ff07"
+                }
+            ],
+            "theme": [],
+            "keyword": []
+        },
+        {
+            "title": "Organismos y Organizaciones que realizan  compras y contrataciones",
+            "description": "Organismos y organizaciones que conforman el Estado \r\nProvincial Neuquino, clasificados por dependencia, a los cuales los \r\nproveedores del estado pueden ofrecer sus bienes o servicios.\r\n",
+            "issued": "2014-03-19T14:43:04.975629",
+            "modified": "2014-07-04T16:39:38.872609",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "8c9ac1f1-f633-4c78-ab4d-b572d9d9663d",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-19T14%3A44%3A13.785Z/organismos-y-organizaciones-que-compran.xls",
+                    "title": "Organismos y organizaciones que compran.xls",
+                    "issued": "2014-03-19T11:44:41.398331",
+                    "description": "Organismos y organizaciones que conforman el Estado \r\nProvincial Neuquino, clasificados por dependencia, a los cuales los \r\nproveedores del estado pueden ofrecer sus bienes o servicios",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "9f1da6d7-2d3d-49c5-863f-74851a38bf0a"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T12%3A53%3A20.060Z/organismos-y-organizaciones-que-compran.csv",
+                    "title": "Organismos y organizaciones que compran.csv",
+                    "issued": "2014-03-20T09:52:39.504292",
+                    "description": "Organismos y organizaciones que conforman el Estado \r\nProvincial Neuquino, clasificados por dependencia, a los cuales los \r\nproveedores del estado pueden ofrecer sus bienes o servicios",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "7ddb66b2-dae7-4351-9be7-a601610e4f1a"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T13%3A24%3A50.004Z/organismos-y-organizaciones-que-compran.xml",
+                    "title": "Organismos y organizaciones que compran.xml",
+                    "issued": "2014-03-20T10:21:17.861017",
+                    "description": "Organismos y organizaciones que conforman el Estado \r\nProvincial Neuquino, clasificados por dependencia, a los cuales los \r\nproveedores del estado pueden ofrecer sus bienes o servicios.\r\n",
+                    "format": "XML",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "2c23e449-8899-43e6-a573-d7d207f6868e"
+                }
+            ],
+            "theme": [
+                "administracion-publica",
+                "actividad-economica"
+            ],
+            "keyword": [
+                "Organismos",
+                "Organizaciones",
+                "compras",
+                "contrataciones"
+            ]
+        },
+        {
+            "title": "Transporte público de la provincia del Neuquén",
+            "description": "Las distintas empresas de Transporte público interurbano de la provincia del Neuquén con sus tarifas y frecuencias de viaje.",
+            "issued": "2014-03-18T12:55:57.230033",
+            "modified": "2016-03-17T14:35:10.241758",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "8f766297-deb5-4000-8377-eba3195b1ad0",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-03-17T14%3A42%3A53.797Z/empresas-y-servicios.csv",
+                    "title": "Empresas y Servicios.csv",
+                    "issued": "2014-03-20T13:53:47.064921",
+                    "description": "Servicios por Empresa de Omnibus",
+                    "format": "CSV",
+                    "modified": "2016-03-17T11:29:38.857469",
+                    "mediaType": "text/csv",
+                    "byteSize": "22068",
+                    "identifier": "b65158b9-86af-4528-b6d5-2dc8f3cf6911"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-03-17T14%3A46%3A03.145Z/empresas-y-servicios.xls",
+                    "title": "Empresas y Servicios.xls",
+                    "issued": "2014-03-20T13:54:48.167963",
+                    "description": "Servicios por Empresa de Omnibus",
+                    "format": "XLS",
+                    "modified": "2016-03-17T11:32:45.366580",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "62976",
+                    "identifier": "2997aedc-3393-4848-81ac-6ae09b7284dd"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-03-17T14%3A46%3A51.070Z/listado-de-empresas.csv",
+                    "title": "listado de empresas.csv",
+                    "issued": "2014-03-20T14:29:51.224769",
+                    "description": "Empresas, códigos y sus datos - transporte de Omnibus",
+                    "format": "CSV",
+                    "modified": "2016-03-17T11:33:29.834833",
+                    "mediaType": "text/csv",
+                    "byteSize": "1737",
+                    "identifier": "ed54f43e-d0f9-4385-adf3-480ebef495ee"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-03-17T14%3A47%3A16.573Z/listado-de-empresas.xls",
+                    "title": "listado de empresas.xls",
+                    "issued": "2014-03-20T14:31:04.121854",
+                    "description": "Empresas, códigos y sus datos - transporte de Omnibus",
+                    "format": "XLS",
+                    "modified": "2016-03-17T11:33:55.038891",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "9216",
+                    "identifier": "30ac40b8-6d93-4e17-9f7a-e4b4e63379a6"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-03-17T14%3A48%3A08.044Z/listado-de-corredores.xls",
+                    "title": "Listado de corredores.xls",
+                    "issued": "2014-03-20T14:37:10.169148",
+                    "description": "Transporte de ómnibus interurbano, corredores. código y datos.",
+                    "format": "XLS",
+                    "modified": "2016-03-17T11:34:46.906231",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "20992",
+                    "identifier": "a56ec54e-780d-47a1-b7af-4138a2b13df1"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-03-17T14%3A48%3A30.191Z/listado-de-corredores.csv",
+                    "title": "Listado de corredores.csv",
+                    "issued": "2014-03-20T14:37:37.095853",
+                    "description": "Transporte de ómnibus interurbano, corredores. código y datos.",
+                    "format": "CSV",
+                    "modified": "2016-03-17T11:35:08.888439",
+                    "mediaType": "text/csv",
+                    "byteSize": "7019",
+                    "identifier": "6df2ea2f-dae1-4748-ba6f-18e31fe7e844"
+                }
+            ],
+            "theme": [
+                "movilidad-y-transporte"
+            ],
+            "keyword": [
+                "colectivo",
+                "frecuencias",
+                "tarifas",
+                "transporte",
+                "viajar"
+            ]
+        },
+        {
+            "title": "Actividad Petrolifera y Gasifera ",
+            "description": "Información sobre los pozos petroliferos y gasiferos de la provincia",
+            "issued": "2014-03-21T17:19:53.610361",
+            "modified": "2014-03-26T23:52:00.169826",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "95c2ed78-46ac-40f4-8307-66cbc8a5e3d2",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-26T23%3A53%3A00.037Z/prodpetro.xls",
+                    "title": "prodpetro.xls",
+                    "issued": "2014-03-21T14:20:23.252814",
+                    "description": "Ubicacion de los pozos petroliferos en la provincia.",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "542082a6-7eb4-4100-8612-c87b9d92c1d8"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T18%3A20%3A47.620Z/pozos-petroleros.csv",
+                    "title": "Pozos Petroleros.csv",
+                    "issued": "2014-03-21T14:34:55.711415",
+                    "description": "Ubicación de los pozos petrolíferos en la provincia.",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "32f19872-9630-47fa-b9be-07df2cefb3c6"
+                }
+            ],
+            "theme": [
+                "actividad-economica",
+                "clima-y-medio-ambiente"
+            ],
+            "keyword": [
+                "gas",
+                "mineria",
+                "petroleo"
+            ]
+        },
+        {
+            "title": "Padrón de empleados de la administración Pública",
+            "description": "El archivo es provisto por la Dirección Provincial de Gestión de RRHH que representa los puestos de trabajo en el ámbito del Poder Ejecutivo.",
+            "issued": "2016-03-16T17:47:33.646227",
+            "modified": "2016-07-20T17:35:55.088926",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "a31e13a0-02d5-4e68-9061-2d0d8133d80a",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-07-20T17%3A35%3A25.030Z/padronpuestos.csv",
+                    "title": "padronPuestos.csv",
+                    "issued": "2016-07-20T14:35:47.660863",
+                    "description": "Listado de puestos de agentes públicos de la provincia del Neuquén, y sus lugares de trabajo.",
+                    "format": "CSV",
+                    "modified": "2016-07-20T14:35:54.766924",
+                    "mediaType": "text/csv",
+                    "byteSize": "23385245",
+                    "identifier": "09e4dff0-6c6b-4786-9401-6bbad7fbd9fa"
+                }
+            ],
+            "theme": [],
+            "keyword": [
+                "adminsitración RRHH",
+                "padron"
+            ]
+        },
+        {
+            "title": "ISSN",
+            "description": "Los dataset que se encuentran son los siguientes: prestadores (médicos y farmacias), nomenclador y su cobertura y el manual terapéutico.",
+            "issued": "2014-03-20T17:36:59.675763",
+            "modified": "2016-08-09T18:12:16.357305",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "ae1b6d14-56d1-420e-a882-2e85cdea5679",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T15%3A55%3A41.742Z/localidad.xls",
+                    "title": "Localidad.xls",
+                    "issued": "2016-08-09T12:55:41.136440",
+                    "description": "Localidades ISSN",
+                    "format": "XLS",
+                    "modified": "2016-08-09T12:55:46.156682",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "89088",
+                    "identifier": "1cb02948-5986-4ba2-987f-478cbae0430e"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T15%3A57%3A51.205Z/med-droga.xls",
+                    "title": "Med_Droga.xls",
+                    "issued": "2016-08-09T12:56:32.163534",
+                    "description": "Catálogo de Drogas ISSN",
+                    "format": "XLS",
+                    "modified": "2016-08-09T12:56:34.109532",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "33280",
+                    "identifier": "2b0591ab-7110-4db3-baad-3f416d3a895f"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T16%3A07%3A02.345Z/med-presentacion.xls",
+                    "title": "Med_Presentacion.xls",
+                    "issued": "2016-08-09T13:06:02.808634",
+                    "description": "Catálogo formas presentación medicamentos",
+                    "format": "XLS",
+                    "modified": "2016-08-09T13:06:03.589607",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "202240",
+                    "identifier": "ec75bbde-be79-4599-958f-c10eafea4982"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T16%3A10%3A45.743Z/medicamento.xls",
+                    "title": "Medicamento.xls",
+                    "issued": "2016-08-09T13:09:32.447697",
+                    "description": "Catálogo de medicamentos",
+                    "format": "XLS",
+                    "modified": "2016-08-09T13:09:32.874207",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "3907072",
+                    "identifier": "9010790f-6990-4aae-b437-d1b00bae3ab8"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T17%3A56%3A47.120Z/pcias.xls",
+                    "title": "Pcias.xls",
+                    "issued": "2016-08-09T14:55:55.906059",
+                    "description": "Nomenclador códigos de provincias ISSN",
+                    "format": "XLS",
+                    "modified": "2016-08-09T14:55:57.048696",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "14336",
+                    "identifier": "2729c8bc-3353-41d4-b048-18b59331613a"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T18%3A02%3A15.924Z/prest-categ.xls",
+                    "title": "Prest_Categ.xls",
+                    "issued": "2016-08-09T15:01:07.710978",
+                    "description": "Categorías de prestaciones ISSN",
+                    "format": "XLS",
+                    "modified": "2016-08-09T15:01:08.133095",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "13824",
+                    "identifier": "53403655-3815-4a9e-9d73-a62a110ccd91"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T18%3A03%3A48.378Z/prest-consul.xls",
+                    "title": "Prest_Consul.xls",
+                    "issued": "2016-08-09T15:02:49.059262",
+                    "description": "Tabla prestadores / Consultorios ISSN",
+                    "format": "XLS",
+                    "modified": "2016-08-09T15:02:50.384020",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "300544",
+                    "identifier": "3794004e-5258-4a17-b936-dcc755ab3c47"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T18%3A04%3A58.387Z/prest-entidad.xls",
+                    "title": "Prest_Entidad.xls",
+                    "issued": "2016-08-09T15:03:53.899944",
+                    "description": "Catálogo de Entidades prestadoras ISSN",
+                    "format": "XLS",
+                    "modified": "2016-08-09T15:03:54.868371",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "124928",
+                    "identifier": "b66af993-fc3f-4ac2-ba4e-5d61437fe24e"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T18%3A05%3A54.526Z/prest-espec.xls",
+                    "title": "Prest_Espec.xls",
+                    "issued": "2016-08-09T15:04:44.010516",
+                    "description": "Catálogo de especialidades ISSN",
+                    "format": "XLS",
+                    "modified": "2016-08-09T15:04:44.413315",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "20480",
+                    "identifier": "6cb8ea63-27d5-4633-a526-2f6b04b51f16"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T18%3A06%3A57.614Z/prest-prestaespec.xls",
+                    "title": "Prest_PrestaEspec.xls",
+                    "issued": "2016-08-09T15:05:47.550054",
+                    "description": "Tabla relaciones prestador / especialidad ISSN",
+                    "format": "XLS",
+                    "modified": "2016-08-09T15:05:48.113692",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "174080",
+                    "identifier": "0ded453d-703d-4072-97f0-54327af25064"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T18%3A07%3A44.013Z/prest-suc.xls",
+                    "title": "Prest_Suc.xls",
+                    "issued": "2016-08-09T15:06:30.425667",
+                    "description": "Domicilio prestadores ISSN",
+                    "format": "XLS",
+                    "modified": "2016-08-09T15:06:31.502513",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "247808",
+                    "identifier": "8ae141b5-fad4-460c-a6ca-ab53ebbbd3b6"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T18%3A08%3A19.624Z/prestadores.xls",
+                    "title": "Prestadores.xls",
+                    "issued": "2016-08-09T15:07:05.743210",
+                    "description": "Cat{alogo de prestadores ISSN",
+                    "format": "XLS",
+                    "modified": "2016-08-09T15:07:05.907304",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "401920",
+                    "identifier": "794d85f4-f9fa-4e2b-9e39-0a33b5c6408d"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T18%3A12%3A35.577Z/nom-cobertura.xls",
+                    "title": "Nom_Cobertura.xls",
+                    "issued": "2016-08-09T15:11:06.383408",
+                    "description": "Nomenclador de coberturas",
+                    "format": "XLS",
+                    "modified": "2016-08-09T15:11:07.301606",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "792064",
+                    "identifier": "12847a04-a6ca-4b19-bccf-ba25229e70e9"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-08-09T18%3A13%3A25.642Z/nomenclador.xls",
+                    "title": "Nomenclador.xls",
+                    "issued": "2016-08-09T15:12:04.872898",
+                    "description": "Catálogo Nomenclador ISSN",
+                    "format": "XLS",
+                    "modified": "2016-08-09T15:12:05.850491",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "875008",
+                    "identifier": "79bf9f94-28c2-431b-849f-59bd901bcc30"
+                }
+            ],
+            "theme": [
+                "salud-y-servicios-sociales",
+                "administracion-publica"
+            ],
+            "keyword": [
+                "Medicamento",
+                "farmacia",
+                "medico",
+                "practica",
+                "practica bioquimica",
+                "practica medica",
+                "practica odontologica",
+                "prestador",
+                "vademécum"
+            ]
+        },
+        {
+            "title": " Registro de demandantes de empleo",
+            "description": "Los datos pertenecen a personas que se acercan a solicitar empleo, y quedan registradas con su género, edad, la localidad en la que viven, los oficios que realizan y las capacitaciones que requieren.",
+            "issued": "2014-03-20T13:22:35.968209",
+            "modified": "2014-10-21T13:30:37.245197",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "e4b259eb-950d-4efa-a07b-c273d27873bc",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T13%3A18%3A29.420Z/datos-optic-nqn-capital.xls",
+                    "title": "Trabajadores Nqn Capital.xls",
+                    "issued": "2014-03-20T10:24:38.528014",
+                    "description": "Datos de personas que buscan empleo en Neuquen Capital por medio de la Subsecretaria de Empleo. Se removieron los datos personales de Nombre, Apellido, DNI y CUIL",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "2bdafeed-42df-42e2-bea6-50d398fd6adb"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-20T13%3A20%3A36.138Z/datos-optic-nqn-interior.xls",
+                    "title": "Trabajadores Nqn Interior.xls",
+                    "issued": "2014-03-20T10:26:17.503943",
+                    "description": "Datos de personas que buscan empleo en el interior de Neuquen por medio de la Subsecretaria de Empleo. Se removieron los datos personales de Nombre, Apellido, DNI y CUIL",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "aa2aa812-1be7-46e6-9df0-fa2cde9c59bb"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T13%3A35%3A28.873Z/datos-optic-nqn-capital.csv",
+                    "title": "Datos Optic Nqn Capital.csv",
+                    "issued": "2014-03-21T10:34:41.084481",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "39f92200-a27e-40ff-b78b-34dce8ee7761"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T13%3A35%3A53.162Z/datos-optic-nqn-interior.csv",
+                    "title": "Datos Optic Nqn Interior.csv",
+                    "issued": "2014-03-21T10:35:04.496990",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "e2b12f3f-f32a-405f-9f09-8db276c588d4"
+                }
+            ],
+            "theme": [
+                "empleo"
+            ],
+            "keyword": [
+                "empleo",
+                "neuquen capital"
+            ]
+        },
+        {
+            "title": "Oficina Provincial de Contrataciones",
+            "description": "Información de los gastos realizados por la Oficina Provincial de Contrataciones de la Provincia de Neuquén.",
+            "issued": "2014-03-21T19:53:21.255542",
+            "modified": "2014-10-20T15:01:58.412245",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "f020330b-2560-4252-a357-931e8abaacbf",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T20%3A06%3A36.037Z/compras-realizadas-por-safipro.xls",
+                    "title": "Compras realizadas por SAFIPRO.xls",
+                    "issued": "2014-03-21T17:08:42.939257",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "df314d6f-7173-4aa9-b269-052db58d4ff0"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-23T15%3A47%3A28.942Z/gastos-parte-1.xls",
+                    "title": "Gastos parte 1.xls",
+                    "issued": "2014-03-21T17:10:52.281970",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "40dc971f-c1bc-4ffb-ae26-9fc4c57ef537"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T20%3A15%3A45.147Z/gastos-parte-2.xls",
+                    "title": "Gastos parte 2.xls",
+                    "issued": "2014-03-21T17:15:51.566964",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "7af1af93-bb0e-4c4a-95d7-081dc40e23ed"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T20%3A17%3A07.515Z/gastos-parte-3.xls",
+                    "title": "Gastos parte 3.xls",
+                    "issued": "2014-03-21T17:19:27.019678",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "8c668796-22fb-4899-a49e-1409154aec67"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T20%3A22%3A18.644Z/gastos-parte-4.xls",
+                    "title": "Gastos parte 4.xls",
+                    "issued": "2014-03-21T17:22:53.928328",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "3680d3c1-fde3-42ca-bb12-95b84f4d777e"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T20%3A24%3A21.135Z/gastos-parte-5.xls",
+                    "title": "Gastos parte 5.xls",
+                    "issued": "2014-03-21T17:24:25.035168",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "e822b7a9-b1e3-43a2-997f-e2c1150d6605"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T20%3A25%3A43.226Z/gastos-parte-6.xls",
+                    "title": "Gastos parte 6.xls",
+                    "issued": "2014-03-21T17:26:07.210483",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "13c6a834-dc6a-4b8c-91bc-fc4d8d97da07"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-25T11%3A08%3A47.807Z/compras-realizadas-por-safipro.csv",
+                    "title": "compras-realizadas-por-safipro.csv",
+                    "issued": "2014-03-25T08:08:08.019745",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "a7552a5b-4d29-4cfc-a239-6c13ba3ba3aa"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-25T11%3A12%3A38.250Z/gastos-parte-1.csv",
+                    "title": "gastos-parte-1.csv",
+                    "issued": "2014-03-25T08:11:51.909637",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "7318144d-dab5-455d-a9ab-44482811d2b4"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-25T11%3A13%3A06.965Z/gastos-parte-2.csv",
+                    "title": "gastos-parte-2.csv",
+                    "issued": "2014-03-25T08:12:20.681346",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "041aa605-3817-4ea2-86d4-fede95dad3b6"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-25T11%3A18%3A23.777Z/gastos-parte-3.csv",
+                    "title": "gastos-parte-3.csv",
+                    "issued": "2014-03-25T08:17:37.860567",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "42f91b00-d18a-4c87-884e-8c95e5224917"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-25T11%3A18%3A36.650Z/gastos-parte-4.csv",
+                    "title": "gastos-parte-4.csv",
+                    "issued": "2014-03-25T08:17:50.518190",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "91e50f76-e38d-4549-878c-11dcede7a220"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-25T11%3A18%3A56.627Z/gastos-parte-5.csv",
+                    "title": "gastos-parte-5.csv",
+                    "issued": "2014-03-25T08:18:10.878437",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "b3a6179d-bf0e-44a6-9e68-8f7ad1a998c7"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-25T11%3A19%3A14.199Z/gastos-parte-6.csv",
+                    "title": "gastos-parte-6.csv",
+                    "issued": "2014-03-25T08:18:31.658044",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "467a15e7-b6b8-4485-b05f-42c36c5596df"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-26T01%3A47%3A43.398Z/hkt-clases-asociadas-a-los-proveedores.xls",
+                    "title": "HKT -Clases Asociadas a los Proveedores.xls",
+                    "issued": "2014-03-25T22:51:58.437532",
+                    "description": "Bienes o servicios (Clases) que los Proveedores del Estado vigentes ofrecen voluntariamente al Estado.",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "353d7e61-082c-4383-a5ba-ca4c252dd695"
+                }
+            ],
+            "theme": [
+                "actividad-economica"
+            ],
+            "keyword": [
+                "compras",
+                "contrataciones",
+                "proveedores"
+            ]
+        },
+        {
+            "title": "Información Municipal Básica",
+            "description": "El programa «Información Municipal Básica», tiene por objetivo la producción de información de carácter municipal, mediante la implementación anual de una encuesta a todas las jurisdicciones municipales. En dicho relevamiento se abordan distintas temáticas, como características generales y cartográficas, sociodemográficas, administrativas, económicas, financieras y medioambientales, lo cual posibilita la construcción del perfil de cada uno de los Gobiernos Locales de la Provincia del Neuquén. Para esta ocasión se seleccionaron algunas de las variables recolectadas; el siguiente cuadro muestra el nombre o código de la variable, una breve descripción y la pregunta tal como se encuentra en el cuestionario de recolección de los datos que se envía a cada municipio.",
+            "issued": "2014-03-18T15:50:28.121006",
+            "modified": "2016-07-25T13:51:57.594808",
+            "license": "Open Data Commons Open Database License (ODbL)",
+            "identifier": "f7e31d38-cc99-4374-bdfb-5182563a2104",
+            "landingPage": null,
+            "publisher": {
+                "name": "",
+                "mbox": ""
+            },
+            "contactPoint": {
+                "fn": "",
+                "hasEmail": ""
+            },
+            "distribution": [
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A39%3A36.107Z/localidades.xls",
+                    "title": "LocalidadesGEO.xls",
+                    "issued": "2014-03-21T14:45:14.392935",
+                    "description": "Ubicacion de las localidades y comisiones de fomento.",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "7dd1bbc1-1368-42f5-a914-e0f295cef6a2"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-21T17%3A42%3A02.707Z/variables-hackathon-final.xls",
+                    "title": "Variables censo.xls",
+                    "issued": "2014-03-21T14:47:45.596428",
+                    "description": "Descripcion de las variables de la encuesta de los municipios de la provincia",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "ccd439d3-994c-46fe-80cb-a0f34c863776"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-26T22%3A34%3A40.714Z/censo-2010-m-totalp01.xls",
+                    "title": "Censo_2010_M_TotalP01.xls",
+                    "issued": "2014-03-26T19:33:57.983288",
+                    "description": "",
+                    "format": "XLS",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "426fe10e-be42-4ce7-99fc-7599f3482819"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2014-03-26T22%3A52%3A39.993Z/censo-2010-m-totalp01.csv",
+                    "title": "Censo_2010_M_TotalP01.csv",
+                    "issued": "2014-03-26T19:51:37.088876",
+                    "description": "",
+                    "format": "CSV",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "cfdbf916-e6a8-42e3-b825-7091c60edf3d"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-07-25T12%3A36%3A29.580Z/variables-tabla-municipios-final.xls",
+                    "title": "Variables tabla municipios - final.xls",
+                    "issued": "2016-07-25T09:37:11.851948",
+                    "description": "Describe significado de campos tabla Información básica de Municipios provincia del Neuquén",
+                    "format": "XLS",
+                    "modified": "2016-07-25T09:37:17.506084",
+                    "mediaType": "application/vnd.ms-excel",
+                    "byteSize": "28672",
+                    "identifier": "5c0f4e8d-2caa-495b-82f9-4b19b7d04a47"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-07-25T12%3A39%3A18.712Z/municipios-informacion-basica.xlsx",
+                    "title": "Municipios Información básica.xlsx",
+                    "issued": "2016-07-25T09:39:33.858227",
+                    "description": "Tabla conteniendo datos básicos de los Municipios de la Provincia del Neuquén",
+                    "format": "XLS",
+                    "modified": "2016-07-25T09:39:34.054856",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "byteSize": "19560",
+                    "identifier": "e759dc31-2a58-401e-bce8-61cc6449671c"
+                },
+                {
+                    "downloadURL": "http://datos.neuquen.gob.ar/storage/f/2016-07-25T13%3A51%3A43.383Z/informacion-municipal-basica.doc",
+                    "title": "Información municipal básica.doc",
+                    "issued": "2016-07-25T10:51:57.621822",
+                    "description": "Documento con descripción e información tablas Información Municipios",
+                    "format": "doc",
+                    "modified": null,
+                    "mediaType": null,
+                    "byteSize": null,
+                    "identifier": "fbc18f31-4210-4a8c-8bf6-24ae28252838"
+                }
+            ],
+            "theme": [
+                "administracion-publica"
+            ],
+            "keyword": [
+                "Municipios",
+                "categorias"
+            ]
+        }
+    ],
+    "themeTaxonomy": [
+        {
+            "id": "actividad-economica",
+            "label": "Actividad Económica",
+            "description": "Las distintas actividades económica de la provincia tales como agricultura, ganadería, minería, actividad industrial y servicios."
+        },
+        {
+            "id": "administracion-publica",
+            "label": "Administración Pública",
+            "description": "Información que comprende el conjunto de organizaciones públicas que realizan la función administrativa y de gestión del Estado y de otros entes públicos con personalidad jurídica."
+        },
+        {
+            "id": "clima-y-medio-ambiente",
+            "label": "Clima y Medio Ambiente",
+            "description": "Información de los valores estadísticos sobre los elementos del tiempo atmosférico en una región durante un periodo representativo, como también un entorno que afecta y condiciona especialmente las circunstancias de vida de las personas o de la sociedad en su conjunto."
+        },
+        {
+            "id": "cultura-y-recreacion",
+            "label": "Cultura y Recreación",
+            "description": "Datos referidos a la actividades, usos y costumbres de las distintas agrupaciones sociales y deportivas de la provincia del Neuquén."
+        },
+        {
+            "id": "ed",
+            "label": "Educación",
+            "description": "Datos de la actividad educacional desarrollada en el ámbito del gobierno Neuquino."
+        },
+        {
+            "id": "empleo",
+            "label": "Empleo",
+            "description": "Datos relacionados con la actividad de los organismos públicos Neuquinos que regulan las relaciones empleado - empleador en toda la provincia."
+        },
+        {
+            "id": "infraestructura-y-obras-publicas",
+            "label": "Infraestructura y Obras Públicas",
+            "description": "Datos utilizados por los organismos que fiscalizan y gestionan la infraestructura edilicia, de obra publica y servicios en todo el ámbito de la provincia."
+        },
+        {
+            "id": "movilidad-y-transporte",
+            "label": "Movilidad y Transporte",
+            "description": "Datos de la actividad del transporte público en la provincia del Neuquén, Taxis, Omnibus, Aviones, estaciones terminales etc."
+        },
+        {
+            "id": "salud-y-servicios-sociales",
+            "label": "Salud y Servicios Sociales",
+            "description": "Información  relacionada al bienestar de toda la sociedad de la provincia, tanto en salud, servicios sanitarios o asistencia social, etc."
+        },
+        {
+            "id": "seguridad-y-justicia",
+            "label": "Seguridad y Justicia",
+            "description": "Información referida a la actividad que regula y controla el accionar de todos los individuos de la sociedad de la provincia del Neuquén."
+        }
+    ]
+}

@@ -1,8 +1,7 @@
-import csv
-import json
-from pydatajson import DataJson
-from csv import reader
-from csv import writer
+import csv, random, time, json, util, requests, output
+from pydatajson import DataJson, readers, writers
+from csv import reader, writer
+
 
 import argparse
 
@@ -11,51 +10,62 @@ parser = argparse.ArgumentParser(description='Test file')
 parser.add_argument('--file', type=str, help='A required with listed nodes file to process.')
 args = parser.parse_args()
 
-dj = DataJson()
-try:
-    f = open('./test/result/result.xlsx', 'w', newline='')
-    header = ['Catalog Link', 'Catalog Errors', 'Catalog Error Desc', 'Dataset title', 'Dataset Errors', 'Dataset Error Desc']
-    writer = csv.writer(f)
-    writer.writerow(header)
-    # open file in read mode
-    with open(args.file, 'r') as read_obj:
-        # pass the file object to reader() to get the reader object
-        catalogs = reader(read_obj)
-        # Iterate over each row in the csv using reader object
-        for catalog in catalogs:
-            catalog = catalog[0]
-            print ('Catalog: ' + catalog + '\n')
-            result = dj.is_valid_catalog(catalog)
-            validation_report = dj.validate_catalog(catalog)
-            print('Result: ' + str(result) + '\n')
-            print('Report: ' + str(validation_report) + '\n')
+datajson = DataJson()
 
-            categories = validation_report['error']
-            if result == True:
-                for cat in categories: 
-                    if cat == 'dataset' and categories[cat] != None:
-                        for dataset in categories[cat]:
-                            data = [catalog, False, 'None', dataset['title'], False, 'None']
-                            writer = csv.writer(f)
-                            writer.writerow(data)
-            else:
-                catalog_error = False
-                catalog_error_desc = ''
-                for cat in categories: 
-                    if cat == 'catalog' and categories[cat] != None:
-                        if categories[cat]['status'] != 'OK':
-                            catalog_error = True
-                            for cat_err in categories[cat]['errors']: 
-                                catalog_error_desc = catalog_error_desc + cat_err['message'] +' && '
-                    elif cat == 'dataset' and categories[cat] != None:
-                        for dataset in categories[cat]:
-                            if dataset['status'] == 'ERROR':
-                                final_error_conc = ''
-                                for error in dataset['errors']:
-                                    final_error_conc  = final_error_conc + error['message'] + ' && '
-                                data = [catalog, catalog_error, catalog_error_desc, dataset['title'], True, final_error_conc]
-                                writer = csv.writer(f)
-                                writer.writerow(data)
-    f.close()
-except Exception as e:
-    print("error: {0}".format(e) + '\n')
+result_per_dataset = open('./test/result/result-per-dataset.csv', 'w', newline='')
+
+header = ['URL', 'Catalog Errors', 'Catalog Error Desc', 'Dataset title', 'Dataset Errors', 'Dataset Error Desc']
+util.write_to_file(result_per_dataset, header)
+
+# se itera una a una las lineas del archivo de entrada
+with open(args.file, 'r') as read_obj:
+    sources = reader(read_obj)
+    for source in sources:
+
+        # por cada una de ellas se determina si es accesible o no, los archivos locales siempre son accesibles
+        accessible = False
+        source = source[0]
+        print('\n' + 'reading catalog: ' + source + '\n')
+
+        # se chequea si es un link remoto o archivo local
+        if "http" in source:
+            try:
+                r = requests.get(source, timeout=3)
+                if r.status_code == 200:
+                    accessible = True
+            except requests.exceptions.Timeout as e:
+                print("error: {0}".format(e) + '\n')
+        else:
+            accessible = True
+
+        # en caso de un catalogo pesado, para exportarlo a un archivo local
+        # export_name =str(random.sample(range(100000, 999999), 1)[0])+".data.json"
+        # path = "test/samples/"+export_name
+        # print(path)
+        # catalog_dict = readers.read_catalog(source)
+        # writers.write_json(obj=catalog_dict,path=path)
+
+        indicators = None
+        if accessible:
+
+            # Lee el catalogo, el origen puede ser un archivo local, url remota. Se aceptan XSLX, JSON
+            catalog_dict = readers.read_catalog(source)
+            # Valida el catalogo
+            result = datajson.is_valid_catalog(catalog_dict)
+            # Generacion de reporte de la validacion
+            validation_report = datajson.validate_catalog(catalog_dict)
+            # Generacion de indicadores 
+            indicators = datajson.generate_catalogs_indicators(catalog_dict)
+            print('Catalogo valido: ' + str(result) + '\n')
+            #print('Report: ' + str(validation_report) + '\n')
+
+            # se genera archivo de salida por dataset
+            output.generate_output_per_dataset(result_per_dataset, source, result, validation_report)
+
+     # se genera archivo de salida de indicadores de catalogo
+    output.generate_output_catalog_indicator(source, accessible, indicators)
+
+result_per_dataset.close()
+
+
+
