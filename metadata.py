@@ -13,6 +13,7 @@ args = parser.parse_args()
 datajson = DataJson()
 
 result_per_dataset = open('./test/result/result-per-dataset.csv', 'w', newline='')
+result_catalog_indicator = open('./test/result/catalog-indicators.csv', 'w', newline='')
 
 header = ['URL', 'Catalog Errors', 'Catalog Error Desc', 'Dataset title', 'Dataset Errors', 'Dataset Error Desc']
 util.write_to_file(result_per_dataset, header)
@@ -61,11 +62,10 @@ with open(args.file, 'r') as read_obj:
 
             # se genera archivo de salida por dataset
             output.generate_output_per_dataset(result_per_dataset, source, result, validation_report)
-
-     # se genera archivo de salida de indicadores de catalogo
-    output.generate_output_catalog_indicator(source, accessible, indicators)
+        # se genera archivo de salida de indicadores de catalogo
+        output.generate_output_catalog_indicator(result_catalog_indicator, source, accessible, indicators)
 
 result_per_dataset.close()
-
+result_catalog_indicator.close()
 
 

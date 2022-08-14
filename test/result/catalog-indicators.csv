@@ -1,2 +1,4 @@
-Origen/URL,Accesible?,Titulo,Actualizado hace (dias)
-./test/samples/neuquen.json,False,True,Neuquén Open Data,2182
+Origen/URL,Accessible (14/08/2022),Titulo,Actualizado hace (dias),Cantidad Dataset,Errores Dataset,JSON,PDF,XLS,CSV,JPG,XML,DOC,PPT
+./test/samples/neuquen.json,False,True,Neuquén Open Data,2182,19,19,2,11,72,45,5,2,2,1
+./test/samples/caba.json,False,True,CKAN,5,430,430,1,56,2,1074,0,0,0,0
+./test/samples/catamarca.json,False,True,Datos Catamarca,422,4,1,0,0,4,8,0,0,0,0
