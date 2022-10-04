@@ -14,7 +14,8 @@
             "args": [
                 //"--p","yerbabuena"
                 //"--d","true",
-                "--f","./test/samples/single_node.csv"
+                "--q","10",
+                "--f","./test/samples/nodos.csv"
         ]
         }
     ]

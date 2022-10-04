@@ -1,20 +1,53 @@
+#%matplotlib inline
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 from datetime import date
 import util, csv
 
 dfc = 'distribuciones_formatos_cant'
 
-dist_types = ['JSON', 'PDF', 'XLS', 'CSV', 'JPG', 'XML', 'DOC', 'PPT']
+def generate_output_plot_indicator(stats_counter, qty):
+
+    all = stats_counter.most_common(None)
+
+    qty = len(all) if qty > len(all) else qty
+
+    most_common = all[:qty]
+    others = all[qty:]
+
+    others_val = 0
+    others_legend = []
+    for tuple in others:
+        others_legend.append(tuple[0])
+        others_val += tuple[1]
 
 
-def generate_output_plot_indicator(stats_counter):
+    others_tuple = (', '.join(others_legend), others_val)
 
-    x,y = zip(*stats_counter.most_common())
-    print(x)
-    print(y)
+    result_counter = most_common
+    result_counter.append(others_tuple)
 
-    plt.bar(x,y)
-    plt.show()
+    labels = []
+    for tuple in result_counter: 
+        labels.append(tuple[0])
+
+    values = []
+    for tuple in result_counter: 
+        values.append(tuple[1])
+
+    explode = []
+    for i in range(qty):
+        explode.append(0)
+    explode.append(0.3)
+
+    fig = plt.figure(figsize=(10,7))
+    plt.pie(values, labels = labels, autopct='%1.1f%%', pctdistance=1.1, labeldistance=1.2, explode=explode)
+
+   # others_patch = mpatches.Patch(color='gray', label=', '.join(others_legend))
+
+    #plt.legend(handles=[others_patch])
+
+    plt.savefig('output-pie.png')
 
 def generate_output_catalog_indicator(file, source, accessible, indicators=None, stats_counter=None):
 
@@ -24,7 +57,7 @@ def generate_output_catalog_indicator(file, source, accessible, indicators=None,
     if indicators != None:
         indicators = indicators[0][0]
 
-        stats_counter.update(distribuciones_cant=indicators['distribuciones_cant'])
+        #stats_counter.update(distribuciones_cant=indicators['distribuciones_cant'])
         stats_counter.update(indicators[dfc])
 
         # Cantidad de distribuciones por tipo

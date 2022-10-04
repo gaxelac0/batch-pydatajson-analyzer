@@ -16,6 +16,10 @@ required.add_argument('--f', required=True, type=str, help='Argumento obligatori
 optional.add_argument('--p', type=str, help='Argumento opcional que indica que se desea agregar un prefijo al nombre de los archivos de salida, \
                                                 ej: yerbabuena para generar archivos de salida yerbabuena-catalog-indicators.csv y yerbabuena-result-per-dataset.csv.')
 optional.add_argument('--d', type=bool, help='Argumento opcional que indica que se desea que se descargue el archivo data.json al disco duro.')
+
+
+optional.add_argument('--q', type=int, help='Argumento opcional que indica la cantidad de tipos de distribuciones a mostrar en los pie charts. \
+Por defecto muestra las 4 mas presentes y agrupa las demas en "Otros".')
 args = parser.parse_args()
 
 datajson = DataJson()
@@ -56,7 +60,11 @@ with open(args.f, 'r') as read_obj:
         if not accessible:
 
             # Lee el catalogo, el origen puede ser un archivo local, url remota. Se aceptan XSLX, JSON
-            catalog_dict = readers.read_catalog(source)
+            catalog_dict = None
+            try:
+                catalog_dict = readers.read_catalog(source)
+            except:
+                continue
 
              # en caso de un catalogo pesado, para exportarlo a un archivo local
             if args.d:
@@ -82,7 +90,8 @@ with open(args.f, 'r') as read_obj:
 
         #print(statistics)
         #print(stats_counter)
-        output.generate_output_plot_indicator(stats_counter)
+
+output.generate_output_plot_indicator(stats_counter, args.q)
 
 result_per_dataset.close()
 result_catalog_indicator.close()
