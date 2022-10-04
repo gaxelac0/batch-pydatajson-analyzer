@@ -18,7 +18,7 @@ optional.add_argument('--p', type=str, help='Argumento opcional que indica que s
 optional.add_argument('--d', type=bool, help='Argumento opcional que indica que se desea que se descargue el archivo data.json al disco duro.')
 
 
-optional.add_argument('--q', type=int, help='Argumento opcional que indica la cantidad de tipos de distribuciones a mostrar en los pie charts. \
+optional.add_argument('--q', type=int, default=4, help='Argumento opcional que indica la cantidad de tipos de distribuciones a mostrar en los pie charts. \
 Por defecto muestra las 4 mas presentes y agrupa las demas en "Otros".')
 args = parser.parse_args()
 
@@ -31,9 +31,8 @@ result_catalog_indicator = open('./test/result/' + preffix + 'catalog-indicators
 header = ['URL', 'Catalog Errors', 'Catalog Error Desc', 'Dataset title', 'Dataset Errors', 'Dataset Error Desc']
 util.write_to_file(result_per_dataset, header)
 
-statistics = stats.Stats()
-
-stats_counter = Counter()
+# Contador para los tipos de distribucion para luego armar el pie chart
+dist_type_counter = Counter()
 
 # se itera una a una las lineas del archivo de entrada
 with open(args.f, 'r') as read_obj:
@@ -84,14 +83,12 @@ with open(args.f, 'r') as read_obj:
 
             # se genera archivo de salida por dataset
             output.generate_output_per_dataset(result_per_dataset, source, result, validation_report)
+
         # se genera archivo de salida de indicadores de catalogo
-        output.generate_output_catalog_indicator(result_catalog_indicator, source, accessible, indicators, stats_counter)
+        output.generate_output_catalog_indicator(result_catalog_indicator, source, accessible, indicators, dist_type_counter)
 
-
-        #print(statistics)
-        #print(stats_counter)
-
-output.generate_output_plot_indicator(stats_counter, args.q)
+# generacion del pie chart de tipos de distribucion
+output.generate_distribution_types_pie_chart(dist_type_counter, args.q)
 
 result_per_dataset.close()
 result_catalog_indicator.close()

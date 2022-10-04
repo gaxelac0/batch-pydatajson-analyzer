@@ -1,33 +1,67 @@
 URL,Catalog Errors,Catalog Error Desc,Dataset title,Dataset Errors,Dataset Error Desc
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,"Bloques, Interbloques e Integración",True,'superTheme' is a required property && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Comisiones,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – COMISIONES.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Diarios de Sesiones,True,'superTheme' is a required property && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Dictamenes,True,'superTheme' is a required property && 'accrualPeriodicity' is a required property && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Dietas y Gastos de Representación - Legisladores/as,True,'superTheme' is a required property && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Ejecución Presupuestaria de la Cámara de Diputados de la Nación,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/Documentación Ejecución Presupuestaria.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Escala Salarial,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/Doc Escala Salarial.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Estructura orgánica de la Cámara de Diputados de la Nación,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/Doc Estructura Orgánica.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Estructura orgánica de la Cámara de Diputados de la Nación,True,'superTheme' is a required property && 'accrualPeriodicity' is a required property && '' is too short && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Expedientes,True,'superTheme' is a required property && 'accrualPeriodicity' is a required property && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Firmantes Leyes Sancionadas,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/Doc_Firmantes leyes sancionadas.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Giro a Comisiones,True,'superTheme' is a required property && 'accrualPeriodicity' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/Documentacion-giro comisiones.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Grupos Parlamentarios de Amistad,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/Doc Grupos Parlamentarios de Amistad.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Diputados,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – DIPUTADOS.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Leyes Promulgadas,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – LEYESPRMULGADAS.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Leyes Sancionadas,True,'superTheme' is a required property && 'accrualPeriodicity' is a required property && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Sumario de leyes,True,'superTheme' is a required property && 'accrualPeriodicity' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – SUMARIO LEYES.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Licitaciones y Contrataciones,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/Documentación Licitaciones y Contrataciones.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Misiones Oficiales,True,'superTheme' is a required property && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Movimientos de proyectos,True,'superTheme' is a required property && 'accrualPeriodicity' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/Documentacion-movimientos proyectos .pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Nómina de personal,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/Documentación Nómina de Personal.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Periodos Parlamentarios,True,'superTheme' is a required property && 'accrualPeriodicity' is a required property && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Proyectos Parlamentarios,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION - PROYECTOS PARLAMENTARIOS.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Publicaciones,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – PUBLICACIONES.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Redes Sociales,True,'superTheme' is a required property && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Resultado de proyectos,True,'superTheme' is a required property && 'accrualPeriodicity' is a required property && '' is too short && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,RESULTADO PROYECTOS,True,'superTheme' is a required property && 'accrualPeriodicity' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – resultado proyectos.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Sesiones,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/DOCUMENTACION – SESIONES DESDE 1983.pdf' is not valid under any of the given schemas && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Subsidios,True,'superTheme' is a required property && 'accrualPeriodicity' is a required property && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Viajes Nacionales,True,'superTheme' is a required property && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Votaciones Nominales,True,'superTheme' is a required property && 'accrualPeriodicity' is a required property && '' is too short && 
-https://datos.hcdn.gob.ar/,True,None is not valid under any of the given schemas && ,Votaciones Nominales,True,'superTheme' is a required property && 'http://www4.hcdn.gob.ar/Datos_doc/Documentación Votaciones Nominales.pdf' is not valid under any of the given schemas && 
+https://transparencia.enargas.gob.ar/data.json,False,None,Reclamos resueltos por las Distribuidoras de gas natural,False,None
+https://transparencia.enargas.gob.ar/data.json,False,None,Reclamos resueltos por el ENARGAS,False,None
+https://datos.arsat.com.ar/data.json,False,None,Personal,False,None
+https://datos.arsat.com.ar/data.json,False,None,Cine.Ar Play,False,None
+https://datos.arsat.com.ar/data.json,False,None,Servicio REFEFO,False,None
+https://datos.arsat.com.ar/data.json,False,None,Puntos de conexión REFEFO,False,None
+https://datos.arsat.com.ar/data.json,False,None,Finanzas,False,None
+https://datos.arsat.com.ar/data.json,False,None,Ejecuciones presupuestarias,False,None
+https://datos.arsat.com.ar/data.json,False,None,Cobertura Satélite ARSAT-2,False,None
+https://datos.arsat.com.ar/data.json,False,None,Cobertura Satélite ARSAT-1,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Publicidad Oficial,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Estructura Orgánica y Autoridades del Poder Ejecutivo Nacional,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Base de Series de Tiempo de la Administración Pública Nacional,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Sistema de Contrataciones Electrónicas,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Asignación Salarial de las Autoridades Superiores del Poder Ejecutivo Nacional,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Planes de Apertura de Datos,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Puntos Digitales,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Servicio de normalización de datos geográficos,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Red de Datos Abiertos de la Administración Pública Nacional (APN),False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Nómina del personal civil de la Administración Pública Nacional (APN),False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Puestos de trabajo en la Administración Pública Nacional (APN),False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Contratar,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Puntos WiFi País Digital,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Trámites a Distancia (TAD),False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Tercer Plan de Acción Nacional de Gobierno Abierto,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Indicadores de la Red de Datos Abiertos de la Administración Pública Nacional (APN),False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Asistencia de Emergencia al Trabajo y la Producción,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Ingreso Familiar de Emergencia,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Certificados Únicos Habilitantes de Circulación - CUHC,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Listado oficial de personal estratégico vacunado contra COVID-19,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Acord.Ar - Acuerdos Nacionales,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Compras emergencia COVID19,False,None
+https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,None,Comunidad Abierta,False,None
+https://monitoreo.datos.gob.ar/catalog/aaip/data.json,False,None,Solicitudes de acceso a la información pública,False,None
+https://monitoreo.datos.gob.ar/catalog/aaip/data.json,False,None,Reclamos sobre solicitudes de acceso a la información pública,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Solicitudes de Acceso a la Información Pública (2015 y 2016),False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Nombres de personas físicas,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Resultados Electorales 2015,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,"Resultados Provisorios  Elecciones Primarias, Abiertas, Simultáneas y Obligatorias (PASO) 2019",False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Inmuebles Propios del Estado Nacional y Alquilados,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Contratos de Alquiler del Estado Nacional como Locador,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Registro Único de Audiencias de Gestión de Intereses,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Resultados Provisorios Elecciones Generales 2019,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Índice de Tipo de Cambio Real Sectorial Efectivo - Discontinuado,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Indicador de Importaciones de Bienes de Capital Productivo - Discontinuado,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Indicadores de Empleo de Trabajadores Registrados (OEDE) - Discontinuado,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Indicadores de Remuneraciones de Trabajadores Registrados (OEDE) - Discontinuado,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Ahora 12 - Discontinuado,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,GPS Empresas - Discontinuado,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Indicadores Sectoriales de Agroindustria - Discontinuado,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,Series de Tiempo vacunas COVID,False,None
+http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,None,REFEGLO - Registro Federal de Gobiernos Locales,False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Base de Series de Tiempo de la Administración Pública Nacional,False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Sistema de Contrataciones Electrónicas,False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Asignación Salarial de las Autoridades Superiores del Poder Ejecutivo Nacional,False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Planes de Apertura de Datos,False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Puntos Digitales,False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Servicio de normalización de datos geográficos,False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Red de Datos Abiertos de la Administración Pública Nacional (APN),False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Nómina del personal civil de la Administración Pública Nacional (APN),False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Puestos de trabajo en la Administración Pública Nacional (APN),False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Contratar,False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Puntos WiFi País Digital,False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Trámites a Distancia (TAD),False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Tercer Plan de Acción Nacional de Gobierno Abierto,False,None
+https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,None,Indicadores de la Red de Datos Abiertos de la Administración Pública Nacional (APN),False,None
