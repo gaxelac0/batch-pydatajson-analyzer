@@ -1,4 +1,6 @@
 import csv, random, time, json, util, requests, output
+from typing import Counter
+import stats
 from pydatajson import DataJson, readers, writers
 from csv import reader, writer
 
@@ -24,6 +26,10 @@ result_catalog_indicator = open('./test/result/' + preffix + 'catalog-indicators
 
 header = ['URL', 'Catalog Errors', 'Catalog Error Desc', 'Dataset title', 'Dataset Errors', 'Dataset Error Desc']
 util.write_to_file(result_per_dataset, header)
+
+statistics = stats.Stats()
+
+stats_counter = Counter()
 
 # se itera una a una las lineas del archivo de entrada
 with open(args.f, 'r') as read_obj:
@@ -71,7 +77,12 @@ with open(args.f, 'r') as read_obj:
             # se genera archivo de salida por dataset
             output.generate_output_per_dataset(result_per_dataset, source, result, validation_report)
         # se genera archivo de salida de indicadores de catalogo
-        output.generate_output_catalog_indicator(result_catalog_indicator, source, accessible, indicators)
+        output.generate_output_catalog_indicator(result_catalog_indicator, source, accessible, indicators, stats_counter)
+
+
+        #print(statistics)
+        #print(stats_counter)
+        output.generate_output_plot_indicator(stats_counter)
 
 result_per_dataset.close()
 result_catalog_indicator.close()

@@ -1,27 +1,59 @@
+import matplotlib.pyplot as plt
 from datetime import date
 import util, csv
 
 dfc = 'distribuciones_formatos_cant'
 
-def generate_output_catalog_indicator(file, source, accessible, indicators=None):
+dist_types = ['JSON', 'PDF', 'XLS', 'CSV', 'JPG', 'XML', 'DOC', 'PPT']
+
+
+def generate_output_plot_indicator(stats_counter):
+
+    x,y = zip(*stats_counter.most_common())
+    print(x)
+    print(y)
+
+    plt.bar(x,y)
+    plt.show()
+
+def generate_output_catalog_indicator(file, source, accessible, indicators=None, stats_counter=None):
 
     # runs once
     write_catalog_indicator_header(file)
    
     if indicators != None:
         indicators = indicators[0][0]
+
+        stats_counter.update(distribuciones_cant=indicators['distribuciones_cant'])
+        stats_counter.update(indicators[dfc])
+
+        # Cantidad de distribuciones por tipo
+        pdf_qty = indicators[dfc]['PDF'] if 'PDF' in indicators[dfc] else 0
+        json_qty = indicators[dfc]['JSON'] if 'JSON' in indicators[dfc] else 0,
+        xls_qty = indicators[dfc]['XLS'] if 'XLS' in indicators[dfc] else 0,
+        csv_qty = indicators[dfc]['CSV'] if 'CSV' in indicators[dfc] else 0,
+        jpg_qty = indicators[dfc]['JPG'] if 'JPG' in indicators[dfc] else 0,
+        xml_qty = indicators[dfc]['XML'] if 'XML' in indicators[dfc] else 0,
+        doc_qty = indicators[dfc]['DOC'] if 'DOC' in indicators[dfc] else 0,
+        ppt_qty = indicators[dfc]['PPT'] if 'PPT' in indicators[dfc] else 0
+
+        # Actualizamos el objeto de stadisticas 
+        # statistics.set_dist_qty(indicators['distribuciones_cant'])
+        # statistics.set_pdf_qty(pdf_qty)
+        # statistics.set_json_qty(json_qty)
+        # statistics.set_xls_qty(xls_qty)
+        # statistics.set_csv_qty(csv_qty)
+        # statistics.set_jpg_qty(jpg_qty)
+        # statistics.set_xml_qty(xml_qty)
+        # statistics.set_doc_qty(doc_qty)
+        # statistics.set_ppt_qty(ppt_qty)
+
         data = [source, False, accessible, indicators['title'],
                 indicators['catalogo_ultima_actualizacion_dias'],
                 indicators['datasets_cant'],
                 indicators['datasets_meta_error_cant'],
-                indicators[dfc]['JSON'] if 'JSON' in indicators[dfc] else 0,
-                indicators[dfc]['PDF'] if 'PDF' in indicators[dfc] else 0,
-                indicators[dfc]['XLS'] if 'XLS' in indicators[dfc] else 0,
-                indicators[dfc]['CSV'] if 'CSV' in indicators[dfc] else 0,
-                indicators[dfc]['JPG'] if 'JPG' in indicators[dfc] else 0,
-                indicators[dfc]['XML'] if 'XML' in indicators[dfc] else 0,
-                indicators[dfc]['DOC'] if 'DOC' in indicators[dfc] else 0,
-                indicators[dfc]['PPT'] if 'PPT' in indicators[dfc] else 0]
+                json_qty, pdf_qty, xls_qty, csv_qty,
+                jpg_qty, xml_qty, doc_qty, ppt_qty]
         util.write_to_file(file, data)
 
 def generate_output_per_dataset(file, source, result, validation_report):
