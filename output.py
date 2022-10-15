@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from datetime import date
 import util, csv
+import pandas as pd
+import constants
 
 dfc = 'distribuciones_formatos_cant'
 
@@ -47,7 +49,7 @@ def generate_distribution_types_pie_chart(stats_counter, qty):
 
     plt.legend(handles=[others_patch])
 
-    plt.savefig('.//test//result//charts//distribution-types-pie-chart-'+str(qty)+'.png')
+    #plt.savefig('.//test//result//charts//distribution-types-pie-chart-'+str(qty)+'.png')
 
 def generate_output_catalog_indicator(file, source, accessible, indicators=None, dist_type_counter=None):
 
@@ -72,14 +74,38 @@ def generate_output_catalog_indicator(file, source, accessible, indicators=None,
                 indicators[dfc]['PPT'] if 'PPT' in indicators[dfc] else 0]
         util.write_to_file(file, data)
 
-def generate_output_per_dataset(file, source, result, validation_report):
+
+
+
+
+
+
+
+
+
+
+
+def generate_output_per_dataset(curr_dataframe, source, result, validation_report):
     categories = validation_report['error']
     if result == True:
         for cat in categories: 
             if cat == 'dataset' and categories[cat] != None:
                 for dataset in categories[cat]:
-                    data = [source, False, 'None', dataset['title'], False, 'None']
-                    util.write_to_file(file, data)
+
+
+
+                    append_dataframe = pd.DataFrame({ 
+                        'URL': [source],
+                        'Catalog Errors': [False],
+                        'Catalog Error Desc': ['None'],
+                        'Dataset title': dataset['title'],
+                        'Dataset Errors': [False],
+                        'Dataset Error Desc': ['None'],
+                    })
+
+
+                    curr_dataframe = pd.concat([curr_dataframe, append_dataframe], axis=0)
+                    #util.write_to_file(file_writer, dataframe=dataframe, sheet_name=constants.DATASET_REPORT_SHEET_NAME)
     else:
         catalog_error = False
         catalog_error_desc = ''
@@ -95,8 +121,36 @@ def generate_output_per_dataset(file, source, result, validation_report):
                         final_error_conc = ''
                         for error in dataset['errors']:
                             final_error_conc  = final_error_conc + error['message'] + ' && '
-                        data = [source, catalog_error, catalog_error_desc, dataset['title'], True, final_error_conc]
-                        util.write_to_file(file, data)
+                       
+
+
+                        append_dataframe = pd.DataFrame({ 
+                            'URL': [source],
+                            'Catalog Errors': [catalog_error],
+                            'Catalog Error Desc': [catalog_error_desc],
+                            'Dataset title': dataset['title'],
+                            'Dataset Errors': [True],
+                            'Dataset Error Desc': [final_error_conc],
+                        })
+
+
+                        curr_dataframe = pd.concat([curr_dataframe, append_dataframe], axis=0)
+                       #util.write_to_file(file_writer, dataframe, constants.DATASET_REPORT_SHEET_NAME)
+    return curr_dataframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def run_once(f):
     def wrapper(*args, **kwargs):
@@ -109,4 +163,4 @@ def run_once(f):
 @run_once
 def write_catalog_indicator_header(file):
     header = ['Origen/URL', 'Accessible ('+ date.today().strftime("%d/%m/%Y") +')', 'Titulo', 'Actualizado hace (dias)', 'Cantidad Dataset', 'Errores Dataset', 'JSON', 'PDF', 'XLS', 'CSV', 'JPG', 'XML', 'DOC', 'PPT']
-    util.write_to_file(file, header)
+    util.write_to_file(file, header, constants.CATALOG_REPORT_SHEET_NAME)

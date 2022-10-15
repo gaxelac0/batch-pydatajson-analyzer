@@ -1,8 +1,0 @@
-Origen/URL,Accessible (04/10/2022),Titulo,Actualizado hace (dias),Cantidad Dataset,Errores Dataset,JSON,PDF,XLS,CSV,JPG,XML,DOC,PPT
-https://transparencia.enargas.gob.ar/data.json,False,False,Datos abiertos del Ente Nacional Regulador del Gas,67,2,0,0,0,0,10,0,0,0,0
-https://datosabiertos.enacom.gob.ar/data.json,False,False,no-title,,0,0,0,0,0,0,0,0,0,0
-https://datos.arsat.com.ar/data.json,False,False,Portal de datos abiertos de ARSAT,22,8,0,0,0,0,28,0,0,0,0
-https://monitoreo.datos.gob.ar/catalog/jgm/data.json,False,False,Datos de la Jefatura de Gabinete de Ministros,124,23,0,8,1,0,114,0,0,0,0
-https://monitoreo.datos.gob.ar/catalog/aaip/data.json,False,False,Datos de la Agencia de Acceso a la Información Pública,969,2,0,0,0,0,2,0,0,0,0
-http://monitoreo.datos.gob.ar/catalog/otros/data.json,False,False,Datos APN,-670,17,0,0,3,0,135,0,0,0,0
-https://monitoreo.datos.gob.ar/catalog/modernizacion/data.json,False,False,Datos Modernización,1076,14,0,8,0,0,73,0,0,0,0
