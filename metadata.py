@@ -30,7 +30,10 @@ args = parser.parse_args()
 datajson = DataJson()
 
 preffix = args.p + '-' if args.p != None else ''
-result_writer = pd.ExcelWriter('./test/result/' + preffix + 'result.xlsx', engine='xlsxwriter')
+
+workbook_filename = './test/result/' + preffix + 'result.xlsx'
+
+result_writer = pd.ExcelWriter(workbook_filename, engine='xlsxwriter')
 
 # Contador para los tipos de distribucion para luego armar el pie chart
 dist_type_counter = Counter()
@@ -85,19 +88,23 @@ with open(args.f, 'r') as read_obj:
             print('Catalogo valido: ' + str(result) + '\n')
             #print('Report: ' + str(validation_report) + '\n')
 
-            # se genera archivo de salida por dataset
+            # se concatena el reporte por dataset calculado al dataframe de salida
             result_per_dataset_df = output.generate_output_per_dataset(result_per_dataset_df, source, result, validation_report)
 
-        # se genera archivo de salida de indicadores de catalogo
+        # se concatena el reporte de catalogo calculado al dataframe de salida
         result_catalog_indicator_df = output.generate_output_catalog_indicator(result_catalog_indicator_df, source, accessible, indicators, dist_type_counter)
 
-# generacion del pie chart de tipos de distribucion
-output.generate_distribution_types_pie_chart(dist_type_counter, args.q)
+
 
 
 util.write_to_file(result_writer, dataframe=result_per_dataset_df, sheet_name=constants.DATASET_REPORT_SHEET_NAME)
 util.write_to_file(result_writer, dataframe=result_catalog_indicator_df, sheet_name=constants.CATALOG_REPORT_SHEET_NAME)
 
 result_writer.close()
+
+# generacion del pie chart de tipos de distribucion
+output.generate_distribution_types_pie_chart(dist_type_counter, args.q, workbook_filename)
+
+
 #result_catalog_indicator.close()
 

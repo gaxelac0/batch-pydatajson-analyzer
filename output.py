@@ -1,14 +1,14 @@
 #%matplotlib inline
+from asyncio import constants
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from datetime import date
-import util, csv
 import pandas as pd
 import constants
 
 dfc = 'distribuciones_formatos_cant'
 
-def generate_distribution_types_pie_chart(stats_counter, qty):
+def generate_distribution_types_pie_chart(stats_counter, qty, workbook_filename):
 
     all = stats_counter.most_common(None)
 
@@ -49,7 +49,19 @@ def generate_distribution_types_pie_chart(stats_counter, qty):
 
     plt.legend(handles=[others_patch])
 
-    #plt.savefig('.//test//result//charts//distribution-types-pie-chart-'+str(qty)+'.png')
+    name_image = './/test//result//charts//distribution-types-pie-chart-'+str(qty)+'.png'
+
+    plt.savefig(name_image)
+
+    # se inserta el grafico creado en la worksheet indicada en CHART_SHEET_NAME
+    import openpyxl
+    wb = openpyxl.load_workbook(filename = workbook_filename)
+    ws = wb.create_sheet(constants.CHART_SHEET_NAME)
+    img = openpyxl.drawing.image.Image(name_image)
+    img.anchor = 'A2'
+    ws.add_image(img)
+    wb.save(workbook_filename)
+
 
 def generate_output_catalog_indicator(curr_dataframe, source, accessible, indicators=None, dist_type_counter=None):
 
@@ -65,13 +77,14 @@ def generate_output_catalog_indicator(curr_dataframe, source, accessible, indica
         append_dataframe = pd.DataFrame({
             'Origen/URL': [source],
             'Accessible ('+ date.today().strftime("%d/%m/%Y") +')': [accessible],
-            'Titulo': [accessible],
-            'Actualizado hace (dias)': [indicators['title']],
-            'Cantidad Dataset': [indicators['catalogo_ultima_actualizacion_dias']],
-            'JSON': [indicators['datasets_cant']],
-            'PDF': [indicators['datasets_meta_error_cant']],
-            'XLS': [indicators[dfc]['JSON'] if 'JSON' in indicators[dfc] else 0],
-            'CSV': [indicators[dfc]['PDF'] if 'PDF' in indicators[dfc] else 0],
+            'Titulo': [indicators['title']],
+            'Actualizado hace (dias)': [indicators['catalogo_ultima_actualizacion_dias']],
+            'Cantidad Dataset': [indicators['datasets_cant']],
+            'Cantidad Dataset Erroneos': [indicators['datasets_meta_error_cant']],
+            'JSON': [indicators[dfc]['JSON'] if 'JSON' in indicators[dfc] else 0],
+            'PDF': [indicators[dfc]['PDF'] if 'PDF' in indicators[dfc] else 0],
+            'XLS': [indicators[dfc]['XLS'] if 'XLS' in indicators[dfc] else 0],
+            'CSV': [indicators[dfc]['CSV'] if 'CSV' in indicators[dfc] else 0],
             'JPG': [indicators[dfc]['JPG'] if 'JPG' in indicators[dfc] else 0],
             'XML': [indicators[dfc]['XML'] if 'XML' in indicators[dfc] else 0],
             'DOC': [indicators[dfc]['DOC'] if 'DOC' in indicators[dfc] else 0],
@@ -153,6 +166,7 @@ def write_catalog_indicator_header():
         'Titulo': [],
         'Actualizado hace (dias)': [],
         'Cantidad Dataset': [],
+        'Cantidad Dataset Erroneos': [],
         'JSON': [],
         'PDF': [],
         'XLS': [],
