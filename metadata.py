@@ -30,23 +30,13 @@ args = parser.parse_args()
 datajson = DataJson()
 
 preffix = args.p + '-' if args.p != None else ''
-result_per_dataset = pd.ExcelWriter('./test/result/' + preffix + 'result-per-dataset.xlsx', engine='xlsxwriter')
-
-
-#result_catalog_indicator = open('./test/result/' + preffix + 'catalog-indicators.csv', 'w', newline='')
-
-# Header Dataframe
-result_per_dataset_df = pd.DataFrame({ 'URL': ['first'],
-                    'Catalog Errors': [False],
-                    'Catalog Error Desc': ['first'],
-                    'Dataset title': ['first'],
-                    'Dataset Errors': [False],
-                    'Dataset Error Desc': ['first'],
-})
-#util.write_to_file(file_writer=result_per_dataset, dataframe=header_df, sheet_name=constants.DATASET_REPORT_SHEET_NAME)
+result_writer = pd.ExcelWriter('./test/result/' + preffix + 'result.xlsx', engine='xlsxwriter')
 
 # Contador para los tipos de distribucion para luego armar el pie chart
 dist_type_counter = Counter()
+
+# Dataframes utilizados para ir concatenando los resultados linea a linea
+result_per_dataset_df, result_catalog_indicator_df = None, None
 
 # se itera una a una las lineas del archivo de entrada
 with open(args.f, 'r') as read_obj:
@@ -99,14 +89,15 @@ with open(args.f, 'r') as read_obj:
             result_per_dataset_df = output.generate_output_per_dataset(result_per_dataset_df, source, result, validation_report)
 
         # se genera archivo de salida de indicadores de catalogo
-       # output.generate_output_catalog_indicator(result_catalog_indicator, source, accessible, indicators, dist_type_counter)
+        result_catalog_indicator_df = output.generate_output_catalog_indicator(result_catalog_indicator_df, source, accessible, indicators, dist_type_counter)
 
 # generacion del pie chart de tipos de distribucion
 output.generate_distribution_types_pie_chart(dist_type_counter, args.q)
 
 
-util.write_to_file(result_per_dataset, dataframe=result_per_dataset_df, sheet_name=constants.DATASET_REPORT_SHEET_NAME)
+util.write_to_file(result_writer, dataframe=result_per_dataset_df, sheet_name=constants.DATASET_REPORT_SHEET_NAME)
+util.write_to_file(result_writer, dataframe=result_catalog_indicator_df, sheet_name=constants.CATALOG_REPORT_SHEET_NAME)
 
-result_per_dataset.close()
+result_writer.close()
 #result_catalog_indicator.close()
 

@@ -51,48 +51,45 @@ def generate_distribution_types_pie_chart(stats_counter, qty):
 
     #plt.savefig('.//test//result//charts//distribution-types-pie-chart-'+str(qty)+'.png')
 
-def generate_output_catalog_indicator(file, source, accessible, indicators=None, dist_type_counter=None):
+def generate_output_catalog_indicator(curr_dataframe, source, accessible, indicators=None, dist_type_counter=None):
 
-    # runs once
-    write_catalog_indicator_header(file)
+    if not isinstance(curr_dataframe, pd.DataFrame) and curr_dataframe == None:
+        curr_dataframe = write_catalog_indicator_header()
    
     if indicators != None:
         indicators = indicators[0][0]
 
+        # actualizamos el contador de estadisticas de tipos de distribucion 
         dist_type_counter.update(indicators[dfc])
-        data = [source, False, accessible, indicators['title'],
-                indicators['catalogo_ultima_actualizacion_dias'],
-                indicators['datasets_cant'],
-                indicators['datasets_meta_error_cant'],
-                indicators[dfc]['JSON'] if 'JSON' in indicators[dfc] else 0,
-                indicators[dfc]['PDF'] if 'PDF' in indicators[dfc] else 0,
-                indicators[dfc]['XLS'] if 'XLS' in indicators[dfc] else 0,
-                indicators[dfc]['CSV'] if 'CSV' in indicators[dfc] else 0,
-                indicators[dfc]['JPG'] if 'JPG' in indicators[dfc] else 0,
-                indicators[dfc]['XML'] if 'XML' in indicators[dfc] else 0,
-                indicators[dfc]['DOC'] if 'DOC' in indicators[dfc] else 0,
-                indicators[dfc]['PPT'] if 'PPT' in indicators[dfc] else 0]
-        util.write_to_file(file, data)
 
-
-
-
-
-
-
-
-
-
+        append_dataframe = pd.DataFrame({
+            'Origen/URL': [source],
+            'Accessible ('+ date.today().strftime("%d/%m/%Y") +')': [accessible],
+            'Titulo': [accessible],
+            'Actualizado hace (dias)': [indicators['title']],
+            'Cantidad Dataset': [indicators['catalogo_ultima_actualizacion_dias']],
+            'JSON': [indicators['datasets_cant']],
+            'PDF': [indicators['datasets_meta_error_cant']],
+            'XLS': [indicators[dfc]['JSON'] if 'JSON' in indicators[dfc] else 0],
+            'CSV': [indicators[dfc]['PDF'] if 'PDF' in indicators[dfc] else 0],
+            'JPG': [indicators[dfc]['JPG'] if 'JPG' in indicators[dfc] else 0],
+            'XML': [indicators[dfc]['XML'] if 'XML' in indicators[dfc] else 0],
+            'DOC': [indicators[dfc]['DOC'] if 'DOC' in indicators[dfc] else 0],
+            'PPT': [indicators[dfc]['PPT'] if 'PPT' in indicators[dfc] else 0],
+        })
+    return pd.concat([curr_dataframe, append_dataframe], axis=0)
 
 
 def generate_output_per_dataset(curr_dataframe, source, result, validation_report):
+
+    if not isinstance(curr_dataframe, pd.DataFrame) and curr_dataframe == None:
+        curr_dataframe = write_per_dataset_header()
+
     categories = validation_report['error']
     if result == True:
         for cat in categories: 
             if cat == 'dataset' and categories[cat] != None:
                 for dataset in categories[cat]:
-
-
 
                     append_dataframe = pd.DataFrame({ 
                         'URL': [source],
@@ -122,8 +119,6 @@ def generate_output_per_dataset(curr_dataframe, source, result, validation_repor
                         for error in dataset['errors']:
                             final_error_conc  = final_error_conc + error['message'] + ' && '
                        
-
-
                         append_dataframe = pd.DataFrame({ 
                             'URL': [source],
                             'Catalog Errors': [catalog_error],
@@ -132,35 +127,39 @@ def generate_output_per_dataset(curr_dataframe, source, result, validation_repor
                             'Dataset Errors': [True],
                             'Dataset Error Desc': [final_error_conc],
                         })
-
-
+                        
                         curr_dataframe = pd.concat([curr_dataframe, append_dataframe], axis=0)
                        #util.write_to_file(file_writer, dataframe, constants.DATASET_REPORT_SHEET_NAME)
     return curr_dataframe
 
+def write_per_dataset_header():
 
+    # Header Dataframe
+    header_df = pd.DataFrame({
+         'URL': [],
+         'Catalog Errors': [],
+         'Catalog Error Desc': [],
+         'Dataset title': [],
+         'Dataset Errors': [],
+         'Dataset Error Desc': [],
+    })
+    return header_df
 
+def write_catalog_indicator_header():
 
-
-
-
-
-
-
-
-
-
-
-
-def run_once(f):
-    def wrapper(*args, **kwargs):
-        if not wrapper.has_run:
-            wrapper.has_run = True
-            return f(*args, **kwargs)
-    wrapper.has_run = False
-    return wrapper
-
-@run_once
-def write_catalog_indicator_header(file):
-    header = ['Origen/URL', 'Accessible ('+ date.today().strftime("%d/%m/%Y") +')', 'Titulo', 'Actualizado hace (dias)', 'Cantidad Dataset', 'Errores Dataset', 'JSON', 'PDF', 'XLS', 'CSV', 'JPG', 'XML', 'DOC', 'PPT']
-    util.write_to_file(file, header, constants.CATALOG_REPORT_SHEET_NAME)
+    header_df = pd.DataFrame({ 
+        'Origen/URL': [],
+        'Accessible ('+ date.today().strftime("%d/%m/%Y") +')': [],
+        'Titulo': [],
+        'Actualizado hace (dias)': [],
+        'Cantidad Dataset': [],
+        'JSON': [],
+        'PDF': [],
+        'XLS': [],
+        'CSV': [],
+        'JPG': [],
+        'XML': [],
+        'DOC': [],
+        'PPT': [],
+    })
+    return header_df
