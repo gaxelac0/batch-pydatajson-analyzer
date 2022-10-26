@@ -8,6 +8,36 @@ import constants
 
 dfc = 'distribuciones_formatos_cant'
 
+
+def generate_dataset_error_qty_pie_chart(stats_counter, workbook_filename):
+
+    result_counter = stats_counter
+    result_counter.update({"dataset_ok": result_counter['datasets_cant']-result_counter['datasets_meta_error_cant']})
+
+    labels = ['dataset_ok', 'datasets_meta_error_cant']
+
+    values = []
+    for label in labels: 
+        values.append(result_counter[label])
+
+    fig = plt.figure(figsize=(10,7))
+    plt.pie(values, labels = labels, autopct='%1.1f%%', pctdistance=1.1, labeldistance=1.2)
+
+    name_image = './/test//result//charts//dataset_error_qty_pie_chart.png'
+
+    plt.savefig(name_image)
+
+    # se inserta el grafico creado en la worksheet indicada en CHART_SHEET_NAME
+    import openpyxl
+    wb = openpyxl.load_workbook(filename = workbook_filename)
+    ws = wb[constants.CHART_SHEET_NAME]
+    img = openpyxl.drawing.image.Image(name_image)
+    ws.cell(row=1, column=13, value="Chartpie de % de dataset erroneos")
+    img.anchor = 'M2'
+    ws.add_image(img)
+    wb.save(workbook_filename)
+
+
 def generate_distribution_types_pie_chart(stats_counter, qty, workbook_filename):
 
     all = stats_counter.most_common(None)
@@ -57,6 +87,7 @@ def generate_distribution_types_pie_chart(stats_counter, qty, workbook_filename)
     import openpyxl
     wb = openpyxl.load_workbook(filename = workbook_filename)
     ws = wb.create_sheet(constants.CHART_SHEET_NAME)
+    ws.cell(row=1, column=1, value="Chartpie de % de tipos de distribuciones")
     img = openpyxl.drawing.image.Image(name_image)
     img.anchor = 'A2'
     ws.add_image(img)
@@ -93,7 +124,7 @@ def generate_output_catalog_indicator(curr_dataframe, source, accessible, indica
     return pd.concat([curr_dataframe, append_dataframe], axis=0)
 
 
-def generate_output_per_dataset(curr_dataframe, source, result, validation_report):
+def generate_output_per_dataset(curr_dataframe, source, result, validation_report, dataset_error_counter=None):
 
     if not isinstance(curr_dataframe, pd.DataFrame) and curr_dataframe == None:
         curr_dataframe = write_per_dataset_header()

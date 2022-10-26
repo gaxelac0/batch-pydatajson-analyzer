@@ -1,9 +1,7 @@
-import csv, random, time, json, util, requests, output
-from email import header
+import random, util, output
 from typing import Counter
-import stats
 from pydatajson import DataJson, readers, writers
-from csv import reader, writer
+from csv import reader
 
 import constants
 
@@ -38,6 +36,9 @@ result_writer = pd.ExcelWriter(workbook_filename, engine='xlsxwriter')
 # Contador para los tipos de distribucion para luego armar el pie chart
 dist_type_counter = Counter()
 
+# Contador para los tipos de distribucion para luego armar el pie chart
+dataset_error_counter = Counter([])
+
 # Dataframes utilizados para ir concatenando los resultados linea a linea
 result_per_dataset_df, result_catalog_indicator_df = None, None
 
@@ -69,7 +70,8 @@ with open(args.f, 'r') as read_obj:
             catalog_dict = None
             try:
                 catalog_dict = readers.read_catalog(source)
-            except:
+            except BaseException as err:
+                print("Error: {0}".format(err))
                 continue
 
              # en caso de un catalogo pesado, para exportarlo a un archivo local
@@ -85,11 +87,14 @@ with open(args.f, 'r') as read_obj:
             validation_report = datajson.validate_catalog(catalog_dict)
             # Generacion de indicadores 
             indicators = datajson.generate_catalogs_indicators(catalog_dict)
+
+            dataset_error_counter.update({'datasets_cant': indicators[1]['datasets_cant']})
+            dataset_error_counter.update({'datasets_meta_error_cant': indicators[1]['datasets_meta_error_cant']})
             print('Catalogo valido: ' + str(result) + '\n')
             #print('Report: ' + str(validation_report) + '\n')
 
             # se concatena el reporte por dataset calculado al dataframe de salida
-            result_per_dataset_df = output.generate_output_per_dataset(result_per_dataset_df, source, result, validation_report)
+            result_per_dataset_df = output.generate_output_per_dataset(result_per_dataset_df, source, result, validation_report, dataset_error_counter)
 
         # se concatena el reporte de catalogo calculado al dataframe de salida
         result_catalog_indicator_df = output.generate_output_catalog_indicator(result_catalog_indicator_df, source, accessible, indicators, dist_type_counter)
@@ -97,13 +102,19 @@ with open(args.f, 'r') as read_obj:
 
 
 
-util.write_to_file(result_writer, dataframe=result_per_dataset_df, sheet_name=constants.DATASET_REPORT_SHEET_NAME)
-util.write_to_file(result_writer, dataframe=result_catalog_indicator_df, sheet_name=constants.CATALOG_REPORT_SHEET_NAME)
+if result_per_dataset_df != None:
+    util.write_to_file(result_writer, dataframe=result_per_dataset_df, sheet_name=constants.DATASET_REPORT_SHEET_NAME)
+
+if result_catalog_indicator_df != None:
+    util.write_to_file(result_writer, dataframe=result_catalog_indicator_df, sheet_name=constants.CATALOG_REPORT_SHEET_NAME)
 
 result_writer.close()
 
 # generacion del pie chart de tipos de distribucion
 output.generate_distribution_types_pie_chart(dist_type_counter, args.q, workbook_filename)
+
+# generacion del pie chart de errores de dataset
+output.generate_dataset_error_qty_pie_chart(dataset_error_counter, workbook_filename)
 
 
 #result_catalog_indicator.close()
