@@ -94,7 +94,6 @@ pure-eval==0.2.2
 pycairo==1.20.1
 pycparser==2.21
 pycups==2.0.1
-pydatajson==0.4.67
 Pygments==2.13.0
 PyGObject==3.42.1
 PyJWT==2.3.0

@@ -208,7 +208,7 @@ def read_json(json_path_or_url, verify=False,
     parsed_url = urlparse(json_path_or_url)
     if parsed_url.scheme in ["http", "https"]:
         res = requests.get(json_path_or_url, verify=verify, timeout=timeout)
-        json_dict = json.loads(res.content, encoding='utf-8')
+        json_dict = json.loads(res.content)
 
     else:
         # Si json_path_or_url parece ser una URL remota, lo advierto.

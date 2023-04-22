@@ -1,6 +1,6 @@
 import random, util, output
+from _vendor.pydatajson import readers, writers, DataJson
 from typing import Counter
-from pydatajson import DataJson, readers, writers
 from csv import reader
 
 import constants
@@ -46,7 +46,7 @@ accrual_periodicity_counter = Counter()
 not_updated_dataset_counter = Counter()
 
 # Dataframes utilizados para ir concatenando los resultados linea a linea
-result_per_dataset_df, result_catalog_indicator_df = None, None
+result_per_dataset_df, result_catalog_indicator_df = pd.DataFrame(), pd.DataFrame()
 
 # se itera una a una las lineas del archivo de entrada
 with open(args.f, 'r') as read_obj:

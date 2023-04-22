@@ -1,4 +1,4 @@
-target = "vendor"
+target = "_vendor"
 packages = [
     "pydatajson",
 ]
