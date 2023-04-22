@@ -64,7 +64,13 @@ def generate_datasets_summary(catalog, export_path=None, validator=None,
         info["identificador"] = dataset.get("identifier")
         info["estado_metadatos"] = validation[index]["status"]
         info["cant_errores"] = len(validation[index]["errors"])
-        info["cant_distribuciones"] = len(dataset["distribution"])
+
+        cant_distribuciones = 0
+        if "distribution" in dataset:
+            cant_distribuciones = len(dataset["distribution"])
+        info["cant_distribuciones"] = cant_distribuciones
+
+
         if helpers.dataset_has_data_distributions(dataset):
             info["tiene_datos"] = "SI"
         else:

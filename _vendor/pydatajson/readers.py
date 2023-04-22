@@ -204,7 +204,7 @@ def read_json(json_path_or_url, verify=False,
 
     """
     assert isinstance(json_path_or_url, string_types)
-
+    print('loading catalog from read_json() ')
     parsed_url = urlparse(json_path_or_url)
     if parsed_url.scheme in ["http", "https"]:
         res = requests.get(json_path_or_url, verify=verify, timeout=timeout)

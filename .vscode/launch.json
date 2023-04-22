@@ -15,7 +15,7 @@
                 //"--p","yerbabuena"
                 //"--d","true",
                 "--q","10",
-                "--f","./test/samples/single_node.csv"
+                "--f","./test/samples/rosario-dcat.csv"
         ]
         }
     ]

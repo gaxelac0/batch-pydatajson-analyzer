@@ -60,9 +60,11 @@ def read_ckan_catalog(portal_url):
         packages = []
         num_packages = len(packages_list)
         for index, pkg in enumerate(packages_list):
+            
             # progreso (necesario cuando son muchos)
             msg = "Leyendo dataset {} de {}".format(index + 1, num_packages)
             logger.info(msg)
+            print(msg)
 
             # agrega un nuevo dataset a la lista
             packages.append(portal.call_action(
@@ -381,8 +383,9 @@ def map_resource_to_distribution(resource, portal_url):
                 "Error parseando los fields del resource '%s'",
                 resource['name'])
 
-    url_path = ['dataset', resource['package_id'], 'resource', resource['id']]
-    distribution["accessURL"] = urljoin(portal_url, "/".join(url_path))
+    if "package_id" in resource:
+        url_path = ['dataset', resource['package_id'], 'resource', resource['id']]
+        distribution["accessURL"] = urljoin(portal_url, "/".join(url_path))
 
     return distribution
 

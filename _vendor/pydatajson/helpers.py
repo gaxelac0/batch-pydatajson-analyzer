@@ -43,15 +43,16 @@ DATA_FORMATS = [
 
 def count_distribution_formats_dataset(dataset):
     formats = {}
-    for distribution in dataset['distribution']:
-        # 'format' es recomendado, no obligatorio. Puede no estar.
-        distribution_format = distribution.get('format', None)
+    if "distribution" in dataset:
+        for distribution in dataset['distribution']:
+            # 'format' es recomendado, no obligatorio. Puede no estar.
+            distribution_format = distribution.get('format', None)
 
-        if distribution_format:
-            # Si no está en el diccionario, devuelvo 0
-            count = formats.get(distribution_format, 0)
+            if distribution_format:
+                # Si no está en el diccionario, devuelvo 0
+                count = formats.get(distribution_format, 0)
 
-            formats[distribution_format] = count + 1
+                formats[distribution_format] = count + 1
 
     return formats
 
