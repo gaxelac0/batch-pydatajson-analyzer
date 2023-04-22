@@ -39,6 +39,12 @@ dist_type_counter = Counter()
 # Contador para los tipos de distribucion para luego armar el pie chart
 dataset_error_counter = Counter([])
 
+# Contador para los tipos de periodos de actualizacion de datasets
+accrual_periodicity_counter = Counter()
+
+# Contador de cantidad de datasets desactualizados
+not_updated_dataset_counter = Counter()
+
 # Dataframes utilizados para ir concatenando los resultados linea a linea
 result_per_dataset_df, result_catalog_indicator_df = None, None
 
@@ -94,7 +100,7 @@ with open(args.f, 'r') as read_obj:
             #print('Report: ' + str(validation_report) + '\n')
 
             # se concatena el reporte por dataset calculado al dataframe de salida
-            result_per_dataset_df = output.generate_output_per_dataset(result_per_dataset_df, source, result, validation_report, dataset_error_counter)
+            result_per_dataset_df = output.generate_output_per_dataset(result_per_dataset_df, source, result, validation_report, catalog_dict, accrual_periodicity_counter, not_updated_dataset_counter)
 
         # se concatena el reporte de catalogo calculado al dataframe de salida
         result_catalog_indicator_df = output.generate_output_catalog_indicator(result_catalog_indicator_df, source, accessible, indicators, dist_type_counter)
@@ -102,10 +108,10 @@ with open(args.f, 'r') as read_obj:
 
 
 
-if result_per_dataset_df != None:
+if not result_per_dataset_df.empty:
     util.write_to_file(result_writer, dataframe=result_per_dataset_df, sheet_name=constants.DATASET_REPORT_SHEET_NAME)
 
-if result_catalog_indicator_df != None:
+if not result_catalog_indicator_df.empty:
     util.write_to_file(result_writer, dataframe=result_catalog_indicator_df, sheet_name=constants.CATALOG_REPORT_SHEET_NAME)
 
 result_writer.close()
@@ -115,6 +121,12 @@ output.generate_distribution_types_pie_chart(dist_type_counter, args.q, workbook
 
 # generacion del pie chart de errores de dataset
 output.generate_dataset_error_qty_pie_chart(dataset_error_counter, workbook_filename)
+
+# generacion del pie chart de datasets desactualizados por frecuencia
+output.generate_dataset_accrual_periodicity_chartpie(accrual_periodicity_counter, workbook_filename)
+
+# bar label
+output.generate_bar_graph_outdated_datasets(accrual_periodicity_counter, not_updated_dataset_counter, workbook_filename)
 
 
 #result_catalog_indicator.close()

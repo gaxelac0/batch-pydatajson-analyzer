@@ -5,6 +5,10 @@ import matplotlib.patches as mpatches
 from datetime import date
 import pandas as pd
 import constants
+from datetime import datetime
+from typing import Counter
+
+from pydatajson import helpers, readers
 
 dfc = 'distribuciones_formatos_cant'
 
@@ -94,7 +98,111 @@ def generate_distribution_types_pie_chart(stats_counter, qty, workbook_filename)
     wb.save(workbook_filename)
 
 
-def generate_output_catalog_indicator(curr_dataframe, source, accessible, indicators=None, dist_type_counter=None):
+
+def generate_dataset_accrual_periodicity_chartpie(accrual_periodicity_counter, workbook_filename):
+
+    result_counter = accrual_periodicity_counter.most_common(None)
+
+    values = []
+    labels = []
+
+    for elem in result_counter: 
+        labels.append(elem[0])
+        values.append(elem[1])
+
+    fig = plt.figure(figsize=(10,7))
+    plt.pie(values, labels = labels, autopct='%1.1f%%', pctdistance=1.1, labeldistance=1.2)
+
+    name_image = './/test//result//charts//dataset_accrual_periodicity_chartpie.png'
+
+    plt.savefig(name_image)
+
+    # se inserta el grafico creado en la worksheet indicada en CHART_SHEET_NAME
+    import openpyxl
+    wb = openpyxl.load_workbook(filename = workbook_filename)
+    ws = wb[constants.CHART_SHEET_NAME]
+    img = openpyxl.drawing.image.Image(name_image)
+    ws.cell(row=1, column=23, value="Chartpie de % de accrualPeriodicity")
+    img.anchor = 'Z2'
+    ws.add_image(img)
+    wb.save(workbook_filename)
+
+import matplotlib.pyplot as plt
+import numpy as np
+def generate_bar_graph_outdated_datasets(accrual_periodicity_counter, not_updated_dataset_counter, workbook_filename):
+  
+    # ordenamos los counters, eliminamos nulos, 
+    accrual_periodicity_counter = accrual_periodicity_counter.most_common(None)
+    not_updated_dataset_counter = not_updated_dataset_counter.most_common(None)
+
+    # generamos arrays utiles para calculo
+    totals_label = []
+    totals_value = []
+    not_updated_label = []
+    not_updated_value = []
+    for elem in accrual_periodicity_counter: 
+        totals_label.append(elem[0])
+        totals_value.append(elem[1])
+
+    for elem in not_updated_dataset_counter: 
+        not_updated_label.append(elem[0])
+        not_updated_value.append(elem[1])
+
+
+    # numpy arrays calculation
+    updated_np = []
+    outdated_np = []
+
+    labels = []
+
+    for idx, label in enumerate(totals_label):
+
+        labels.append(label)
+        if label in not_updated_label:
+            updated_np.append(totals_value[idx]-not_updated_value[idx])
+            outdated_np.append(not_updated_value[idx])
+        else: 
+            updated_np.append(totals_value[idx])
+            outdated_np.append(0)
+
+
+    status_counts = {
+        'Updated': np.array(updated_np),
+        'Outdated': np.array(outdated_np),
+    }
+    width = 0.6  # the width of the bars: can also be len(x) sequence
+
+
+    fig, ax = plt.subplots()
+    bottom = np.zeros(len(totals_label))
+
+    for status, status_count in status_counts.items():
+        p = ax.bar(labels, status_count, width, label=status, bottom=bottom)
+        bottom += status_count
+
+        ax.bar_label(p, label_type='center')
+
+    ax.set_title('Number of outdated dataset per accrual periodicity')
+    ax.legend()
+
+    #plt.show()
+
+    name_image = './/test//result//charts//generate_bar_graph_outdated_datasets.png'
+
+    plt.savefig(name_image)
+
+        # se inserta el grafico creado en la worksheet indicada en CHART_SHEET_NAME
+    import openpyxl
+    wb = openpyxl.load_workbook(filename = workbook_filename)
+    ws = wb[constants.CHART_SHEET_NAME]
+    img = openpyxl.drawing.image.Image(name_image)
+    ws.cell(row=1, column=23, value="Bar Label de Actualizacion de Accrual Periodicy")
+    img.anchor = 'AL2'
+    ws.add_image(img)
+    wb.save(workbook_filename)
+
+
+def generate_output_catalog_indicator(curr_dataframe, source, accesible, indicators=None, dist_type_counter=None):
 
     if not isinstance(curr_dataframe, pd.DataFrame) and curr_dataframe == None:
         curr_dataframe = write_catalog_indicator_header()
@@ -107,7 +215,7 @@ def generate_output_catalog_indicator(curr_dataframe, source, accessible, indica
 
         append_dataframe = pd.DataFrame({
             'Origen/URL': [source],
-            'Accessible ('+ date.today().strftime("%d/%m/%Y") +')': [accessible],
+            'Accesible ('+ date.today().strftime("%d/%m/%Y") +')': ['Si' if accesible else 'No'],
             'Titulo': [indicators['title']],
             'Actualizado hace (dias)': [indicators['catalogo_ultima_actualizacion_dias']],
             'Cantidad Dataset': [indicators['datasets_cant']],
@@ -124,7 +232,7 @@ def generate_output_catalog_indicator(curr_dataframe, source, accessible, indica
     return pd.concat([curr_dataframe, append_dataframe], axis=0)
 
 
-def generate_output_per_dataset(curr_dataframe, source, result, validation_report, dataset_error_counter=None):
+def generate_output_per_dataset(curr_dataframe, source, result, validation_report, catalog_dict, accrual_periodicity_counter, not_updated_dataset_counter):
 
     if not isinstance(curr_dataframe, pd.DataFrame) and curr_dataframe == None:
         curr_dataframe = write_per_dataset_header()
@@ -137,13 +245,14 @@ def generate_output_per_dataset(curr_dataframe, source, result, validation_repor
 
                     append_dataframe = pd.DataFrame({ 
                         'URL': [source],
-                        'Catalog Errors': [False],
+                        'Catalog Errors': ["No"],
                         'Catalog Error Desc': ['None'],
                         'Dataset title': dataset['title'],
-                        'Dataset Errors': [False],
+                        'Dataset Errors': ["No"],
                         'Dataset Error Desc': ['None'],
                     })
 
+                    update_accrual_periodicity_counters(catalog_dict, dataset['title'], accrual_periodicity_counter, not_updated_dataset_counter)
 
                     curr_dataframe = pd.concat([curr_dataframe, append_dataframe], axis=0)
                     #util.write_to_file(file_writer, dataframe=dataframe, sheet_name=constants.DATASET_REPORT_SHEET_NAME)
@@ -165,13 +274,15 @@ def generate_output_per_dataset(curr_dataframe, source, result, validation_repor
                        
                         append_dataframe = pd.DataFrame({ 
                             'URL': [source],
-                            'Catalog Errors': [catalog_error],
+                            'Catalog Errors': [ 'Si' if catalog_error == True else 'No'],
                             'Catalog Error Desc': [catalog_error_desc],
                             'Dataset title': dataset['title'],
-                            'Dataset Errors': [True],
+                            'Dataset Errors': ["Si"],
                             'Dataset Error Desc': [final_error_conc],
                         })
-                        
+
+                        update_accrual_periodicity_counters(catalog_dict, dataset['title'], accrual_periodicity_counter, not_updated_dataset_counter)
+
                         curr_dataframe = pd.concat([curr_dataframe, append_dataframe], axis=0)
                        #util.write_to_file(file_writer, dataframe, constants.DATASET_REPORT_SHEET_NAME)
     return curr_dataframe
@@ -193,7 +304,7 @@ def write_catalog_indicator_header():
 
     header_df = pd.DataFrame({ 
         'Origen/URL': [],
-        'Accessible ('+ date.today().strftime("%d/%m/%Y") +')': [],
+        'Accesible ('+ date.today().strftime("%d/%m/%Y") +')': [],
         'Titulo': [],
         'Actualizado hace (dias)': [],
         'Cantidad Dataset': [],
@@ -208,3 +319,36 @@ def write_catalog_indicator_header():
         'PPT': [],
     })
     return header_df
+
+# based on DataJson.dataset_is_updated
+def update_accrual_periodicity_counters(catalog, dataset, accrual_periodicity_counter, not_updated_dataset_counter):
+
+    catalog = readers.read_catalog(catalog)
+
+    for catalog_dataset in catalog.get('dataset', []):
+        if catalog_dataset.get('title') == dataset:
+            periodicity = catalog_dataset.get('accrualPeriodicity')
+            if not periodicity:
+                continue
+
+            if periodicity.casefold() == 'eventual'.casefold():
+                continue
+
+            if "modified" not in catalog_dataset:
+                accrual_periodicity_counter.update({periodicity: 1})
+                not_updated_dataset_counter.update({periodicity: 1})
+                continue
+
+            # counter of periodicity
+            date = helpers.parse_date_string(catalog_dataset['modified'])
+            days_diff = float((datetime.now() - date).days)
+            interval = helpers.parse_repeating_time_interval(periodicity)
+
+            
+            if days_diff < interval:
+                accrual_periodicity_counter.update({periodicity: 1})
+                continue
+
+            # if we reach here it means its outdated
+            accrual_periodicity_counter.update({periodicity: 1})
+            not_updated_dataset_counter.update({periodicity: 1})
