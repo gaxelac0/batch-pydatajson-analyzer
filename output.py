@@ -159,8 +159,8 @@ def generate_bar_graph_outdated_datasets(accrual_periodicity_counter, not_update
 
         labels.append(label)
         if label in not_updated_label:
-            updated_np.append(totals_value[idx]-not_updated_value[idx])
-            outdated_np.append(not_updated_value[idx])
+            updated_np.append(totals_value[idx]-not_updated_value[not_updated_label.index(label)])
+            outdated_np.append(not_updated_value[not_updated_label.index(label)])
         else: 
             updated_np.append(totals_value[idx])
             outdated_np.append(0)
